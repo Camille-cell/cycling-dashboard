@@ -1,7 +1,6 @@
 # Cycling Globalisation
 
-Projet d'analyse de la globalisation du cyclisme à partir des classements
-ProCyclingStats, avec agrégation des points par pays et visualisation Dash.
+Projet d'analyse de la mondialisation du cyclisme à partir des résultats des coureurs trouvés sur le site ProCyclingStats. Le calcul est basé sur les points UCI agrégé par pays et une visualisation Dash.
 
 ## Organisation
 
@@ -15,7 +14,7 @@ ProCyclingStats, avec agrégation des points par pays et visualisation Dash.
 
 ## Installation
 
-Depuis la racine du projet, crée et active un environnement virtuel, puis installe
+Depuis la racine du projet, créez et activez un environnement virtuel, puis installez
 les dépendances :
 
 ```powershell
@@ -26,19 +25,12 @@ python -m pip install -r requirements.txt
 
 ## Utilisation
 
-Depuis la racine du projet, active l'environnement virtuel :
+Depuis la racine du projet, activez l'environnement virtuel :
 
 ```powershell
 .\.venv\Scripts\Activate.ps1
 ```
 
-### Préparer les données (facultatif)
-
-Les fichiers traités sont déjà présents dans `data/processed/yearly/`. Si tu
-souhaites les régénérer à partir des classements locaux, exécute :
-
-```powershell
-python src\cycling_globalisation\processing.py
 ```
 
 ### Lancer le dashboard
@@ -51,15 +43,3 @@ python src\cycling_globalisation\dashboard.py
 ```
 .
 
-### Télécharger de nouvelles données
-
-Pour récupérer à nouveau les classements depuis ProCyclingStats, lance la
-collecte séparément :
-
-```powershell
-python src\cycling_globalisation\ingestion.py
-```
-
-La collecte dépend de la disponibilité du site et de ses conditions d'accès. Elle
-remplace `data/raw/cycling_rankings_by_year.csv`. Après une nouvelle collecte,
-régénère les données traitées avant de relancer le dashboard.
