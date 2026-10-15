@@ -1,0 +1,2644 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0155)https://dataride.uci.ch/iframe/RankingDetails/1?disciplineId=10&groupId=1&momentId=184341&disciplineSeasonId=432&rankingTypeId=1&categoryId=22&raceTypeId=0 -->
+<html xmlns="http://www.w3.org/1999/xhtml" class="k-webkit k-webkit124 js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>
+	IFrame
+</title><meta content="IE=Edge" http-equiv="X-UA-Compatible"><meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes"><link href="data:image/x-icon;," rel="shortcut icon" type="image/x-icon"><meta property="og:title" content="IFrame"><meta property="og:url" content="https://dataride.uci.ch/iframe"><meta property="og:type" content="website"><meta property="og:site_name" content="DataRide"><meta name="Generator" content="Sitefinity 13.3.7647.0 DX"><link rel="canonical" href="https://dataride.uci.ch/iframe"><link href="./Telerik.Web.UI.WebResource.axd" type="text/css" rel="stylesheet"></head>
+<body>
+<div class="se-pre-con" style="display: none;"></div>
+<div id="uciWrapper">
+<form method="post" action="https://dataride.uci.ch/iframe/RankingDetails/1?disciplineId=10&amp;groupId=1&amp;momentId=184341&amp;disciplineSeasonId=432&amp;rankingTypeId=1&amp;categoryId=22&amp;raceTypeId=0" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="ctl06_TSSM" id="ctl06_TSSM" value=";Telerik.Sitefinity.Resources, Version=13.3.7647.0, Culture=neutral, PublicKeyToken=b28c218413bdf563:en:3105d554-a2f7-41dc-9f71-ac414da2be04:850288ef:8da3ae9c:66d61590:d271177c:dff30785">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="+g0PUEhy85NsnA7wGeN6jG/2SjCzhGq3mgNEzSyFEhMLUYgrh2HhexyEX+Uq6hbhqx+KH2cENwCT0L6G7ZScdP331dkZjGx4cJSVPGfFKCA=">
+</div>
+<script type="text/javascript" async="" src="./analytics.js.téléchargement"></script><script type="text/javascript" async="" src="./js"></script><script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+<script src="./WebResource.axd" type="text/javascript"></script>
+<script src="./ScriptResource.axd" type="text/javascript"></script>
+<script src="./ScriptResource(1).axd" type="text/javascript"></script>
+<script src="./ScriptResource(2).axd" type="text/javascript"></script>
+<script src="./ScriptResource(3).axd" type="text/javascript"></script>
+<script src="./ScriptResource(4).axd" type="text/javascript"></script>
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="028C4112">
+</div>
+<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', 'form1', [], [], [], 90, 'ctl00');
+//]]>
+</script>
+<div id="HeaderPart">
+</div>
+<div id="ContentPart">
+<link href="./main.min.css" rel="stylesheet" type="text/css">
+<link href="./jquery.mmenu.all.min.css" rel="stylesheet">
+<link href="./ionicons.min.css" rel="stylesheet">
+<link href="./materialdesignicon.css" rel="stylesheet">
+<link href="./main.css" rel="stylesheet">
+<link href="./flags16.css" rel="stylesheet">
+<link href="./flags32.css" rel="stylesheet">
+<script src="./modernizr-2.8.2.js.téléchargement"></script>
+<script>
+        window.iFrameResizer = {
+            targetOrigin: '*',
+            heightCalculationMethod:'lowestElement'
+        }
+        $(window)
+            .on("load", function () {
+                $(".se-pre-con").fadeOut("slow");;
+            });
+    </script>
+<script src="./iframeResizer.contentWindow.min.js.téléchargement"></script>
+<script type="text/x-kendo-template" id="object-template">
+    #if(obj !== null && obj !== undefined){#
+    <ul class="list-inline">
+        <li><span class="uci-position uci-small-description">#: position #</span></li>
+        <li>#= generateRankStatus(obj.RankDifference) #</li>
+    </ul>
+    <ul class="f16 float-left uci-margin-right">
+        #if(obj.FlagCode){#
+        <li><span class="flag #: obj.FlagCode #"></span></li>
+        #}#
+    </ul>
+    <div class="object-info float-left">
+        #if(rankingTypeId === 1){#
+        <a href="/iframe/RiderRankingDetails/#: obj.ObjectId #?rankingId=#: rankingId #&groupId=#: groupId #&momentId=#: momentId #&baseRankingTypeId=#: rankingTypeId#&disciplineSeasonId=#: seasonId#&disciplineId=#: disciplineId #&categoryId=#: categoryId#&raceTypeId=#: raceTypeId#&countryId=#: countryId#&teamId=#: teamId#" class="uci-rider-link">
+            <span class="uci-bold uci-object-name">#: obj.FullName #</span>
+        </a>
+        #}else{#
+        <span class="uci-bold  uci-object-name">#: obj.FullName #</span>
+        #}#
+        <p>#: obj.Points # points</p>
+    </div>
+    <div class="clearfix"></div>
+    #}#
+</script>
+<script type="text/x-kendo-template" id="rankings-list-template">
+    <li class="uci-ranking-type-listGroup">
+        <div class="ranking-type-content #: Active #">
+            <div class="leader-part">
+                <a href="/iframe/RankingDetails/#: Id#?disciplineId=#: DisciplineId #&groupId=#:GroupId #&momentId=#:MomentId #&disciplineSeasonId=#:DisciplineSeasonId #&rankingTypeId=#:RankingTypeId #&categoryId=#: CategoryId #&raceTypeId=#: RaceTypeId #" class="uci-bold ranking-type-link">
+                    #: RankingTypeName#
+                </a>
+                <div class="uci-small-description uci-color-grey float-right">
+                    <div>
+                        Ranking Date
+                    </div>
+                    <div class="uci-semi-bold">
+                        #: formatJsonDate(ObjectRankings[0].ComputationDate)  #
+                    </div>
+                </div>
+                #= kendo.render(kendo.template($("\\#object-template").html()), generateObj(ObjectRankings[0], Id, GroupId, MomentId, DisciplineSeasonId, RankingTypeId, "Leader", DisciplineId, CategoryId, RaceTypeId)) #
+            </div>
+        </div>
+    </li>
+</script>
+<script type="text/x-kendo-template" id="legalstatus-list-template">
+    <li>
+        <div class="legend-item">
+            <span class="box legalstatus-color-#= SelectionCode #"></span>
+            <span class="title">
+                #= Name #
+            </span>
+        </div>
+    </li>
+</script>
+<script type="text/x-kendo-template" id="ranking-template">
+    <li class="list-inline-item">
+        <div class="ranking-type-content">
+            <div class="leader-part">
+                <a href="/iframe/RankingDetails/#: Id#?disciplineId=#: DisciplineId #&groupId=#:GroupId #&momentId=#:MomentId #&disciplineSeasonId=#:DisciplineSeasonId #&rankingTypeId=#:RankingTypeId #&categoryId=#: CategoryId #&raceTypeId=#: RaceTypeId #" class="uci-bold ranking-type-link">
+                    #: RankingTypeName#
+                </a>
+                <div class="uci-small-description uci-color-grey float-right">
+                    <div>
+                        Last Update
+                    </div>
+                    <div class="uci-semi-bold">
+                        #: formatJsonDate(ObjectRankings[0].ComputationDate)  #
+                    </div>
+                </div>
+                #= kendo.render(kendo.template($("\\#object-template").html()), generateObj(ObjectRankings[0], Id, GroupId, MomentId, DisciplineSeasonId, RankingTypeId, "Leader", DisciplineId, CategoryId, RaceTypeId)) #
+            </div>
+            <div class="next-rankings">
+                <ul class="list-inline next-rankings-list">
+                    <li class="list-inline-item">#= kendo.render(kendo.template($("\\#object-template").html()), generateObj(ObjectRankings[1], Id, GroupId, MomentId, DisciplineSeasonId, RankingTypeId, "2nd rank", DisciplineId, CategoryId, RaceTypeId)) #</li>
+                    <li class="list-inline-item">#= kendo.render(kendo.template($("\\#object-template").html()), generateObj(ObjectRankings[2], Id, GroupId, MomentId, DisciplineSeasonId, RankingTypeId, "3rd rank", DisciplineId, CategoryId, RaceTypeId)) #</li>
+                </ul>
+            </div>
+        </div>
+    </li>
+</script>
+<script type="text/x-kendo-template" id="ranking-group-template">
+    <div class="ranking-discipline">
+        <div class="uci-ranking-content">
+            <div class="uci-ranking-name">
+                #if(GroupLogo !== 'uci-default'){#
+                <img class="float-left uci-margin-right" src='/resourcepackages/images/logos/#: GroupLogo #.png' height="40">
+                #}else{#
+                <img class="float-left" src='/resourcepackages/images/logos/uci-default.png' height="40">
+                #}#
+                <div class="uci-ranking-name-text">
+                    <span class="uci-bold uci-label">
+                        #: (GroupName === null) ? ''  :  GroupName#
+                    </span>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="uci-ranking-type uci-main-content">
+            <ul class="list-inline uci-ranking-type-list">
+                #= kendo.render(kendo.template($("\\#ranking-template").html()), Rankings) #
+            </ul>
+        </div>
+    </div>
+</script>
+<script id="ajaxErrorTemplate" type="text/x-kendo-template">
+    <div class="ajax-error">
+        <span class="float-left ion-close-circled"></span>
+        <h4>#= Name #</h4>
+        <p>#= message #</p>
+    </div>
+</script>
+<script id="ajaxWarningTemplate" type="text/x-kendo-template">
+    <div class="ajax-warning">
+        <span class="float-left ion-minus-circled"></span>
+        <h4>#= title #</h4>
+        <p>#= message #</p>
+    </div>
+</script>
+<script>
+    /***************** DATA SOURCES ******************/
+    var ridersDataSource = function(listTypeId, raceId, eventId, dataSourceChange) {
+        return new window.kendo.data.DataSource({
+            autoSync: true,
+            change: function(e) {
+                dataSourceChange(e);
+            },
+            transport: {
+                read: {
+                    type: "post",
+                    dataType: "json",
+                    data: {
+                        listTypeId: listTypeId,
+                        raceId: raceId,
+                        eventId: eventId
+                    },
+                    url: '/iframe/GetRiderList/'
+                },
+                update: {
+                    type: "post",
+                    dataType: "json",
+                    url: '/iframe/UpdateRiders/'
+                },
+                destroy: {
+                    type: "post",
+                    dataType: "json",
+                    url: '/iframe/DeleteRiders/'
+                },
+                create: {
+                    type: "post",
+                    dataType: "json",
+                    url: '/iframe/AddRiders/'
+                },
+                parameterMap: function(data, type) {
+                    if (type !== "read") {
+                        return {
+                            riders: data.models,
+                            listTypeId: listTypeId,
+                            raceId: raceId,
+                            eventId: eventId
+                        };
+                    }
+                    return data;
+                }
+            },
+            requestEnd: function(e) {
+                if (e.type === "update") {
+                    if (e.response !== undefined && e.response.isRankUpdate === true) { // update rank
+                        this.read();
+                    }
+                } else if (e.type === "destroy") {
+                    this.read();
+                }
+            },
+            batch: true,
+            schema: {
+                model: {
+                    id: "Id",
+                    fields: {
+                        Id: { editable: false, validation: { required: true } },
+                        StartOrder: {
+                            type: "number",
+                            validation: { min: 1 },
+                            defaultValue: 1
+                        },
+                        SortOrder: {
+                            type: "number",
+                            validation: { min: 1 },
+                            defaultValue: 1
+                        },
+                        Bib: { type: "number", validation: { min: 1 }, defaultValue: 1 },
+                        Rank: { type: "number", validation: { min: 1 }, defaultValue: 1 },
+                        Result: { type: "string" },
+                        IrmId: { type: "number", validation: { min: 1 }, defaultValue: 0 },
+                        CompetitorCode: { editable: false, validation: { required: true } },
+                        TeamName: { type: "string" },
+                        TeamId: { type: "number", validation: { min: 1 }, defaultValue: 0 },
+                        CountryIsoCode3: { editable: false },
+                        GenderName: { editable: false },
+                        Age: { editable: false },
+                        Name: { editable: false },
+                        Team: { defaultValue: { Id: 0, Name: "" } },
+                        Irm: { defaultValue: { Id: 0, Code: "" } }
+                    }
+                },
+                data: "data",
+                total: "total"
+            },
+            sort: [
+                {
+                    field: "SortOrder",
+                    dir: "asc"
+                }, {
+                    field: "StartOrder",
+                    dir: "asc"
+                }
+            ],
+            serverPaging: true,
+            pageSize: 40,
+            serverFiltering: true
+        });
+    };
+
+    var quickSearchDataSource = function(obj, raceId) {
+        return {
+            transport: {
+                read: {
+                    type: 'get',
+                    dataType: "json",
+                    data: {
+                        keyword: function() {
+                            return obj.data("kendoAutoComplete").value();
+                        },
+                        raceId: raceId
+                    },
+                    url: "/iframe/SearchRider/"
+                }
+            },
+            serverFiltering: true
+        };
+    };
+
+    var competitionsSource = function() {
+        return new window.kendo.data.DataSource({
+            transport: {
+                read: {
+                    type: "post",
+                    dataType: "json",
+                    url: "/iframe/Competitions/",
+                    data: function() {
+                        return {};
+                    }
+                }
+            },
+            serverPaging: true,
+            pageSize: 40,
+            serverFiltering: true,
+            serverSorting: true,
+            sort: [
+                {
+                    field: "StartDate",
+                    dir: "asc"
+                }, {
+                    field: "CompetitionName"
+                }, {
+                    field: "ClassCode"
+                }, {
+                    field: "CategoryCode"
+                }, {
+                    field: "DisciplineCode"
+                }, {
+                    field: "Season"
+                }, {
+                    field: "Venue"
+                }, {
+                    field: "CountryIsoCode3"
+                }
+            ],
+            schema: {
+                total: "total",
+                data: "data"
+            }
+        });
+    };
+
+    var iframeCompetitionsSource = function(disciplineId) {
+        return new window.kendo.data.DataSource({
+            transport: {
+                read: {
+                    type: "post",
+                    dataType: "json",
+                    url: "/iframe/Competitions/",
+                    data: function() {
+                        return { disciplineId: disciplineId };
+                    }
+                }
+            },
+            serverPaging: true,
+            pageSize: 40,
+            serverFiltering: true,
+            serverSorting: true,
+            sort: [
+                {
+                    field: "StartDate",
+                    dir: "desc"
+                }
+            ],
+            schema: {
+                total: "total",
+                data: "data"
+            }
+        });
+    };
+
+    var racesSource = function(disciplineId, competitionId) {
+        return {
+            transport: {
+                read: {
+                    type: "post",
+                    dataType: "json",
+                    data: {
+                        disciplineId: disciplineId,
+                        competitionId: competitionId
+                    },
+                    url: '/iframe/Races/'
+                }
+            },
+            serverPaging: true,
+            pageSize: 40,
+            serverFiltering: true,
+            sort: {
+                field: "Index",
+                dir: "asc"
+            },
+            schema: {
+                total: "total",
+                data: "data"
+            }
+        };
+    };
+
+    var eventsSource = function(disciplineId, e) {
+        return {
+            transport: {
+                read: {
+                    type: "post",
+                    dataType: "json",
+                    data: {
+                        disciplineId: disciplineId,
+                        raceId: e.data.Id
+                    },
+                    url: '/iframe/Events/'
+                }
+            }
+        };
+    };
+
+    var resultsSource = function(disciplineId, eventId) {
+        return {
+            transport: {
+                read: {
+                    type: "post",
+                    dataType: "json",
+                    data: {
+                        disciplineId: disciplineId,
+                        eventId: eventId
+                    },
+                    url: '/iframe/Results/'
+                }
+            },
+            serverPaging: true,
+            pageSize: 40,
+            serverFiltering: true,
+            schema: {
+                total: "total",
+                data: "data"
+            }
+        };
+    };
+
+    var rankingsDisciplineSource = function(disciplineId) {
+        return new window.kendo.data.DataSource({
+            transport: {
+                read: {
+                    type: "post",
+                    dataType: "json",
+                    data: {
+                        disciplineId: disciplineId
+                    },
+                    url: '/iframe/RankingsDiscipline/'
+                }
+            },
+            serverPaging: true,
+            pageSize: 40,
+            serverFiltering: true
+        }
+        );
+    };
+
+    var createLegalStatusSource = function() {
+        return new window.kendo.data.DataSource({
+            transport: {
+                read: {
+                    type: "get",
+                    dataType: "json",
+                    url: '/iframe/GetLegalStatus/'
+                }
+            },
+            serverPaging: true,
+            pageSize: 40,
+            serverFiltering: true
+        });
+    };
+
+    var createRankingsSource = function(rankingId, groupId, momentId, currentRankingTypeId, disciplineId) {
+        return new window.kendo.data.DataSource({
+            transport: {
+                read: {
+                    type: "post",
+                    dataType: "json",
+                    data: {
+                        rankingId: rankingId,
+                        groupId: groupId,
+                        momentId: momentId,
+                        disciplineId: disciplineId,
+                        currentRankingTypeId: currentRankingTypeId
+                    },
+                    url: '/iframe/TypeOfRankings/'
+                }
+            },
+            serverPaging: true,
+            pageSize: 40,
+            serverFiltering: true
+        }
+        );
+    };
+
+    var objectsSource = function(rankingId, momentId, rankingTypeId, disciplineId) {
+        return new window.kendo.data.DataSource({
+            transport: {
+                read: {
+                    type: "post",
+                    dataType: "json",
+                    data: {
+                        rankingId: rankingId,
+                        disciplineId: disciplineId,
+                        rankingTypeId: rankingTypeId
+                    },
+                    url: '/iframe/ObjectRankings/'
+                }
+            },
+            serverPaging: true,
+            pageSize: 40,
+            serverFiltering: true,
+            schema: {
+                total: "total",
+                data: "data"
+            }
+        }
+        );
+    };
+
+    var ridersResultsSource = function(objectId,
+        groupId,
+        momentId,
+        rankingTypeId,
+        rankingId,
+        disciplineSeasonId,
+        disciplineId,
+        categoryId,
+        raceTypeId) {
+        return new window.kendo.data.DataSource({
+            transport: {
+                read: {
+                    type: "post",
+                    dataType: "json",
+                    data: {
+                        objectId: objectId,
+                        groupId: groupId,
+                        momentId: momentId,
+                        rankingId: rankingId,
+                        rankingTypeId: rankingTypeId,
+                        disciplineSeasonId: disciplineSeasonId,
+                        disciplineId: disciplineId,
+                        categoryId: categoryId,
+                        raceTypeId: raceTypeId
+                    },
+                    url: '/iframe/RidersResults/'
+                }
+            },
+            pageSize: 40,
+            serverPaging: true,
+            serverFiltering: true,
+            schema: {
+                total: "total",
+                data: "data"
+            }
+        }
+        );
+    };
+    var PISResultsSource = function (objectId,
+        groupId,
+        momentId,
+        rankingTypeId,
+        rankingId,
+        disciplineSeasonId,
+        disciplineId,
+        categoryId,
+        raceTypeId,
+        countryId,
+        teamId) {
+        return new window.kendo.data.DataSource({
+            transport: {
+                read: {
+                    type: "post",
+                    dataType: "json",
+                    data: {
+                        objectId: objectId,
+                        groupId: groupId,
+                        momentId: momentId,
+                        rankingTypeId: rankingTypeId,
+                        rankingId: rankingId,
+                        disciplineSeasonId: disciplineSeasonId,
+                        disciplineId: disciplineId,
+                        categoryId: categoryId,
+                        raceTypeId: raceTypeId,
+                        countryId: countryId,
+                        teamId: teamId
+                    },
+                    url: '/iframe/ResultsInTeamOrNation/'
+                }
+            },
+            pageSize: 40,
+            serverPaging: false,
+            serverSorting: false,
+            schema: {
+                total: "total",
+                data: "data"
+            },
+            sort: {
+                field: "DisplayPoints",
+                dir: "desc",
+                compare: function(a, b) {
+                    if (a.Points < b.Points) {
+                        return -1;
+                    }
+                    if (a.Points > b.Points) {
+                        return 1;
+                    }
+                    return 0;
+                }
+            },
+            group: {
+                field: "ClassOrder",
+                dir: "asc"
+            }
+        });
+    };
+
+    var individualEventRankingsSource = function(individualId,
+        rankingId,
+        momentId,
+        groupId,
+        baseRankingTypeId,
+        disciplineSeasonId,
+        disciplineId,
+        categoryId,
+        raceTypeId,
+        countryId,
+        teamId) {
+        return new window.kendo.data.DataSource({
+            transport: {
+                read: {
+                    type: "post",
+                    dataType: "json",
+                    data: {
+                        individualId: individualId,
+                        rankingId: rankingId,
+                        momentId: momentId,
+                        groupId: groupId,
+                        baseRankingTypeId: baseRankingTypeId,
+                        disciplineSeasonId: disciplineSeasonId,
+                        disciplineId: disciplineId,
+                        categoryId: categoryId,
+                        raceTypeId: raceTypeId,
+                        countryId: countryId,
+                        teamId: teamId
+                    },
+                    url: '/iframe/IndividualEventRankings/'
+                }
+            },
+            pageSize: 40,
+            serverPaging: true,
+            serverSorting: false,
+            schema: {
+                total: "total",
+                data: "data"
+            },
+            sort: {
+                field: "DisplayPoints",
+                dir: "desc",
+                compare: function(a, b) {
+                    if (a.Points < b.Points) {
+                        return -1;
+                    }
+                    if (a.Points > b.Points) {
+                        return 1;
+                    }
+                    return 0;
+                }
+            },
+            group: {
+                field: "ClassOrder",
+                dir: "asc"
+            }
+        });
+    };
+
+    /***************** GRID CONFIGURATIONS *************/
+    var createIframeCompetitionGrid = function(disciplineId) {
+        return {
+            dataSource: iframeCompetitionsSource(disciplineId),
+            autoBind: false,
+            scrollable: false,
+            sortable: {
+                mode: "single",
+                allowUnsort: false
+            },
+            pageable: true,
+            columns: [
+                {
+                    template:
+                        "#=(Date === null) ? '' : Date#",
+                    field: "StartDate",
+                    title: "Date",
+                    width: 160
+                }, {
+                    template:
+                        '<a class="uci-competition-link" href="/iframe/CompetitionResults/#: CompetitionId #?disciplineId=' +
+                            disciplineId +
+                            '">#: CompetitionName #</a>' +
+                            '<span class="label uci-small-label #: IsInProgress #">#=generateGlobalStatus(IsInProgress, IsDone)#</span>',
+                    field: "CompetitionName",
+                    title: "Competition",
+                    sortable: false
+                }, {
+                    template:
+                        '#= GenerateCountryTemplate(FlagCode, CountryIsoCode3) #',
+                    field: "CountryIsoCode3",
+                    title: "Country",
+                    sortable: false,
+                    width: 80
+                }, {
+                    field: "ClassCode",
+                    title: "Class",
+                    sortable: false,
+                    width: 80
+                }
+            ]
+        };
+    };
+
+    var createCompetitionGrid = {
+        autoBind: false,
+        dataSource: competitionsSource(),
+        scrollable: false,
+        sortable: {
+            mode: "single",
+            allowUnsort: false
+        },
+        pageable: true,
+        columns: [
+            {
+                field: "DisciplineCode",
+                title: "Discipline",
+                width: 85,
+                headerTemplate:'<span>Discipline</span><span title="BFR - BMX Freestyle Park\r\nBMX - BMX\r\nCRO - Cyclo-cross\r\nIND - Indoor Cycling\r\nMTB - Mountain Bike\r\nPAR - Para-Cycling\r\nPIS - Track\r\nROA - Road\r\nTRI - Trials" class="materialIcon icon-tooltip"></span>'
+            },{
+                field: "Season",
+                title: "Season",
+                width: 70,
+                attributes: { "class": "text-center" }
+            }, {
+                template:
+                    "#=(Date === null)? '' : Date#",
+                field: "StartDate",
+                title: "Date",
+                width: 170
+            }, {
+                template: '#if(IsPastAppointment == false || false)' +
+                '{#<a class="uci-competition-link #:#" href="/iframe/Competition/#: Id #">#: CompetitionName #</a>#}' +
+                'else{##: CompetitionName ##}# ' +
+                '<span class="label uci-small-label #: IsInProgress #">#=generateGlobalStatus(IsInProgress,IsDone)#</span>',
+                field: "CompetitionName",
+                title: "Competition",
+                //width: 500
+            }, {
+                field: "Venue",
+                title: "Venue"
+            }, {
+                template:
+                    '#= GenerateCountryTemplate(FlagCode, CountryIsoCode3) #',
+                field: "CountryIsoCode3",
+                title: "Country",
+                width: 100
+            }, {
+                field: "ClassCode",
+                title: "Class",
+                width: 55,
+                attributes: { "class": "text-center" }
+            }, {
+                template: '#=GenerateCategoryTemplate(CategoryCode)#',
+                field: "CategoryCode",
+                title: "Category",
+                width: 90,
+                attributes: { "class": "text-center" }
+            }
+        ]
+    };
+
+    var detailInit = function(isFrame, competitionId, disciplineId) {
+        return function(e) {
+            $("<div/>")
+                .appendTo(e.detailCell)
+                .kendoGrid({
+                    scrollable: false,
+                    dataSource: eventsSource(disciplineId, e),
+                    columns: GenerateEventColumns(isFrame, competitionId, disciplineId)
+                });
+            $(".k-detail-cell .k-grid-header").hide();
+            $(".k-detail-cell .k-grid-content").css("overflow-y", "visible");
+        };
+    };
+
+    var createRaceGrid = function(isFrame, competitionId, disciplineId) {
+        return {
+            dataSource: racesSource(disciplineId, competitionId),
+            scrollable: false,
+            pageable: true,
+            sortable: {
+                mode: "single",
+                allowUnsort: false
+            },
+            detailInit: detailInit(isFrame, competitionId, disciplineId),
+            dataBound: function() {
+                this.expandRow(this.tbody.find("tr.k-master-row").first());
+            },
+            columns: GenerateRaceColumns(isFrame)
+        };
+    };
+
+    var createResultGrid = function(disciplineId, eventId, isTeamEvent) {
+        return {
+            dataSource: resultsSource(disciplineId, eventId),
+            dataBound: function() {
+                $("#exportResultMenu").prop("disabled", false);
+            },
+            change: function() {
+                $("#exportResultMenu").prop("disabled", true);
+            },
+            scrollable: false,
+            pageable: true,
+            columns: generateResultsGridColumns(isTeamEvent)
+        };
+    };
+
+    function generateResultsGridColumns(isTeamEvent) {
+        var columns = [
+            {
+                field: "Rank",
+                width: 70,
+                title: "Rank",
+                attributes: { "class": "text-right" }
+            },
+            {
+                field: "Bib",
+                width: 70,
+                title: "BIB",
+                attributes: { "class": "text-right" }
+            },
+            {
+                field: "DisplayName",
+                width: 400,
+                title: "Rider"
+            }
+        ];
+
+        if (isTeamEvent) {
+            columns.push(
+                {
+                    field: "TeamName",
+                    width: 250,
+                    title: "Team"
+                },
+                {
+                    field: "NationName",
+                    width: 70,
+                    title: "Nation",
+                    template:
+                        '#= GenerateCountryTemplate(FlagCode, NationName) #'
+                }
+            );
+        } else {
+            columns.push(
+                {
+                    field: "NationName",
+                    width: 70,
+                    title: "Nation",
+                    template:
+                        '#= GenerateCountryTemplate(FlagCode, NationName) #'
+                },
+                {
+                    field: "TeamName",
+                    width: 250,
+                    title: "Team"
+                }
+            );
+        }
+
+        columns.push(
+            {
+                field: "Age",
+                width: 70,
+                title: "Age"
+            },
+            {
+                field: "ResultValue",
+                width: 100,
+                title: "Result"
+            },
+            {
+                field: "Irm",
+                width: 70,
+                title: "IRM"
+            },
+            {
+                template: "<span class='uci-points-left'>#:PcRPrefix#</span><span class='uci-points-right'>#:PcRSuffix#</span>",
+                field: "Points",
+                width: 130,
+                title: "Points",
+                attributes: { "class": "points" }
+            }
+        );
+
+        return columns;
+    }
+
+    var createObjectRankingsGrid = function(rankingId,
+        groupId,
+        momentId,
+        rankingTypeId,
+        disciplineId,
+        disciplineSeasonId,
+        categoryId,
+        raceTypeId,
+        countryId,
+        teamId) {
+        return {
+            dataSource: objectsSource(rankingId, momentId, rankingTypeId, disciplineId),
+            dataBound: function() {
+                formatRiderPoints();
+                $("td>span.legal-status").each(function (index, element) {
+                    $(this).closest("tr").addClass($(this).attr("class"));
+                })
+            },
+            scrollable: false,
+            pageable: true,
+            columns: generateObjectRankingsColumns(rankingId,
+                groupId,
+                momentId,
+                rankingTypeId,
+                disciplineId,
+                disciplineSeasonId,
+                categoryId,
+                raceTypeId,
+                countryId,
+                teamId)
+        };
+    };
+    var clearRiderPoints = function() {
+        $('.points').each(function() {
+            $(this).html('');
+        });
+    };
+    var formatRiderPoints = function() {
+        $('.points').each(function() {
+            // get prefix of points if exist (*)
+            var splittedNumber = $(this).text().split(" ");
+            var prefix = "";
+            var number;
+            if (splittedNumber.length > 1) {
+                prefix = splittedNumber[0];
+                number = splittedNumber[1];
+            } else {
+                number = splittedNumber[0];
+            }
+
+            if (number !== "") {
+                var wholePart = Math.floor(number - 0);
+                var fractionPart = Math.floor((number % 1) * 10000 + 0.5) / 10000 + "";
+                var html = '<span class="uci-points-left">' + prefix + wholePart + '</span>';
+                if (fractionPart !== '0') {
+                    html += '<span class="uci-points-right">' + '.' + fractionPart.substring(2) + '</span>';
+                }
+                $(this).html(html);
+            }
+        });
+    };
+    var formatRiderNames = function() {
+        $('.object_type').each(function() {
+            if ($(this).text() === '4') {
+                var name = $(this).parent().find(".full_name")[0].innerText;
+                $(this).parent().find(".full_name")[0].innerHTML = name;
+            }
+        });
+    };
+    var createIndividualEventRankingGrid = function(individualId,
+        rankingId,
+        momentId,
+        groupId,
+        baseRankingTypeId,
+        disciplineSeasonId,
+        disciplineId,
+        categoryId,
+        raceTypeId,
+        countryId,
+        teamId) {
+        return {
+            dataSource: individualEventRankingsSource(individualId,
+                rankingId,
+                momentId,
+                groupId,
+                baseRankingTypeId,
+                disciplineSeasonId,
+                disciplineId,
+                categoryId,
+                raceTypeId,
+                countryId,
+                teamId),
+            dataBound: function() {
+                var links = $(".k-grouping-row .k-reset");
+                for (var i = 0; i < links.length; i++) {
+                    var innerText = links[i].innerHTML.replace(/ClassOrder: [0-9]+\./, "");
+                    links[i].innerHTML = (innerText);
+                };
+                formatRiderPoints();
+            },
+            scrollable: false,
+            pageable: false,
+            sortable: {
+                mode: "single",
+                allowUnsort: false
+            },
+            columns: [
+                {
+                    field: "Date",
+                    title: "Date",
+                    attributes: { "class": "text-center" },
+                    sortable: {
+                        initialDirection: "desc",
+                        compare: function(a, b) {
+                            if (a.StartDate < b.StartDate) {
+                                return -1;
+                            }
+                            if (a.StartDate > b.StartDate) {
+                                return 1;
+                            }
+                            return 0;
+                        }
+                    }
+                },
+                {
+                    field: "Name",
+                    title: "Events",
+                    sortable: false
+                },
+                {
+                    field: "Rank",
+                    title: "Rank",
+                    attributes: { "class": "text-right" }
+                },
+                {
+                    field: "DisplayPoints",
+                    title: "Points",
+                    width: 150,
+                    attributes: { "class": "points" },
+                    sortable: {
+                        initialDirection: "desc",
+                        compare: function(a, b) {
+                            if (a.Points < b.Points) {
+                                return -1;
+                            }
+                            if (a.Points > b.Points) {
+                                return 1;
+                            }
+                            return 0;
+                        }
+                    }
+                },
+                {
+                    field: "ClassOrder",
+                    title: "Class",
+                    hidden: true,
+                    groupHeaderTemplate: "#=value#"
+                }
+            ]
+        };
+    };
+    var createIframeRiderResultGrid = function(objectId,
+        groupId,
+        momentId,
+        rankingTypeId,
+        rankingId,
+        disciplineSeasonId,
+        disciplineId,
+        categoryId,
+        raceTypeId,
+        countryId,
+        teamId) {
+        return {
+            dataSource: ridersResultsSource(objectId,
+                groupId,
+                momentId,
+                rankingTypeId,
+                rankingId,
+                disciplineSeasonId,
+                disciplineId,
+                categoryId,
+                raceTypeId,
+                teamId),
+            dataBound: function() {
+                if (disciplineId === 5 && rankingTypeId === 2) {
+                    clearRiderPoints();
+                } else {
+                    formatRiderPoints();
+                }
+                formatRiderNames();
+                $("td>span.legal-status").each(function (index, element) {
+                    $(this).closest("tr").addClass($(this).attr("class"));
+                })
+            },
+            scrollable: false,
+            pageable: true,
+            columns: [
+                {
+                    field: "ObjectTypeId",
+                    title: "ObjectTypeId",
+                    hidden: true,
+                    attributes: { 'class': 'object_type' }
+                },
+                {
+                    field: "LegalSelectionCode",
+                    title: "Legal Status",
+                    width: 100,
+                    template: '<span class="legal-status legalstatus-color-#:LegalSelectionCode#">#:LegalSelectionCode#</span>',
+                    hidden: true
+                },
+                {
+                    field: "FullName",
+                    title: "Rider",
+                    attributes: { 'class': 'full_name' },
+                    template: createLinkText(rankingId,
+                        groupId,
+                        momentId,
+                        1,
+                        rankingTypeId,
+                        disciplineId,
+                        disciplineSeasonId,
+                        categoryId,
+                        raceTypeId,
+                        "FullName",
+                        countryId,
+                        teamId)
+                },
+                {
+                    field: "NationName",
+                    title: "Nation",
+                    width: 100,
+                    template:
+                        '#= GenerateCountryTemplate(FlagCode, NationName) #'
+                },
+                {
+                    field: "Ages",
+                    title: "Age",
+                    width: 100,
+                    attributes: { "class": "text-right" }
+                },
+                {
+                    field: "Points",
+                    title: "Points",
+                    width: 150,
+                    attributes: { "class": "points" }
+                }
+            ]
+        };
+    };
+    var createIframePISResultsGrid = function(objectId,
+        groupId,
+        momentId,
+        rankingTypeId,
+        rankingId,
+        disciplineSeasonId,
+        disciplineId,
+        categoryId,
+        raceTypeId,
+        countryId,
+        teamId) {
+        return {
+            dataSource: PISResultsSource(objectId,
+                groupId,
+                momentId,
+                rankingTypeId,
+                rankingId,
+                disciplineSeasonId,
+                disciplineId,
+                categoryId,
+                raceTypeId,
+                countryId,
+                teamId),
+            dataBound: function() {
+                formatRiderPoints();
+                $("td>span.legal-status").each(function (index, element) {
+                    $(this).closest("tr").addClass($(this).attr("class"));
+                })
+            },
+            scrollable: false,
+            pageable: true,
+            columns: [
+                {
+                    field: "Date",
+                    title: "Date",
+                    attributes: { "class": "text-center" },
+                    sortable: {
+                        initialDirection: "desc",
+                        compare: function(a, b) {
+                            if (a.StartDate < b.StartDate) {
+                                return -1;
+                            }
+                            if (a.StartDate > b.StartDate) {
+                                return 1;
+                            }
+                            return 0;
+                        }
+                    }
+                },
+                {
+                    field: "Name",
+                    title: "Events",
+                    sortable: false
+                },
+                {
+                    field: "Rank",
+                    title: "Rank",
+                    attributes: { "class": "text-right" }
+                },
+                {
+                    field: "DisplayPoints",
+                    title: "Points",
+                    width: 150,
+                    attributes: { "class": "points" },
+                    sortable: {
+                        initialDirection: "desc",
+                        compare: function(a, b) {
+                            if (a.Points < b.Points) {
+                                return -1;
+                            }
+                            if (a.Points > b.Points) {
+                                return 1;
+                            }
+                            return 0;
+                        }
+                    }
+                },
+                {
+                    field: "ClassOrder",
+                    title: "Class",
+                    hidden: true,
+                    groupHeaderTemplate: "#=value#"
+                }
+            ]
+        };
+    };
+    var createRiderListGrid = function(listTypeId, raceId, deleteWindow, eventId, dataSourceChange, gridBound) {
+        return {
+            dataSource: ridersDataSource(listTypeId, raceId, eventId, dataSourceChange),
+            navigatable: true,
+            pageable: true,
+            scrollable: false,
+            dataBound: function(e) {
+                renderErrorsTooltip(e.sender.element, e.sender.columns);
+                removeConfirmation(e, deleteWindow);
+                gridBound();
+            },
+            columns: generateRiderListColumns(listTypeId, raceId),
+            editable: true
+        };
+    };
+
+    /***************** LIST VIEW **************************/
+    var createIframeRankingDisciplineList = function(disciplineId) {
+        return {
+            dataSource: rankingsDisciplineSource(disciplineId),
+            template: window.kendo.template($("#ranking-group-template").html()),
+            autoBind: false,
+            dataBound: function() {
+                resizeRankingTypeList();
+            }
+        };
+    };
+    var rankings_discipline_pager = function(disciplineId) {
+        return {
+            dataSource: rankingsDisciplineSource(disciplineId)
+        };
+    };
+
+    /***************** WINDOW **************************/
+    function on_close_import_menu_window() {
+        //reset all the upload things!
+        $(".k-upload-files").remove();
+        $(".k-upload-status").remove();
+        $(".k-upload.k-header").addClass("k-upload-empty");
+        $(".k-upload-button").removeClass("k-state-focused");
+    }
+
+    var importMenuWindow = function() {
+        return {
+            width: 500,
+            title: '',
+            visible: false,
+            modal: true,
+            actions: [
+                "Close"
+            ],
+            close: on_close_import_menu_window
+        };
+    };
+    var submitNotificationWindow = function() {
+        return {
+            width: 500,
+            title: '',
+            visible: false,
+            modal: true,
+            actions: [
+                "Close"
+            ]
+        };
+    };
+    var deleteNotificationWindow = function() {
+        return {
+            width: 500,
+            title: '',
+            visible: false,
+            modal: true,
+            actions: [
+                "Close"
+            ],
+            activate: function() {
+                $("#yesButton").focus();
+            }
+        };
+    };
+
+    /***************** AUTOCOMPLETE ***********************/
+    var quickSearchAutocomplete = function(raceId, obj, addCompetitors) {
+        return {
+            dataTextField: "Name",
+            delay: 700,
+            height: 400,
+            autoBind: false,
+            minLength: 3,
+            enforceMinLength: true,
+            template:
+                $.proxy(window.kendo.template(
+                        "#= formatAutoSearch(formatValue(CompetitorCode, this.val()), formatValue(Name, this.val())) #"),
+                    obj),
+            dataSource: quickSearchDataSource(obj, raceId),
+            select: function(e) {
+                var dataItem = this.dataItem(e.item.index());
+                addCompetitors([dataItem.Id]);
+            },
+            change: function() {
+                obj.data("kendoAutoComplete").value("");
+            }
+        };
+    };
+
+    /***************** HELPER FUNCTIONS  ******************/
+    function onNotificationShow(e) {
+        if (e.sender.getNotifications().length === 1) {
+            var element = e.element.parent(),
+                eWidth = element.width(),
+                wWidth = $(window).width();
+            var newLeft = Math.floor(wWidth / 2 - eWidth / 2);
+            var newTop = 30;
+
+            e.element.parent().css({ top: newTop, left: newLeft });
+        }
+    }
+
+    function preventPostFromEnter(obj) {
+        obj.on('keyup keypress',
+            function(e) {
+                var keyCode = e.keyCode || e.which;
+                if (keyCode === 13) {
+                    e.preventDefault();
+                    return false;
+                }
+                return true;
+            });
+    };
+
+    $.fn.serializeObject = function() {
+        var o = {};
+        var a = this.serializeArray();
+        $.each(a,
+            function() {
+                if (o[this.name] !== undefined) {
+                    if (!o[this.name].push) {
+                        o[this.name] = [o[this.name]];
+                    }
+                    o[this.name].push(this.value || '');
+                } else {
+                    o[this.name] = this.value || '';
+                }
+            });
+        return o;
+    };
+
+    var renderErrorsTooltip = function(element, columns) {
+        element.kendoTooltip({
+            filter: "td.not-valid",
+            position: "down",
+            content: function(e) {
+                var cellIndex = e.target.context.cellIndex;
+                var dataItem = element.data("kendoGrid").dataItem(e.target.closest("tr"));
+                var fieldName = columns[cellIndex] != null && columns[cellIndex] != undefined
+                    ? columns[cellIndex].field
+                    : "";
+                var errors = dataItem.Errors;
+                for (var index = 0; index < errors.length; index++) {
+                    var details = errors[index].Details;
+                    var errorField = details[0];
+                    if (fieldName === errorField) {
+                        return errors[index].Message;
+                    }
+                }
+                return "";
+            }
+        }).data("kendoTooltip");
+    };
+    var removeConfirmation = function(e, deleteWindow) {
+        $(".k-grid-delete.uci-remove-link")
+            .click(function(event) {
+                event.preventDefault();
+                var tr = $(event.target).closest("tr");
+                var data = e.sender.dataItem(tr);
+                deleteWindow.parent().addClass("errorWindow");
+                deleteWindow.data("kendoWindow").title("Are you sure you want to remove the selection from the list?");
+                deleteWindow.data("kendoWindow").center().open();
+                var yesButton = deleteWindow.find("#yesButton");
+                var noButton = deleteWindow.find("#noButton");
+                yesButton.click(function() {
+                    e.sender.dataSource.remove(data);
+                    deleteWindow.data("kendoWindow").close();
+                });
+                noButton.click(function() {
+                    deleteWindow.data("kendoWindow").close();
+                });
+                return false;
+            });
+    };
+    var submitRiderChanges = function(listTypeId,
+        raceId,
+        notification,
+        renderErrors,
+        completeRequest,
+        eventId) {
+        $.ajax({
+            type: "post",
+            url: "/iframe/SubmitChanges/",
+            dataType: "json",
+            data: {
+                listTypeId: listTypeId,
+                raceId: raceId,
+                eventId: eventId
+            },
+            success: function(data) {
+                if (data) {
+                    $("p").remove(".detail-errors");
+                    var currentContent = notification.html();
+                    notification.data("kendoWindow").center().open();
+                    if (data.Severity === "Information") {
+                        renderErrors(false);
+                        notification.parent().removeClass("errorWindow");
+                        notification.data("kendoWindow")
+                            .title(data.Message);
+                    } else if (data.Severity === "Warning") {
+                        if (listTypeId !== (1)) {
+                            renderErrors(true);
+                        }
+                        notification.parent().addClass("errorWindow");
+                        notification.data("kendoWindow")
+                            .title(data.Message);
+                    } else {
+                        notification.parent().addClass("errorWindow");
+                        notification.data("kendoWindow")
+                            .title('Unable to submit the list');
+                        notification.data("kendoWindow").content('<p class="detail-errors">' +
+                            data.Message +
+                            '</p>' +
+                            currentContent);
+                    }
+                }
+            },
+            error: function() {
+                notification.parent().addClass("errorWindow");
+                notification.data("kendoWindow").center().open();
+                notification.data("kendoWindow")
+                    .title('The list has been submitted successfully');
+            },
+            complete: function() {
+                completeRequest(true);
+            }
+        });
+    };
+
+    var quickUpdateResults = function(listTypeId,
+        raceId,
+        rank,
+        bib,
+        notification,
+        refreshGrid,
+        completeRequest,
+        eventId) {
+        $.ajax({
+            type: "post",
+            url: "/iframe/UpdateResults/",
+            dataType: "json",
+            data: {
+                raceId: raceId,
+                listTypeId: listTypeId,
+                rank: rank,
+                bib: bib,
+                eventId: eventId
+            },
+            success: function(data) {
+                if (data) {
+                    if (data.Severity !== "Error") {
+                        refreshGrid(true);
+                        notification.parent().removeClass("errorWindow");
+                    }
+                }
+            },
+            error: function() {
+                notification.parent().addClass("errorWindow");
+                notification.data("kendoWindow").center().open();
+                notification.data("kendoWindow")
+                    .title('Fail to update results');
+            },
+            complete: function() {
+                completeRequest(true);
+            }
+        });
+    };
+
+    var createRiders = function(listTypeId, raceId, riders, completeCreateRequest, eventId) {
+        $.ajax({
+            type: "post",
+            url: "/iframe/AddRiders/",
+            dataType: "json",
+            data: {
+                raceId: raceId,
+                listTypeId: listTypeId,
+                eventId: eventId,
+                riders: riders
+            },
+            success: function(data) {
+                completeCreateRequest(true, data, riders);
+            },
+            error: function() {
+                completeCreateRequest(false);
+            }
+        });
+
+    };
+
+    var delay = (function() {
+        var timer = 0;
+        return function(callback, ms) {
+            clearTimeout(timer);
+            timer = setTimeout(callback, ms);
+        };
+    })();
+
+    function initializeDropdown(obj, url, changeEvent, disciplineId, appendAll) {
+        obj.kendoDropDownList({
+            dataTextField: "Name",
+            dataValueField: "Id",
+            dataSource: {
+                transport: {
+                    read: {
+                        type: "get",
+                        dataType: "json",
+                        url: url,
+                        data: function() {
+                            if (disciplineId !== undefined) {
+                                if (appendAll !== undefined) {
+                                    return {
+                                        disciplineId: disciplineId,
+                                        appendAll: appendAll
+                                    };
+                                }
+                                return {
+                                    disciplineId: disciplineId
+                                };
+                            }
+                            return {};
+                        }
+                    }
+                }
+            },
+            change: changeEvent
+        });
+    }
+
+    function generateGlobalStatus(inProgress, done) {
+        if (inProgress) {
+            return 'IN PROGRESS';
+        }
+        if (done) {
+            return 'DONE';
+        }
+        return '';
+    }
+
+    function GenerateCategoryTemplate(category) {
+        if (category.length > 2) {
+            var tags = (category.match(/-/g) || []).length + 1;
+            return '<span class="label uci-small-label lbcategory" title="' + category + '">' + tags + '</span>';
+        }
+        else {
+            return '<span class="label uci-small-label lbcategory" title="' + category + '">' + category + '</span>';
+        }
+    }
+
+    function GenerateCountryTemplate(flagCode, isoCode3) {
+        if (isoCode3 === null) {
+            isoCode3 = "";
+        }
+        if (flagCode === null || flagCode === "" || flagCode === undefined || isoCode3 === "") {
+            return '<div class="f32" style="display: flex"><div class="uci-flag-hidden"></div>' +
+                '<div>' +
+                isoCode3 +
+                '</div></div>';
+        }
+
+        return '<div class="f32" style="display: flex"><div class="flag ' +
+            flagCode +
+            '" style="position:absolute;margin-top:-5px"></div>' +
+            '<div style="padding-left:37px;">' +
+            isoCode3 +
+            '</div></div>';
+    }
+
+    function GenerateRaceColumns(isFrame) {
+        if (isFrame === false) {
+            return [
+                {
+                    template:
+                        '<span class="label uci-small-label #: IsInProgress #">#=generateGlobalStatus(IsInProgress,IsDone)#</span>',
+                    field: "Status",
+                    title: "Status",
+                    width: 200
+                },
+                {
+                    template:
+                        '<a href="/iframe/Race/#: Id#?competitionId=#: CompetitionId #">#: RaceName #</a>',
+                    field: "RaceName",
+                    title: "Race Name",
+                    width: 200
+                },
+                {
+                    field: "EndDate",
+                    title: "Date",
+                    template: "#=(Date === null)? '' : Date#",
+                    width: 200
+                },
+                {
+                    field: "Venue",
+                    title: "Venue"
+                }
+            ];
+        }
+        return [
+            {
+                field: "RaceName",
+                title: "Race Name",
+                width: 200
+            },
+            {
+                field: "EndDate",
+                title: "Date",
+                template: "#=(Date === null)? '' : Date#",
+                width: 200
+            },
+            {
+                field: "Venue",
+                title: "Venue",
+                width: 400
+            },
+            {
+                field: "CategoryCode",
+                title: "Category"
+            }
+        ];
+    }
+
+    function GenerateEventColumns(isFrame, competitionId, disciplineId) {
+        if (isFrame === true) {
+
+            return [
+                {
+                    field: "EventId",
+                    template:
+                        '<a href="/iframe/EventResults/#: EventId #?competitionId=' +
+                            competitionId +
+                            '&disciplineId=' +
+                            disciplineId +
+                            '">#:EventName #</a>',
+                    width: 200
+                },
+                {
+                    field: "WinnerName",
+                    template:
+                        '<span class="ion-trophy uci-margin-right"></span><span>#: WinnerName #</span>'
+                }
+            ];
+        }
+        return [
+            {
+                field: "Status",
+                width: 200,
+                template:
+                    '<span class="label uci-small-label #: IsInProgress #">#=generateGlobalStatus(IsInProgress,IsDone)#</span>'
+            },
+            {
+                field: "Code",
+                width: 200,
+                template: 'Event #: Code#'
+            },
+            {
+                field: "EventName",
+                template:
+                    '<a href="/iframe/Event/#: Id #?&raceId=#:RaceId #">#: EventName #</a>'
+            }
+        ];
+    }
+
+    function generateRankStatus(rankDifference) {
+        if (rankDifference > 0) {
+            return '<span class="preceding-rank uci-small-description up"><span class="ion-arrow-up-c"></span> +' +
+                rankDifference +
+                '</span>';
+        } else if (rankDifference < 0) {
+            return '<span class="preceding-rank uci-small-description down"><span class="ion-arrow-down-c"></span> ' +
+                rankDifference +
+                '</span>';
+        }
+        return '';
+    }
+
+    function generateObj(obj,
+        rankingId,
+        groupId,
+        momentId,
+        seasonId,
+        rankingTypeId,
+        position,
+        disciplineId,
+        categoryId,
+        raceTypeId) {
+        return [
+            {
+                obj: obj,
+                rankingId: rankingId,
+                groupId: groupId,
+                momentId: momentId,
+                seasonId: seasonId,
+                rankingTypeId: rankingTypeId,
+                position: position,
+                disciplineId: disciplineId,
+                categoryId: categoryId,
+                raceTypeId: raceTypeId,
+                countryId: 0,
+                teamId : 0
+            }
+        ];
+    }
+
+    function resizeRankingTypeList() {
+        var items = $('.ranking-type-content');
+        var max = Math.max.apply(Math, $('.ranking-type-content').map(function() { return $(this).height(); }));
+        items.height(max);
+    }
+
+    function createLinkText(rankingId,
+        groupId,
+        momentId,
+        rankingTypeId,
+        baseRankingTypeId,
+        disciplineId,
+        disciplineSeasonId,
+        categoryId,
+        raceTypeId,
+        nameProperty,
+        countryId,
+        teamId) {
+        var link = '<a href="/iframe/RiderRankingDetails/#: ObjectId#?';
+        if (rankingTypeId === (3)) {
+            link = '<a href="/iframe/NationRankingDetails/#: ObjectId#?';
+        } else if (rankingTypeId === (2)) {
+            link = '<a href="/iframe/TeamRankingDetails/#: ObjectId#?';
+        }
+        return link +
+            'rankingId=' +
+            rankingId +
+            '&groupId=' +
+            groupId +
+            '&momentId=#: MomentId#' +
+            '&baseRankingTypeId=' +
+            baseRankingTypeId +
+            '&disciplineSeasonId=' +
+            disciplineSeasonId +
+            '&disciplineId=' +
+            disciplineId +
+            '&categoryId=' +
+            categoryId +
+            '&raceTypeId=' +
+            raceTypeId +
+            '&countryId=' +
+            countryId +
+            '&teamId=' +
+            teamId +
+            '">' +
+            '#: ' +
+            nameProperty +
+            '#</a>';
+    }
+
+    function hideTeamName(rankingId) {
+        if (rankingId === 189 || rankingId === 190) {
+            return "";
+        }
+        return "#=TeamName != null?TeamName:''#";
+    }
+    function generateObjectRankingsColumns(rankingId,
+        groupId,
+        momentId,
+        rankingTypeId,
+        disciplineId,
+        disciplineSeasonId,
+        categoryId,
+        raceTypeId,
+        countryId,
+        teamId) {
+        var columns = [
+            {
+                field: "Rank",
+                title: "Rank",
+                width: 100,
+                template: '<table><tr>' +
+                    '<td style="width:50px; padding: 0; text-align: right;"><span class="uci-margin-right">#: Rank #</span></td>' +
+                    '<td style="padding: 0; text-align: left;">#= generateRankStatus(RankDifference) #</td></tr></table>',
+                attributes: { 'class': 'text-right' }
+            },
+            {
+                field: "MomentId",
+                title: "Moment Id",
+                hidden: true
+            },
+            {
+                field: "LegalSelectionCode",
+                title: "Legal Status",
+                width: 100,
+                template: '<span class="legal-status legalstatus-color-#:LegalSelectionCode#">#:LegalSelectionCode#</span>',
+                hidden: true
+            }
+        ];
+
+        if (rankingTypeId === (1)) {
+            columns.push({
+                field: "IndividualFullName",
+                title: "Rider",
+                template: createLinkText(rankingId,
+                    groupId,
+                    momentId,
+                    rankingTypeId,
+                    rankingTypeId,
+                    disciplineId,
+                    disciplineSeasonId,
+                    categoryId,
+                    raceTypeId,
+                    "IndividualFullName",
+                    0,
+                    0)
+            },
+                {
+                    field: "NationName",
+                    title: "Nation",
+                    width: 100,
+                    template:
+                        '#= GenerateCountryTemplate(FlagCode, NationName) #'
+                },
+                {
+                    field: "TeamName",
+                    title: "Team",
+                    template: hideTeamName(rankingId)
+                },
+                {
+                    field: "Ages",
+                    title: "Age",
+                    width: 100,
+                    attributes: { 'class': 'text-right' }
+                }
+            );
+        } else if (rankingTypeId === (2)) {
+            columns.push({
+                field: "FullName",
+                title: "Name",
+                template: createLinkText(rankingId,
+                    groupId,
+                    momentId,
+                    rankingTypeId,
+                    rankingTypeId,
+                    disciplineId,
+                    disciplineSeasonId,
+                    categoryId,
+                    raceTypeId,
+                    "FullName",
+                    0,
+                    0)
+            },
+                {
+                    field: "NationName",
+                    title: "Nation",
+                    width: 100,
+                    template:
+                        '#= GenerateCountryTemplate(FlagCode, NationName) #'
+                }
+            );
+        } else {
+            columns.push({
+                field: "FullName",
+                title: "Name",
+                template: createLinkText(rankingId,
+                    groupId,
+                    momentId,
+                    rankingTypeId,
+                    rankingTypeId,
+                    disciplineId,
+                    disciplineSeasonId,
+                    categoryId,
+                    raceTypeId,
+                    "FullName",
+                    0,
+                    0)
+            },
+                {
+                    field: "NationName",
+                    title: "Nation",
+                    width: 100,
+                    template:
+                        '#= GenerateCountryTemplate(FlagCode, NationName) #'
+                }
+            );
+        }
+        columns.push({
+            field: "Points",
+            title: "Points",
+            width: 150,
+            attributes: { 'class': 'points' }
+        });
+        return columns;
+    }
+
+    function formatValue(itemText, text) {
+        var textMatcher = new RegExp(text, "ig");
+        if (!trimstring(text))
+            return itemText;
+        return itemText.replace(textMatcher,
+            function(match) {
+                return "<strong>" + match + "</strong>";
+            });
+    }
+
+    function formatAutoSearch(competitorCode, name) {
+        return '<span><span class="k-state-default uci-margin-right">' +
+            competitorCode +
+            '</span>' +
+            '<span class="k-state-default">' +
+            name +
+            '</span></span>';
+    }
+
+    function statusDropDownEditor(container, options) {
+        $('<input required name="' + options.field + '"/>')
+            .appendTo(container)
+            .kendoDropDownList({
+                autoBind: false,
+                dataTextField: "Code",
+                dataValueField: "Id",
+                dataSource: {
+                    method: "get",
+                    type: "json",
+                    transport: {
+                        read: {
+                            url: "/iframe/GetIrms/"
+                        }
+                    }
+                }
+            });
+    }
+
+    function createTeamDropDownEditor(container, options, raceId) {
+        $('<input required name="' + options.field + '"/>')
+            .appendTo(container)
+            .kendoDropDownList({
+                autoBind: false,
+                dataTextField: "Name",
+                dataValueField: "Id",
+                dataSource: {
+                    method: "get",
+                    type: "json",
+                    transport: {
+                        read: {
+                            url: "/iframe/GetIndividualTeams/",
+                            data: {
+                                raceId: raceId,
+                                individualId: options.model.get("Id")
+                            }
+                        }
+                    }
+                }
+            });
+    }
+
+    function commandMenuTemplate() {
+        var onlyRemoveTemplate =
+            '<a class="k-button k-button-icontext no-background k-grid-delete uci-remove-link" href="\\#"><span class="ion-ios-close-outline"></span></a>';
+        return onlyRemoveTemplate;
+    }
+
+    function generateRiderListColumns(listTypeId, raceId) {
+        var columns = [];
+        if (listTypeId === (2)) {
+            columns.push({
+                field: "StartOrder",
+                width: 80,
+                title: "Start order",
+                attributes: {
+                    "class": 'text-right tabable editable-marked hiddenArrows ' +
+                        '#= checkCell("StartOrder", Errors) #'
+                }
+            },
+                {
+                    field: "Bib",
+                    title: "BIB",
+                    width: 70,
+                    attributes: {
+                        "class": 'text-right tabable editable-marked hiddenArrows ' +
+                            '#= checkCell("Bib", Errors) #'
+                    }
+                });
+        } else if (listTypeId === (3)) {
+            columns.push({
+                field: "Rank",
+                width: 60,
+                title: "Rank",
+                attributes: {
+                    "class": 'text-right tabable editable-marked hiddenArrows ' +
+                        '#= checkCell("Rank", Errors) #'
+                }
+            },
+                {
+                    field: "Bib",
+                    title: "BIB",
+                    width: 70,
+                    attributes: {
+                        "class": 'text-right tabable editable-marked hiddenArrows ' +
+                            '#= checkCell("Bib", Errors) #'
+                    }
+                });
+        }
+
+        columns.push(
+            {
+                field: "CompetitorCode",
+                title: "UCI ID",
+                width: "120px",
+                attributes: {
+                    "class":
+                        '#= checkCell("CompetitorCode", Errors) #'
+                }
+            },
+            {
+                field: "Name",
+                title: "Name",
+                width: "450px",
+                attributes: {
+                    "class": '#= checkCell("Name", Errors) #'
+                }
+            },
+            {
+                field: "CountryIsoCode3",
+                title: "Country",
+                width: "90px",
+                template:
+                    '#= GenerateCountryTemplate(FlagCode, CountryIsoCode3) #',
+                attributes: {
+                    "class": '#= checkCell("CountryIsoCode3", Errors) #'
+                }
+            },
+            {
+                field: "Team",
+                title: "Team",
+                editor: function(container, options) {
+                    createTeamDropDownEditor(container, options, raceId);
+                },
+                template: "#=(Team.Name === null)? '' : Team.Name#",
+                attributes: {
+                    "class": "tabable editable-marked "
+                }
+            },
+            {
+                field: "GenderName",
+                title: "Gender",
+                width: "60px",
+                attributes: {
+                    "class": '#= checkCell("GenderName", Errors) #'
+                }
+            },
+            {
+                field: "Age",
+                title: "Age",
+                width: "20px",
+                attributes: {
+                    "class": '#= checkCell("Age", Errors) #'
+                }
+            }
+        );
+
+        if (listTypeId === (3)) {
+            columns.push({
+                field: "Result",
+                width: 100,
+                title: "Result",
+                attributes: {
+                    "class": 'tabable editable-marked ' +
+                        '#= checkCell("Result", Errors) #'
+                }
+            },
+                {
+                    field: "Irm",
+                    width: 80,
+                    title: "IRM",
+                    editor: statusDropDownEditor,
+                    template: "#=(Irm.Code === null)? '' : Irm.Code#",
+                    attributes: {
+                        "class": 'tabable editable-marked ' +
+                            '#= checkCell("IrmId", Errors) #'
+                    }
+                },
+                {
+                    field: "SortOrder",
+                    width: 80,
+                    title: "Sort order",
+                    attributes: {
+                        "class": 'text-right tabable editable-marked hiddenArrows ' +
+                            '#= checkCell("SortOrder", Errors) #'
+                    }
+                });
+        }
+        columns.push({
+            template: commandMenuTemplate,
+            title: "&nbsp;",
+            width: "30px",
+            attributes: { "class": "tabable uci-command-td" }
+        });
+        return columns;
+    }
+
+    function checkCell(fieldName, errors) {
+        for (var index = 0; index < errors.length; index++) {
+            var details = errors[index].Details;
+            var errorField = details[0];
+            if (fieldName === errorField) {
+                var severity = errors[index].Severity;
+                return "not-valid " + severity;
+            }
+        }
+        return "";
+    }
+
+    function displayLoading(target, show) {
+        var element = $(target);
+        window.kendo.ui.progress(element, show);
+    }
+
+    function showProgress(element, status) {
+        window.kendo.ui.progress(element, status);
+    }
+
+    function setGridMinHeight(grid) {
+        var table = grid.find("table:first");
+        if (table != undefined) {
+            table.wrap("<div class='uci-table-wrapper'></div>");
+        }
+    }
+
+    function onGridKeydown(e) {
+        var grid = $(this).closest("[data-role=grid]").data("kendoGrid");
+        var current = grid.current();
+        var nextCell;
+        if (e.keyCode === window.kendo.keys.TAB) {
+            if (!current.hasClass("tabable")) {
+                nextCell = current.nextAll(".tabable");
+                if (!nextCell[0]) {
+                    nextCell = current.closest("tr").next().children(".tabable:first");
+                }
+                grid.current(nextCell);
+                grid.editCell(nextCell[0]);
+            }
+        } else if (e.keyCode === window.kendo.keys.ENTER) {
+            if (current.hasClass("tabable") && !current.hasClass("uci-command-td")) {
+                nextCell = current.closest("tr").next().children(".tabable:first");
+                grid.current(nextCell);
+                grid.editCell(nextCell[0]);
+            }
+        }
+    }
+
+    function formatJsonDate(jsondate) {
+        var d = new Date(parseInt(jsondate.replace('/Date(', '').replace(')/', '')));
+        var twoDigitMonth = (d.getMonth() + 1) + ""; if (twoDigitMonth.length == 1) twoDigitMonth = "0" + twoDigitMonth;
+        var twoDigitDate = d.getDate() + ""; if (twoDigitDate.length == 1) twoDigitDate = "0" + twoDigitDate;
+        var formatted_date = twoDigitDate + "/" + twoDigitMonth + "/" + d.getFullYear();
+        return formatted_date;
+    }
+
+    // close window popup when click outside
+    $(document).on('click',
+        '.k-overlay',
+        function() {
+            var kendoWindow = $('.k-window-content.k-content', $(this).next('div.k-widget.k-window'));
+            if (kendoWindow == null || kendoWindow.length === 0) {
+                return;
+            }
+            kendoWindow.data('kendoWindow').close();
+        });
+
+    // prevent dot in integer input number
+    $(document)
+        .on('keydown',
+            '.k-numerictextbox input',
+            function(e) {
+                var key = e.which;
+                if (key === 110 || key === 190) {
+                    e.preventDefault();
+                }
+            });
+</script>
+<div class="container-fluid">
+<div id="ranking-details-view">
+<div class="row uci-main-content">
+<div class="col flex">
+<div class="row">
+<ul class="list-inline">
+<li class="list-inline-item uci-align-top">
+<div class="uci-ranking-name details">
+</div>
+</li>
+<li class="list-inline-item">
+<p><a href="https://dataride.uci.ch/iframe/Rankings/10/">Rankings</a> </p>
+<p class="uci-bold uci-label">World Ranking</p>
+</li>
+<li class="list-inline-item">
+<p class="uci-semi-bold uci-small-description">SEASON</p>
+<span title="" class="k-widget k-dropdown" unselectable="on" role="listbox" aria-haspopup="listbox" aria-expanded="false" tabindex="0" aria-owns="seasons_listbox" aria-live="polite" aria-disabled="false" aria-readonly="false" aria-busy="false" aria-activedescendant="l1acb939-6e1c-4263-960b-20bfe3a193df" style=""><span unselectable="on" class="k-dropdown-wrap k-state-default"><span id="l1acb939-6e1c-4263-960b-20bfe3a193df" unselectable="on" role="option" aria-selected="true" class="k-input">2024</span><span unselectable="on" class="k-select" aria-label="select"><span class="k-icon k-i-arrow-60-down"></span></span></span><div id="seasons" data-role="dropdownlist" style="display: none;"></div></span>
+</li>
+<li class="list-inline-item">
+<p class="uci-semi-bold uci-small-description">DATE</p>
+<span title="" class="k-widget k-dropdown" unselectable="on" role="listbox" aria-haspopup="listbox" aria-expanded="false" tabindex="0" aria-owns="dates_listbox" aria-live="polite" aria-disabled="false" aria-readonly="false" aria-busy="false" aria-activedescendant="y5d8be25-b7c9-420b-ba58-10a2b0760544" style=""><span unselectable="on" class="k-dropdown-wrap k-state-default"><span id="y5d8be25-b7c9-420b-ba58-10a2b0760544" unselectable="on" role="option" aria-selected="true" class="k-input">Most Recent Ranking</span><span unselectable="on" class="k-select" aria-label="select"><span class="k-icon k-i-arrow-60-down"></span></span></span><div id="dates" data-role="dropdownlist" style="display: none;"></div></span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row uci-main-content">
+<div class="col-12">
+<ul id="rankings" class="list-inline uci-list-view uci-ranking-type-list detail k-widget k-listview k-listview-bordered" data-role="listview" role="list"><div class="k-listview-content">
+    <li class="uci-ranking-type-listGroup" data-uid="k5fc7012-34ae-429b-a0ff-21df1c2c6574" role="listitem">
+        <div class="ranking-type-content true" style="height: 94px;">
+            <div class="leader-part">
+                <a href="https://dataride.uci.ch/iframe/RankingDetails/1?disciplineId=10&amp;groupId=1&amp;momentId=184341&amp;disciplineSeasonId=432&amp;rankingTypeId=1&amp;categoryId=22&amp;raceTypeId=0" class="uci-bold ranking-type-link">
+                    Individual Ranking
+                </a>
+                <div class="uci-small-description uci-color-grey float-right">
+                    <div>
+                        Ranking Date
+                    </div>
+                    <div class="uci-semi-bold">
+                        01/10/2024
+                    </div>
+                </div>
+                
+    
+    <ul class="list-inline">
+        <li><span class="uci-position uci-small-description">Leader</span></li>
+        <li></li>
+    </ul>
+    <ul class="f16 float-left uci-margin-right">
+        
+        <li><span class="flag si"></span></li>
+        
+    </ul>
+    <div class="object-info float-left">
+        
+        <a href="https://dataride.uci.ch/iframe/RiderRankingDetails/149727?rankingId=1&amp;groupId=1&amp;momentId=184341&amp;baseRankingTypeId=1&amp;disciplineSeasonId=432&amp;disciplineId=10&amp;categoryId=22&amp;raceTypeId=0&amp;countryId=0&amp;teamId=0" class="uci-rider-link">
+            <span class="uci-bold uci-object-name">POGAČAR Tadej (UAD)</span>
+        </a>
+        
+        <p>11690 points</p>
+    </div>
+    <div class="clearfix"></div>
+    
+
+            </div>
+        </div>
+    </li>
+
+    <li class="uci-ranking-type-listGroup" data-uid="v026633c-2751-4ad8-a334-a5ffef9a4654" role="listitem">
+        <div class="ranking-type-content false" style="height: 94px;">
+            <div class="leader-part">
+                <a href="https://dataride.uci.ch/iframe/RankingDetails/238?disciplineId=10&amp;groupId=1&amp;momentId=184363&amp;disciplineSeasonId=432&amp;rankingTypeId=2&amp;categoryId=22&amp;raceTypeId=0" class="uci-bold ranking-type-link">
+                    Team Ranking
+                </a>
+                <div class="uci-small-description uci-color-grey float-right">
+                    <div>
+                        Ranking Date
+                    </div>
+                    <div class="uci-semi-bold">
+                        01/10/2024
+                    </div>
+                </div>
+                
+    
+    <ul class="list-inline">
+        <li><span class="uci-position uci-small-description">Leader</span></li>
+        <li></li>
+    </ul>
+    <ul class="f16 float-left uci-margin-right">
+        
+        <li><span class="flag ae"></span></li>
+        
+    </ul>
+    <div class="object-info float-left">
+        
+        <span class="uci-bold  uci-object-name">UAE TEAM EMIRATES (UAD)</span>
+        
+        <p>34957.6 points</p>
+    </div>
+    <div class="clearfix"></div>
+    
+
+            </div>
+        </div>
+    </li>
+
+    <li class="uci-ranking-type-listGroup" data-uid="f95e537b-9e05-4c1d-adea-ecc8f59a8e0f" role="listitem">
+        <div class="ranking-type-content false" style="height: 94px;">
+            <div class="leader-part">
+                <a href="https://dataride.uci.ch/iframe/RankingDetails/9?disciplineId=10&amp;groupId=1&amp;momentId=184372&amp;disciplineSeasonId=432&amp;rankingTypeId=3&amp;categoryId=22&amp;raceTypeId=0" class="uci-bold ranking-type-link">
+                    Nation Ranking
+                </a>
+                <div class="uci-small-description uci-color-grey float-right">
+                    <div>
+                        Ranking Date
+                    </div>
+                    <div class="uci-semi-bold">
+                        01/10/2024
+                    </div>
+                </div>
+                
+    
+    <ul class="list-inline">
+        <li><span class="uci-position uci-small-description">Leader</span></li>
+        <li></li>
+    </ul>
+    <ul class="f16 float-left uci-margin-right">
+        
+        <li><span class="flag be"></span></li>
+        
+    </ul>
+    <div class="object-info float-left">
+        
+        <span class="uci-bold  uci-object-name">BELGIUM</span>
+        
+        <p>23925 points</p>
+    </div>
+    <div class="clearfix"></div>
+    
+
+            </div>
+        </div>
+    </li>
+</div></ul>
+</div>
+</div>
+<div class="row uci-main-content">
+<div class="col-12">
+<ul class="list-inline">
+<li class="list-inline-item">
+<p class="uci-semi-bold uci-small-description">NAME</p>
+<input id="filterName" type="text" data-bind="events: {keyup: filter }" class="k-textbox">
+</li>
+<li class="list-inline-item">
+<p class="uci-semi-bold uci-small-description">TEAM</p>
+<input id="filterTeam" data-bind="events: {keyup: filter }" type="text" class="k-textbox">
+</li>
+<li class="list-inline-item">
+<p class="uci-semi-bold uci-small-description">NATION</p>
+<span title="" class="k-widget k-dropdown" unselectable="on" role="listbox" aria-haspopup="listbox" aria-expanded="false" tabindex="0" aria-owns="countries_listbox" aria-live="polite" aria-disabled="false" aria-readonly="false" aria-busy="false" aria-activedescendant="z4769f5c-60ff-4ed0-ba1d-963122178ba9" style=""><span unselectable="on" class="k-dropdown-wrap k-state-default"><span id="z4769f5c-60ff-4ed0-ba1d-963122178ba9" unselectable="on" role="option" aria-selected="true" class="k-input">All</span><span unselectable="on" class="k-select" aria-label="select"><span class="k-icon k-i-arrow-60-down"></span></span></span><div id="countries" data-role="dropdownlist" style="display: none;"></div></span>
+</li>
+</ul>
+</div>
+</div>
+<div class="row uci-main-content">
+<div class="col-12">
+<div class="uci-grid k-grid k-widget k-grid-display-block" id="object-rankings" data-role="grid"><div class="uci-table-wrapper"><table role="grid"><colgroup><col style="width:100px"><col><col style="width:100px"><col><col style="width:100px"><col style="width:150px"></colgroup><thead class="k-grid-header" role="rowgroup"><tr role="row"><th scope="col" role="columnheader" data-field="Rank" aria-haspopup="true" rowspan="1" data-title="Rank" data-index="0" id="s439462e-a420-4f93-91de-a72f13307de8" class="k-header">Rank</th><th scope="col" role="columnheader" data-field="MomentId" aria-haspopup="true" rowspan="1" data-title="Moment Id" data-index="1" id="rbb4dcd9-6cff-4d2c-aea4-14259ae2ed8c" style="display:none" class="k-header">Moment Id</th><th scope="col" role="columnheader" data-field="LegalSelectionCode" aria-haspopup="true" rowspan="1" data-title="Legal Status" data-index="2" id="n7c09bad-5866-48ee-967d-5469a5906cfa" style="display:none" class="k-header">Legal Status</th><th scope="col" role="columnheader" data-field="IndividualFullName" aria-haspopup="true" rowspan="1" data-title="Rider" data-index="3" id="f13c818a-5abe-44db-800e-7af08a64d1e4" class="k-header">Rider</th><th scope="col" role="columnheader" data-field="NationName" aria-haspopup="true" rowspan="1" data-title="Nation" data-index="4" id="e431682a-2b12-49a4-beb4-6e84473eb56d" class="k-header">Nation</th><th scope="col" role="columnheader" data-field="TeamName" aria-haspopup="true" rowspan="1" data-title="Team" data-index="5" id="z24a8d96-64c6-4b00-a43e-105de250e192" class="k-header">Team</th><th scope="col" role="columnheader" data-field="Ages" aria-haspopup="true" rowspan="1" data-title="Age" data-index="6" id="p47acfab-34a4-41ee-a179-6a451ace4684" class="k-header">Age</th><th scope="col" role="columnheader" data-field="Points" aria-haspopup="true" rowspan="1" data-title="Points" data-index="7" id="m72a3e39-dc0b-4335-9cb7-3c5122c2cf65" class="k-header">Points</th></tr></thead><tbody role="rowgroup"><tr class="k-master-row legal-status legalstatus-color-0" data-uid="qecc64fe-12e2-4b24-8def-525f350d07f6" role="row"><td class="text-right" role="gridcell"><table><tbody><tr><td style="width:50px; padding: 0; text-align: right;"><span class="uci-margin-right">1</span></td><td style="padding: 0; text-align: left;"></td></tr></tbody></table></td><td style="display:none" class="" role="gridcell">184341</td><td style="display:none" class="" role="gridcell"><span class="legal-status legalstatus-color-0">0</span></td><td class="" role="gridcell"><a href="https://dataride.uci.ch/iframe/RiderRankingDetails/149727?rankingId=1&amp;groupId=1&amp;momentId=184341&amp;baseRankingTypeId=1&amp;disciplineSeasonId=432&amp;disciplineId=10&amp;categoryId=22&amp;raceTypeId=0&amp;countryId=0&amp;teamId=0">POGAČAR Tadej</a></td><td class="" role="gridcell"><div class="f32" style="display: flex"><div class="flag si" style="position:absolute;margin-top:-5px"></div><div style="padding-left:37px;">SLO       </div></div></td><td class="" role="gridcell">UAE TEAM EMIRATES</td><td class="text-right" role="gridcell">26</td><td class="points" role="gridcell"><span class="uci-points-left">11690</span></td></tr><tr class="k-alt k-master-row legal-status legalstatus-color-0" data-uid="q89e57b9-6ce3-41db-a522-767fa1169afa" role="row"><td class="text-right" role="gridcell"><table><tbody><tr><td style="width:50px; padding: 0; text-align: right;"><span class="uci-margin-right">2</span></td><td style="padding: 0; text-align: left;"></td></tr></tbody></table></td><td style="display:none" class="" role="gridcell">184341</td><td style="display:none" class="" role="gridcell"><span class="legal-status legalstatus-color-0">0</span></td><td class="" role="gridcell"><a href="https://dataride.uci.ch/iframe/RiderRankingDetails/1596046?rankingId=1&amp;groupId=1&amp;momentId=184341&amp;baseRankingTypeId=1&amp;disciplineSeasonId=432&amp;disciplineId=10&amp;categoryId=22&amp;raceTypeId=0&amp;countryId=0&amp;teamId=0">EVENEPOEL Remco</a></td><td class="" role="gridcell"><div class="f32" style="display: flex"><div class="flag be" style="position:absolute;margin-top:-5px"></div><div style="padding-left:37px;">BEL       </div></div></td><td class="" role="gridcell">SOUDAL QUICK-STEP</td><td class="text-right" role="gridcell">24</td><td class="points" role="gridcell"><span class="uci-points-left">5677</span><span class="uci-points-right">.57</span></td></tr><tr class="k-master-row legal-status legalstatus-color-0" data-uid="e45ea3fd-b14b-47ba-99e4-72156b9f219d" role="row"><td class="text-right" role="gridcell"><table><tbody><tr><td style="width:50px; padding: 0; text-align: right;"><span class="uci-margin-right">3</span></td><td style="padding: 0; text-align: left;"></td></tr></tbody></table></td><td style="display:none" class="" role="gridcell">184341</td><td style="display:none" class="" role="gridcell"><span class="legal-status legalstatus-color-0">0</span></td><td class="" role="gridcell"><a href="https://dataride.uci.ch/iframe/RiderRankingDetails/148275?rankingId=1&amp;groupId=1&amp;momentId=184341&amp;baseRankingTypeId=1&amp;disciplineSeasonId=432&amp;disciplineId=10&amp;categoryId=22&amp;raceTypeId=0&amp;countryId=0&amp;teamId=0">PHILIPSEN Jasper</a></td><td class="" role="gridcell"><div class="f32" style="display: flex"><div class="flag be" style="position:absolute;margin-top:-5px"></div><div style="padding-left:37px;">BEL       </div></div></td><td class="" role="gridcell">ALPECIN-DECEUNINCK</td><td class="text-right" role="gridcell">26</td><td class="points" role="gridcell"><span class="uci-points-left">4593</span></td></tr><tr class="k-alt k-master-row legal-status legalstatus-color-0" data-uid="uc7c047c-ea5a-4820-b323-d415538137cb" role="row"><td class="text-right" role="gridcell"><table><tbody><tr><td style="width:50px; padding: 0; text-align: right;"><span class="uci-margin-right">4</span></td><td style="padding: 0; text-align: left;"><span class="preceding-rank uci-small-description up"><span class="ion-arrow-up-c"></span> +1</span></td></tr></tbody></table></td><td style="display:none" class="" role="gridcell">184341</td><td style="display:none" class="" role="gridcell"><span class="legal-status legalstatus-color-0">0</span></td><td class="" role="gridcell"><a href="https://dataride.uci.ch/iframe/RiderRankingDetails/88889?rankingId=1&amp;groupId=1&amp;momentId=184341&amp;baseRankingTypeId=1&amp;disciplineSeasonId=432&amp;disciplineId=10&amp;categoryId=22&amp;raceTypeId=0&amp;countryId=0&amp;teamId=0">ROGLIČ Primož</a></td><td class="" role="gridcell"><div class="f32" style="display: flex"><div class="flag si" style="position:absolute;margin-top:-5px"></div><div style="padding-left:37px;">SLO       </div></div></td><td class="" role="gridcell">RED BULL - BORA - HANSGROHE</td><td class="text-right" role="gridcell">35</td><td class="points" role="gridcell"><span class="uci-points-left">4291</span></td></tr><tr class="k-master-row legal-status legalstatus-color-0" data-uid="fb2f4e36-ba9f-4f66-82f1-3b04250687ff" role="row"><td class="text-right" role="gridcell"><table><tbody><tr><td style="width:50px; padding: 0; text-align: right;"><span class="uci-margin-right">5</span></td><td style="padding: 0; text-align: left;"><span class="preceding-rank uci-small-description up"><span class="ion-arrow-up-c"></span> +4</span></td></tr></tbody></table></td><td style="display:none" class="" role="gridcell">184341</td><td style="display:none" class="" role="gridcell"><span class="legal-status legalstatus-color-0">0</span></td><td class="" role="gridcell"><a href="https://dataride.uci.ch/iframe/RiderRankingDetails/97805?rankingId=1&amp;groupId=1&amp;momentId=184341&amp;baseRankingTypeId=1&amp;disciplineSeasonId=432&amp;disciplineId=10&amp;categoryId=22&amp;raceTypeId=0&amp;countryId=0&amp;teamId=0">O'CONNOR Ben</a></td><td class="" role="gridcell"><div class="f32" style="display: flex"><div class="flag au" style="position:absolute;margin-top:-5px"></div><div style="padding-left:37px;">AUS       </div></div></td><td class="" role="gridcell">DECATHLON AG2R LA MONDIALE TEAM</td><td class="text-right" role="gridcell">29</td><td class="points" role="gridcell"><span class="uci-points-left">4186</span></td></tr><tr class="k-alt k-master-row legal-status legalstatus-color-0" data-uid="j94dd576-7042-49d9-85c5-64652d3415a9" role="row"><td class="text-right" role="gridcell"><table><tbody><tr><td style="width:50px; padding: 0; text-align: right;"><span class="uci-margin-right">6</span></td><td style="padding: 0; text-align: left;"><span class="preceding-rank uci-small-description down"><span class="ion-arrow-down-c"></span> -2</span></td></tr></tbody></table></td><td style="display:none" class="" role="gridcell">184341</td><td style="display:none" class="" role="gridcell"><span class="legal-status legalstatus-color-0">0</span></td><td class="" role="gridcell"><a href="https://dataride.uci.ch/iframe/RiderRankingDetails/79462?rankingId=1&amp;groupId=1&amp;momentId=184341&amp;baseRankingTypeId=1&amp;disciplineSeasonId=432&amp;disciplineId=10&amp;categoryId=22&amp;raceTypeId=0&amp;countryId=0&amp;teamId=0">VAN DER POEL Mathieu</a></td><td class="" role="gridcell"><div class="f32" style="display: flex"><div class="flag nl" style="position:absolute;margin-top:-5px"></div><div style="padding-left:37px;">NED       </div></div></td><td class="" role="gridcell">ALPECIN-DECEUNINCK</td><td class="text-right" role="gridcell">29</td><td class="points" role="gridcell"><span class="uci-points-left">4053</span></td></tr><tr class="k-master-row legal-status legalstatus-color-0" data-uid="u9b17eeb-e375-4c93-b169-0c42f02b9380" role="row"><td class="text-right" role="gridcell"><table><tbody><tr><td style="width:50px; padding: 0; text-align: right;"><span class="uci-margin-right">7</span></td><td style="padding: 0; text-align: left;"><span class="preceding-rank uci-small-description up"><span class="ion-arrow-up-c"></span> +1</span></td></tr></tbody></table></td><td style="display:none" class="" role="gridcell">184341</td><td style="display:none" class="" role="gridcell"><span class="legal-status legalstatus-color-0">0</span></td><td class="" role="gridcell"><a href="https://dataride.uci.ch/iframe/RiderRankingDetails/111440?rankingId=1&amp;groupId=1&amp;momentId=184341&amp;baseRankingTypeId=1&amp;disciplineSeasonId=432&amp;disciplineId=10&amp;categoryId=22&amp;raceTypeId=0&amp;countryId=0&amp;teamId=0">HIRSCHI Marc</a></td><td class="" role="gridcell"><div class="f32" style="display: flex"><div class="flag ch" style="position:absolute;margin-top:-5px"></div><div style="padding-left:37px;">SUI       </div></div></td><td class="" role="gridcell">UAE TEAM EMIRATES</td><td class="text-right" role="gridcell">26</td><td class="points" role="gridcell"><span class="uci-points-left">3863</span></td></tr><tr class="k-alt k-master-row legal-status legalstatus-color-0" data-uid="jb153514-9055-4459-aa94-3b2939e942f2" role="row"><td class="text-right" role="gridcell"><table><tbody><tr><td style="width:50px; padding: 0; text-align: right;"><span class="uci-margin-right">8</span></td><td style="padding: 0; text-align: left;"><span class="preceding-rank uci-small-description down"><span class="ion-arrow-down-c"></span> -1</span></td></tr></tbody></table></td><td style="display:none" class="" role="gridcell">184341</td><td style="display:none" class="" role="gridcell"><span class="legal-status legalstatus-color-0">0</span></td><td class="" role="gridcell"><a href="https://dataride.uci.ch/iframe/RiderRankingDetails/112082?rankingId=1&amp;groupId=1&amp;momentId=184341&amp;baseRankingTypeId=1&amp;disciplineSeasonId=432&amp;disciplineId=10&amp;categoryId=22&amp;raceTypeId=0&amp;countryId=0&amp;teamId=0">VINGEGAARD HANSEN Jonas</a></td><td class="" role="gridcell"><div class="f32" style="display: flex"><div class="flag dk" style="position:absolute;margin-top:-5px"></div><div style="padding-left:37px;">DEN       </div></div></td><td class="" role="gridcell">TEAM VISMA | LEASE A BIKE</td><td class="text-right" role="gridcell">28</td><td class="points" role="gridcell"><span class="uci-points-left">3536</span></td></tr><tr class="k-master-row legal-status legalstatus-color-0" data-uid="r1f3e581-b7cc-49c7-af99-41e19e67f924" role="row"><td class="text-right" role="gridcell"><table><tbody><tr><td style="width:50px; padding: 0; text-align: right;"><span class="uci-margin-right">9</span></td><td style="padding: 0; text-align: left;"><span class="preceding-rank uci-small-description up"><span class="ion-arrow-up-c"></span> +2</span></td></tr></tbody></table></td><td style="display:none" class="" role="gridcell">184341</td><td style="display:none" class="" role="gridcell"><span class="legal-status legalstatus-color-0">0</span></td><td class="" role="gridcell"><a href="https://dataride.uci.ch/iframe/RiderRankingDetails/1707195?rankingId=1&amp;groupId=1&amp;momentId=184341&amp;baseRankingTypeId=1&amp;disciplineSeasonId=432&amp;disciplineId=10&amp;categoryId=22&amp;raceTypeId=0&amp;countryId=0&amp;teamId=0">GIRMAY Biniam</a></td><td class="" role="gridcell"><div class="f32" style="display: flex"><div class="flag er" style="position:absolute;margin-top:-5px"></div><div style="padding-left:37px;">ERI       </div></div></td><td class="" role="gridcell">INTERMARCHÉ - WANTY</td><td class="text-right" role="gridcell">24</td><td class="points" role="gridcell"><span class="uci-points-left">3267</span></td></tr><tr class="k-alt k-master-row legal-status legalstatus-color-0" data-uid="f4b6cf96-5d61-4f26-83c3-5b1b4a6ee60e" role="row"><td class="text-right" role="gridcell"><table><tbody><tr><td style="width:50px; padding: 0; text-align: right;"><span class="uci-margin-right">10</span></td><td style="padding: 0; text-align: left;"><span class="preceding-rank uci-small-description down"><span class="ion-arrow-down-c"></span> -4</span></td></tr></tbody></table></td><td style="display:none" class="" role="gridcell">184341</td><td style="display:none" class="" role="gridcell"><span class="legal-status legalstatus-color-0">0</span></td><td class="" role="gridcell"><a href="https://dataride.uci.ch/iframe/RiderRankingDetails/75859?rankingId=1&amp;groupId=1&amp;momentId=184341&amp;baseRankingTypeId=1&amp;disciplineSeasonId=432&amp;disciplineId=10&amp;categoryId=22&amp;raceTypeId=0&amp;countryId=0&amp;teamId=0">VAN AERT Wout</a></td><td class="" role="gridcell"><div class="f32" style="display: flex"><div class="flag be" style="position:absolute;margin-top:-5px"></div><div style="padding-left:37px;">BEL       </div></div></td><td class="" role="gridcell">TEAM VISMA | LEASE A BIKE</td><td class="text-right" role="gridcell">30</td><td class="points" role="gridcell"><span class="uci-points-left">3125</span></td></tr><tr class="k-master-row legal-status legalstatus-color-0" data-uid="e5bc9111-dfc1-45b0-bf98-20737eb38155" role="row"><td class="text-right" role="gridcell"><table><tbody><tr><td style="width:50px; padding: 0; text-align: right;"><span class="uci-margin-right">11</span></td><td style="padding: 0; text-align: left;"><span class="preceding-rank uci-small-description down"><span class="ion-arrow-down-c"></span> -1</span></td></tr></tbody></table></td><td style="display:none" class="" role="gridcell">184341</td><td style="display:none" class="" role="gridcell"><span class="legal-status legalstatus-color-0">0</span></td><td class="" role="gridcell"><a href="https://dataride.uci.ch/iframe/RiderRankingDetails/86895?rankingId=1&amp;groupId=1&amp;momentId=184341&amp;baseRankingTypeId=1&amp;disciplineSeasonId=432&amp;disciplineId=10&amp;categoryId=22&amp;raceTypeId=0&amp;countryId=0&amp;teamId=0">PEDERSEN Mads</a></td><td class="" role="gridcell"><div class="f32" style="display: flex"><div class="flag dk" style="position:absolute;margin-top:-5px"></div><div style="padding-left:37px;">DEN       </div></div></td><td class="" role="gridcell">LIDL-TREK</td><td class="text-right" role="gridcell">29</td><td class="points" role="gridcell"><span class="uci-points-left">2848</span></td></tr><tr class="k-alt k-master-row legal-status legalstatus-color-0" data-uid="x2c51218-7feb-469c-8c2d-02f48ba23532" role="row"><td class="text-right" role="gridcell"><table><tbody><tr><td style="width:50px; padding: 0; text-align: right;"><span class="uci-margin-right">12</span></td><td style="padding: 0; text-align: left;"></td></tr></tbody></table></td><td style="display:none" class="" role="gridcell">184341</td><td style="display:none" class="" role="gridcell"><span class="legal-status legalstatus-color-0">0</span></td><td class="" role="gridcell"><a href="https://dataride.uci.ch/iframe/RiderRankingDetails/159567?rankingId=1&amp;groupId=1&amp;momentId=184341&amp;baseRankingTypeId=1&amp;disciplineSeasonId=432&amp;disciplineId=10&amp;categoryId=22&amp;raceTypeId=0&amp;countryId=0&amp;teamId=0">JORGENSON Matteo</a></td><td class="" role="gridcell"><div class="f32" style="display: flex"><div class="flag us" style="position:absolute;margin-top:-5px"></div><div style="padding-left:37px;">USA       </div></div></td><td class="" role="gridcell">TEAM VISMA | LEASE A BIKE</td><td class="text-right" role="gridcell">25</td><td class="points" role="gridcell"><span class="uci-points-left">2835</span><span class="uci-points-right">.14</span></td></tr><tr class="k-master-row legal-status legalstatus-color-0" data-uid="g6208088-b2ba-49dd-ba4e-049c539c25fc" role="row"><td class="text-right" role="gridcell"><table><tbody><tr><td style="width:50px; padding: 0; text-align: right;"><span class="uci-margin-right">13</span></td><td style="padding: 0; text-align: left;"></td></tr></tbody></table></td><td style="display:none" class="" role="gridcell">184341</td><td style="display:none" class="" role="gridcell"><span class="legal-status legalstatus-color-0">0</span></td><td class="" role="gridcell"><a href="https://dataride.uci.ch/iframe/RiderRankingDetails/91656?rankingId=1&amp;groupId=1&amp;momentId=184341&amp;baseRankingTypeId=1&amp;disciplineSeasonId=432&amp;disciplineId=10&amp;categoryId=22&amp;raceTypeId=0&amp;countryId=0&amp;teamId=0">CARAPAZ Richard</a></td><td class="" role="gridcell"><div class="f32" style="display: flex"><div class="flag ec" style="position:absolute;margin-top:-5px"></div><div style="padding-left:37px;">ECU       </div></div></td><td class="" role="gridcell">EF EDUCATION - EASYPOST</td><td class="text-right" role="gridcell">31</td><td class="points" role="gridcell"><span class="uci-points-left">2814</span></td></tr><tr class="k-alt k-master-row legal-status legalstatus-color-0" data-uid="ca937c63-9113-44da-aa89-4f022e23236f" role="row"><td class="text-right" role="gridcell"><table><tbody><tr><td style="width:50px; padding: 0; text-align: right;"><span class="uci-margin-right">14</span></td><td style="padding: 0; text-align: left;"></td></tr></tbody></table></td><td style="display:none" class="" role="gridcell">184341</td><td style="display:none" class="" role="gridcell"><span class="legal-status legalstatus-color-0">0</span></td><td class="" role="gridcell"><a href="https://dataride.uci.ch/iframe/RiderRankingDetails/97280?rankingId=1&amp;groupId=1&amp;momentId=184341&amp;baseRankingTypeId=1&amp;disciplineSeasonId=432&amp;disciplineId=10&amp;categoryId=22&amp;raceTypeId=0&amp;countryId=0&amp;teamId=0">VLASOV Aleksandr</a></td><td class="" role="gridcell"><div class="f32" style="display: flex"><div class="flag ru" style="position:absolute;margin-top:-5px"></div><div style="padding-left:37px;">***       </div></div></td><td class="" role="gridcell">RED BULL - BORA - HANSGROHE</td><td class="text-right" role="gridcell">28</td><td class="points" role="gridcell"><span class="uci-points-left">2693</span></td></tr><tr class="k-master-row legal-status legalstatus-color-0" data-uid="ke76ab1c-2acf-4408-b1c0-adfb01ef389b" role="row"><td class="text-right" role="gridcell"><table><tbody><tr><td style="width:50px; padding: 0; text-align: right;"><span class="uci-margin-right">15</span></td><td style="padding: 0; text-align: left;"></td></tr></tbody></table></td><td style="display:none" class="" role="gridcell">184341</td><td style="display:none" class="" role="gridcell"><span class="legal-status legalstatus-color-0">0</span></td><td class="" role="gridcell"><a href="https://dataride.uci.ch/iframe/RiderRankingDetails/154218?rankingId=1&amp;groupId=1&amp;momentId=184341&amp;baseRankingTypeId=1&amp;disciplineSeasonId=432&amp;disciplineId=10&amp;categoryId=22&amp;raceTypeId=0&amp;countryId=0&amp;teamId=0">VAN GILS Maxim</a></td><td class="" role="gridcell"><div class="f32" style="display: flex"><div class="flag be" style="position:absolute;margin-top:-5px"></div><div style="padding-left:37px;">BEL       </div></div></td><td class="" role="gridcell">LOTTO DSTNY</td><td class="text-right" role="gridcell">25</td><td class="points" role="gridcell"><span class="uci-points-left">2657</span></td></tr><tr class="k-alt k-master-row legal-status legalstatus-color-0" data-uid="k0d735b9-c054-4ccd-b5f0-b106412acca3" role="row"><td class="text-right" role="gridcell"><table><tbody><tr><td style="width:50px; padding: 0; text-align: right;"><span class="uci-margin-right">16</span></td><td style="padding: 0; text-align: left;"></td></tr></tbody></table></td><td style="display:none" class="" role="gridcell">184341</td><td style="display:none" class="" role="gridcell"><span class="legal-status legalstatus-color-0">0</span></td><td class="" role="gridcell"><a href="https://dataride.uci.ch/iframe/RiderRankingDetails/428096?rankingId=1&amp;groupId=1&amp;momentId=184341&amp;baseRankingTypeId=1&amp;disciplineSeasonId=432&amp;disciplineId=10&amp;categoryId=22&amp;raceTypeId=0&amp;countryId=0&amp;teamId=0">RODRIGUEZ CANO Carlos</a></td><td class="" role="gridcell"><div class="f32" style="display: flex"><div class="flag es" style="position:absolute;margin-top:-5px"></div><div style="padding-left:37px;">ESP       </div></div></td><td class="" role="gridcell">INEOS GRENADIERS</td><td class="text-right" role="gridcell">23</td><td class="points" role="gridcell"><span class="uci-points-left">2575</span><span class="uci-points-right">.86</span></td></tr><tr class="k-master-row legal-status legalstatus-color-0" data-uid="fad4a739-9977-4cac-8e35-335667353d85" role="row"><td class="text-right" role="gridcell"><table><tbody><tr><td style="width:50px; padding: 0; text-align: right;"><span class="uci-margin-right">17</span></td><td style="padding: 0; text-align: left;"><span class="preceding-rank uci-small-description up"><span class="ion-arrow-up-c"></span> +6</span></td></tr></tbody></table></td><td style="display:none" class="" role="gridcell">184341</td><td style="display:none" class="" role="gridcell"><span class="legal-status legalstatus-color-0">0</span></td><td class="" role="gridcell"><a href="https://dataride.uci.ch/iframe/RiderRankingDetails/109803?rankingId=1&amp;groupId=1&amp;momentId=184341&amp;baseRankingTypeId=1&amp;disciplineSeasonId=432&amp;disciplineId=10&amp;categoryId=22&amp;raceTypeId=0&amp;countryId=0&amp;teamId=0">MAS NICOLAU Enric</a></td><td class="" role="gridcell"><div class="f32" style="display: flex"><div class="flag es" style="position:absolute;margin-top:-5px"></div><div style="padding-left:37px;">ESP       </div></div></td><td class="" role="gridcell">MOVISTAR TEAM</td><td class="text-right" role="gridcell">29</td><td class="points" role="gridcell"><span class="uci-points-left">2571</span></td></tr><tr class="k-alt k-master-row legal-status legalstatus-color-0" data-uid="q12daaa5-28b1-4148-a4c3-943fb1599dd5" role="row"><td class="text-right" role="gridcell"><table><tbody><tr><td style="width:50px; padding: 0; text-align: right;"><span class="uci-margin-right">18</span></td><td style="padding: 0; text-align: left;"><span class="preceding-rank uci-small-description down"><span class="ion-arrow-down-c"></span> -1</span></td></tr></tbody></table></td><td style="display:none" class="" role="gridcell">184341</td><td style="display:none" class="" role="gridcell"><span class="legal-status legalstatus-color-0">0</span></td><td class="" role="gridcell"><a href="https://dataride.uci.ch/iframe/RiderRankingDetails/70590?rankingId=1&amp;groupId=1&amp;momentId=184341&amp;baseRankingTypeId=1&amp;disciplineSeasonId=432&amp;disciplineId=10&amp;categoryId=22&amp;raceTypeId=0&amp;countryId=0&amp;teamId=0">YATES Adam Richard</a></td><td class="" role="gridcell"><div class="f32" style="display: flex"><div class="flag gb" style="position:absolute;margin-top:-5px"></div><div style="padding-left:37px;">GBR       </div></div></td><td class="" role="gridcell">UAE TEAM EMIRATES</td><td class="text-right" role="gridcell">32</td><td class="points" role="gridcell"><span class="uci-points-left">2538</span></td></tr><tr class="k-master-row legal-status legalstatus-color-0" data-uid="z089fc0f-d099-48e6-878c-47403b0f9b18" role="row"><td class="text-right" role="gridcell"><table><tbody><tr><td style="width:50px; padding: 0; text-align: right;"><span class="uci-margin-right">19</span></td><td style="padding: 0; text-align: left;"><span class="preceding-rank uci-small-description down"><span class="ion-arrow-down-c"></span> -1</span></td></tr></tbody></table></td><td style="display:none" class="" role="gridcell">184341</td><td style="display:none" class="" role="gridcell"><span class="legal-status legalstatus-color-0">0</span></td><td class="" role="gridcell"><a href="https://dataride.uci.ch/iframe/RiderRankingDetails/301151?rankingId=1&amp;groupId=1&amp;momentId=184341&amp;baseRankingTypeId=1&amp;disciplineSeasonId=432&amp;disciplineId=10&amp;categoryId=22&amp;raceTypeId=0&amp;countryId=0&amp;teamId=0">MILAN Jonathan</a></td><td class="" role="gridcell"><div class="f32" style="display: flex"><div class="flag it" style="position:absolute;margin-top:-5px"></div><div style="padding-left:37px;">ITA       </div></div></td><td class="" role="gridcell">LIDL-TREK</td><td class="text-right" role="gridcell">24</td><td class="points" role="gridcell"><span class="uci-points-left">2490</span></td></tr><tr class="k-alt k-master-row legal-status legalstatus-color-0" data-uid="rb54636a-3ba9-48bb-ae93-3d338a9560f1" role="row"><td class="text-right" role="gridcell"><table><tbody><tr><td style="width:50px; padding: 0; text-align: right;"><span class="uci-margin-right">20</span></td><td style="padding: 0; text-align: left;"><span class="preceding-rank uci-small-description up"><span class="ion-arrow-up-c"></span> +1</span></td></tr></tbody></table></td><td style="display:none" class="" role="gridcell">184341</td><td style="display:none" class="" role="gridcell"><span class="legal-status legalstatus-color-0">0</span></td><td class="" role="gridcell"><a href="https://dataride.uci.ch/iframe/RiderRankingDetails/735965?rankingId=1&amp;groupId=1&amp;momentId=184341&amp;baseRankingTypeId=1&amp;disciplineSeasonId=432&amp;disciplineId=10&amp;categoryId=22&amp;raceTypeId=0&amp;countryId=0&amp;teamId=0">DE LIE Arnaud</a></td><td class="" role="gridcell"><div class="f32" style="display: flex"><div class="flag be" style="position:absolute;margin-top:-5px"></div><div style="padding-left:37px;">BEL       </div></div></td><td class="" role="gridcell">LOTTO DSTNY</td><td class="text-right" role="gridcell">22</td><td class="points" role="gridcell"><span class="uci-points-left">2485</span><span class="uci-points-right">.43</span></td></tr><tr class="k-master-row legal-status legalstatus-color-0" data-uid="z35f1f22-bc72-4f15-80f7-bca22007e1db" role="row"><td class="text-right" role="gridcell"><table><tbody><tr><td style="width:50px; padding: 0; text-align: right;"><span class="uci-margin-right">21</span></td><td style="padding: 0; text-align: left;"><span class="preceding-rank uci-small-description down"><span class="ion-arrow-down-c"></span> -1</span></td></tr></tbody></table></td><td style="display:none" class="" role="gridcell">184341</td><td style="display:none" class="" role="gridcell"><span class="legal-status legalstatus-color-0">0</span></td><td class="" role="gridcell"><a href="https://dataride.uci.ch/iframe/RiderRankingDetails/70962?rankingId=1&amp;groupId=1&amp;momentId=184341&amp;baseRankingTypeId=1&amp;disciplineSeasonId=432&amp;disciplineId=10&amp;categoryId=22&amp;raceTypeId=0&amp;countryId=0&amp;teamId=0">MERLIER Tim</a></td><td class="" role="gridcell"><div class="f32" style="display: flex"><div class="flag be" style="position:absolute;margin-top:-5px"></div><div style="padding-left:37px;">BEL       </div></div></td><td class="" role="gridcell">SOUDAL QUICK-STEP</td><td class="text-right" role="gridcell">32</td><td class="points" role="gridcell"><span class="uci-points-left">2407</span></td></tr><tr class="k-alt k-master-row legal-status legalstatus-color-0" data-uid="nf7b9049-fa66-47ff-bd5e-3496f1e97d8d" role="row"><td class="text-right" role="gridcell"><table><tbody><tr><td style="width:50px; padding: 0; text-align: right;"><span class="uci-margin-right">22</span></td><td style="padding: 0; text-align: left;"><span class="preceding-rank uci-small-description down"><span class="ion-arrow-down-c"></span> -3</span></td></tr></tbody></table></td><td style="display:none" class="" role="gridcell">184341</td><td style="display:none" class="" role="gridcell"><span class="legal-status legalstatus-color-0">0</span></td><td class="" role="gridcell"><a href="https://dataride.uci.ch/iframe/RiderRankingDetails/365033?rankingId=1&amp;groupId=1&amp;momentId=184341&amp;baseRankingTypeId=1&amp;disciplineSeasonId=432&amp;disciplineId=10&amp;categoryId=22&amp;raceTypeId=0&amp;countryId=0&amp;teamId=0">SKJELMOSE Mattias</a></td><td class="" role="gridcell"><div class="f32" style="display: flex"><div class="flag dk" style="position:absolute;margin-top:-5px"></div><div style="padding-left:37px;">DEN       </div></div></td><td class="" role="gridcell">LIDL-TREK</td><td class="text-right" role="gridcell">24</td><td class="points" role="gridcell"><span class="uci-points-left">2374</span></td></tr><tr class="k-master-row legal-status legalstatus-color-0" data-uid="a07765eb-4c83-41e7-92ef-f197dd669418" role="row"><td class="text-right" role="gridcell"><table><tbody><tr><td style="width:50px; padding: 0; text-align: right;"><span class="uci-margin-right">23</span></td><td style="padding: 0; text-align: left;"><span class="preceding-rank uci-small-description up"><span class="ion-arrow-up-c"></span> +1</span></td></tr></tbody></table></td><td style="display:none" class="" role="gridcell">184341</td><td style="display:none" class="" role="gridcell"><span class="legal-status legalstatus-color-0">0</span></td><td class="" role="gridcell"><a href="https://dataride.uci.ch/iframe/RiderRankingDetails/96372?rankingId=1&amp;groupId=1&amp;momentId=184341&amp;baseRankingTypeId=1&amp;disciplineSeasonId=432&amp;disciplineId=10&amp;categoryId=22&amp;raceTypeId=0&amp;countryId=0&amp;teamId=0">NARVAEZ PRADO Jhonatan Manuel</a></td><td class="" role="gridcell"><div class="f32" style="display: flex"><div class="flag ec" style="position:absolute;margin-top:-5px"></div><div style="padding-left:37px;">ECU       </div></div></td><td class="" role="gridcell">INEOS GRENADIERS</td><td class="text-right" role="gridcell">27</td><td class="points" role="gridcell"><span class="uci-points-left">2140</span></td></tr><tr class="k-alt k-master-row legal-status legalstatus-color-0" data-uid="w21ff3dd-a540-4d49-8df0-d9458f4b2c0d" role="row"><td class="text-right" role="gridcell"><table><tbody><tr><td style="width:50px; padding: 0; text-align: right;"><span class="uci-margin-right">24</span></td><td style="padding: 0; text-align: left;"><span class="preceding-rank uci-small-description up"><span class="ion-arrow-up-c"></span> +5</span></td></tr></tbody></table></td><td style="display:none" class="" role="gridcell">184341</td><td style="display:none" class="" role="gridcell"><span class="legal-status legalstatus-color-0">0</span></td><td class="" role="gridcell"><a href="https://dataride.uci.ch/iframe/RiderRankingDetails/150923?rankingId=1&amp;groupId=1&amp;momentId=184341&amp;baseRankingTypeId=1&amp;disciplineSeasonId=432&amp;disciplineId=10&amp;categoryId=22&amp;raceTypeId=0&amp;countryId=0&amp;teamId=0">MCNULTY Brandon</a></td><td class="" role="gridcell"><div class="f32" style="display: flex"><div class="flag us" style="position:absolute;margin-top:-5px"></div><div style="padding-left:37px;">USA       </div></div></td><td class="" role="gridcell">UAE TEAM EMIRATES</td><td class="text-right" role="gridcell">26</td><td class="points" role="gridcell"><span class="uci-points-left">2099</span><span class="uci-points-right">.9</span></td></tr><tr class="k-master-row legal-status legalstatus-color-0" data-uid="md197408-d4ec-4bf3-a31a-7d9be0aa4e18" role="row"><td class="text-right" role="gridcell"><table><tbody><tr><td style="width:50px; padding: 0; text-align: right;"><span class="uci-margin-right">25</span></td><td style="padding: 0; text-align: left;"></td></tr></tbody></table></td><td style="display:none" class="" role="gridcell">184341</td><td style="display:none" class="" role="gridcell"><span class="legal-status legalstatus-color-0">0</span></td><td class="" role="gridcell"><a href="https://dataride.uci.ch/iframe/RiderRankingDetails/68367?rankingId=1&amp;groupId=1&amp;momentId=184341&amp;baseRankingTypeId=1&amp;disciplineSeasonId=432&amp;disciplineId=10&amp;categoryId=22&amp;raceTypeId=0&amp;countryId=0&amp;teamId=0">LANDA MEANA Mikel</a></td><td class="" role="gridcell"><div class="f32" style="display: flex"><div class="flag es" style="position:absolute;margin-top:-5px"></div><div style="padding-left:37px;">ESP       </div></div></td><td class="" role="gridcell">SOUDAL QUICK-STEP</td><td class="text-right" role="gridcell">35</td><td class="points" role="gridcell"><span class="uci-points-left">2097</span></td></tr><tr class="k-alt k-master-row legal-status legalstatus-color-0" data-uid="x4e981eb-2cf0-4b9b-973a-80a0eab39678" role="row"><td class="text-right" role="gridcell"><table><tbody><tr><td style="width:50px; padding: 0; text-align: right;"><span class="uci-margin-right">26</span></td><td style="padding: 0; text-align: left;"><span class="preceding-rank uci-small-description up"><span class="ion-arrow-up-c"></span> +2</span></td></tr></tbody></table></td><td style="display:none" class="" role="gridcell">184341</td><td style="display:none" class="" role="gridcell"><span class="legal-status legalstatus-color-0">0</span></td><td class="" role="gridcell"><a href="https://dataride.uci.ch/iframe/RiderRankingDetails/415141?rankingId=1&amp;groupId=1&amp;momentId=184341&amp;baseRankingTypeId=1&amp;disciplineSeasonId=432&amp;disciplineId=10&amp;categoryId=22&amp;raceTypeId=0&amp;countryId=0&amp;teamId=0">AYUSO PESQUERA Juan</a></td><td class="" role="gridcell"><div class="f32" style="display: flex"><div class="flag es" style="position:absolute;margin-top:-5px"></div><div style="padding-left:37px;">ESP       </div></div></td><td class="" role="gridcell">UAE TEAM EMIRATES</td><td class="text-right" role="gridcell">22</td><td class="points" role="gridcell"><span class="uci-points-left">2083</span></td></tr><tr class="k-master-row legal-status legalstatus-color-0" data-uid="te0e2287-d05b-4c4a-995e-e025b663efeb" role="row"><td class="text-right" role="gridcell"><table><tbody><tr><td style="width:50px; padding: 0; text-align: right;"><span class="uci-margin-right">27</span></td><td style="padding: 0; text-align: left;"></td></tr></tbody></table></td><td style="display:none" class="" role="gridcell">184341</td><td style="display:none" class="" role="gridcell"><span class="legal-status legalstatus-color-0">0</span></td><td class="" role="gridcell"><a href="https://dataride.uci.ch/iframe/RiderRankingDetails/107840?rankingId=1&amp;groupId=1&amp;momentId=184341&amp;baseRankingTypeId=1&amp;disciplineSeasonId=432&amp;disciplineId=10&amp;categoryId=22&amp;raceTypeId=0&amp;countryId=0&amp;teamId=0">GONÇALVES ALMEIDA Joao Pedro</a></td><td class="" role="gridcell"><div class="f32" style="display: flex"><div class="flag pt" style="position:absolute;margin-top:-5px"></div><div style="padding-left:37px;">POR       </div></div></td><td class="" role="gridcell">UAE TEAM EMIRATES</td><td class="text-right" role="gridcell">26</td><td class="points" role="gridcell"><span class="uci-points-left">2079</span><span class="uci-points-right">.57</span></td></tr><tr class="k-alt k-master-row legal-status legalstatus-color-0" data-uid="bae20907-76d8-47b3-a89d-824e492d7e6f" role="row"><td class="text-right" role="gridcell"><table><tbody><tr><td style="width:50px; padding: 0; text-align: right;"><span class="uci-margin-right">28</span></td><td style="padding: 0; text-align: left;"><span class="preceding-rank uci-small-description down"><span class="ion-arrow-down-c"></span> -2</span></td></tr></tbody></table></td><td style="display:none" class="" role="gridcell">184341</td><td style="display:none" class="" role="gridcell"><span class="legal-status legalstatus-color-0">0</span></td><td class="" role="gridcell"><a href="https://dataride.uci.ch/iframe/RiderRankingDetails/227110?rankingId=1&amp;groupId=1&amp;momentId=184341&amp;baseRankingTypeId=1&amp;disciplineSeasonId=432&amp;disciplineId=10&amp;categoryId=22&amp;raceTypeId=0&amp;countryId=0&amp;teamId=0">KOOIJ Olav</a></td><td class="" role="gridcell"><div class="f32" style="display: flex"><div class="flag nl" style="position:absolute;margin-top:-5px"></div><div style="padding-left:37px;">NED       </div></div></td><td class="" role="gridcell">TEAM VISMA | LEASE A BIKE</td><td class="text-right" role="gridcell">23</td><td class="points" role="gridcell"><span class="uci-points-left">2068</span><span class="uci-points-right">.14</span></td></tr><tr class="k-master-row legal-status legalstatus-color-0" data-uid="vfa43fe4-c00d-430e-9ac8-d952bab960d4" role="row"><td class="text-right" role="gridcell"><table><tbody><tr><td style="width:50px; padding: 0; text-align: right;"><span class="uci-margin-right">29</span></td><td style="padding: 0; text-align: left;"><span class="preceding-rank uci-small-description up"><span class="ion-arrow-up-c"></span> +2</span></td></tr></tbody></table></td><td style="display:none" class="" role="gridcell">184341</td><td style="display:none" class="" role="gridcell"><span class="legal-status legalstatus-color-0">0</span></td><td class="" role="gridcell"><a href="https://dataride.uci.ch/iframe/RiderRankingDetails/64917?rankingId=1&amp;groupId=1&amp;momentId=184341&amp;baseRankingTypeId=1&amp;disciplineSeasonId=432&amp;disciplineId=10&amp;categoryId=22&amp;raceTypeId=0&amp;countryId=0&amp;teamId=0">BARDET Romain</a></td><td class="" role="gridcell"><div class="f32" style="display: flex"><div class="flag fr" style="position:absolute;margin-top:-5px"></div><div style="padding-left:37px;">FRA       </div></div></td><td class="" role="gridcell">TEAM DSM-FIRMENICH POSTNL</td><td class="text-right" role="gridcell">34</td><td class="points" role="gridcell"><span class="uci-points-left">2009</span></td></tr><tr class="k-alt k-master-row legal-status legalstatus-color-0" data-uid="x094c3a2-f0f8-49d8-b16a-415a8b90e692" role="row"><td class="text-right" role="gridcell"><table><tbody><tr><td style="width:50px; padding: 0; text-align: right;"><span class="uci-margin-right">30</span></td><td style="padding: 0; text-align: left;"><span class="preceding-rank uci-small-description up"><span class="ion-arrow-up-c"></span> +8</span></td></tr></tbody></table></td><td style="display:none" class="" role="gridcell">184341</td><td style="display:none" class="" role="gridcell"><span class="legal-status legalstatus-color-0">0</span></td><td class="" role="gridcell"><a href="https://dataride.uci.ch/iframe/RiderRankingDetails/68892?rankingId=1&amp;groupId=1&amp;momentId=184341&amp;baseRankingTypeId=1&amp;disciplineSeasonId=432&amp;disciplineId=10&amp;categoryId=22&amp;raceTypeId=0&amp;countryId=0&amp;teamId=0">SKUJINS Toms</a></td><td class="" role="gridcell"><div class="f32" style="display: flex"><div class="flag lv" style="position:absolute;margin-top:-5px"></div><div style="padding-left:37px;">LAT       </div></div></td><td class="" role="gridcell">LIDL-TREK</td><td class="text-right" role="gridcell">33</td><td class="points" role="gridcell"><span class="uci-points-left">1982</span></td></tr><tr class="k-master-row legal-status legalstatus-color-0" data-uid="u6d91dfa-f952-49e0-a716-09fff49c6be8" role="row"><td class="text-right" role="gridcell"><table><tbody><tr><td style="width:50px; padding: 0; text-align: right;"><span class="uci-margin-right">31</span></td><td style="padding: 0; text-align: left;"><span class="preceding-rank uci-small-description down"><span class="ion-arrow-down-c"></span> -1</span></td></tr></tbody></table></td><td style="display:none" class="" role="gridcell">184341</td><td style="display:none" class="" role="gridcell"><span class="legal-status legalstatus-color-0">0</span></td><td class="" role="gridcell"><a href="https://dataride.uci.ch/iframe/RiderRankingDetails/62919?rankingId=1&amp;groupId=1&amp;momentId=184341&amp;baseRankingTypeId=1&amp;disciplineSeasonId=432&amp;disciplineId=10&amp;categoryId=22&amp;raceTypeId=0&amp;countryId=0&amp;teamId=0">MATTHEWS Michael</a></td><td class="" role="gridcell"><div class="f32" style="display: flex"><div class="flag au" style="position:absolute;margin-top:-5px"></div><div style="padding-left:37px;">AUS       </div></div></td><td class="" role="gridcell">TEAM JAYCO ALULA</td><td class="text-right" role="gridcell">34</td><td class="points" role="gridcell"><span class="uci-points-left">1981</span><span class="uci-points-right">.71</span></td></tr><tr class="k-alt k-master-row legal-status legalstatus-color-0" data-uid="v4a91752-17b4-43fb-8328-55e3bafd6ce0" role="row"><td class="text-right" role="gridcell"><table><tbody><tr><td style="width:50px; padding: 0; text-align: right;"><span class="uci-margin-right">32</span></td><td style="padding: 0; text-align: left;"><span class="preceding-rank uci-small-description down"><span class="ion-arrow-down-c"></span> -10</span></td></tr></tbody></table></td><td style="display:none" class="" role="gridcell">184341</td><td style="display:none" class="" role="gridcell"><span class="legal-status legalstatus-color-0">0</span></td><td class="" role="gridcell"><a href="https://dataride.uci.ch/iframe/RiderRankingDetails/74994?rankingId=1&amp;groupId=1&amp;momentId=184341&amp;baseRankingTypeId=1&amp;disciplineSeasonId=432&amp;disciplineId=10&amp;categoryId=22&amp;raceTypeId=0&amp;countryId=0&amp;teamId=0">KÜNG Stefan</a></td><td class="" role="gridcell"><div class="f32" style="display: flex"><div class="flag ch" style="position:absolute;margin-top:-5px"></div><div style="padding-left:37px;">SUI       </div></div></td><td class="" role="gridcell">GROUPAMA-FDJ</td><td class="text-right" role="gridcell">31</td><td class="points" role="gridcell"><span class="uci-points-left">1897</span></td></tr><tr class="k-master-row legal-status legalstatus-color-0" data-uid="bd3cc79f-b3fe-4c91-9e5d-0589210a4fce" role="row"><td class="text-right" role="gridcell"><table><tbody><tr><td style="width:50px; padding: 0; text-align: right;"><span class="uci-margin-right">33</span></td><td style="padding: 0; text-align: left;"><span class="preceding-rank uci-small-description down"><span class="ion-arrow-down-c"></span> -2</span></td></tr></tbody></table></td><td style="display:none" class="" role="gridcell">184341</td><td style="display:none" class="" role="gridcell"><span class="legal-status legalstatus-color-0">0</span></td><td class="" role="gridcell"><a href="https://dataride.uci.ch/iframe/RiderRankingDetails/111683?rankingId=1&amp;groupId=1&amp;momentId=184341&amp;baseRankingTypeId=1&amp;disciplineSeasonId=432&amp;disciplineId=10&amp;categoryId=22&amp;raceTypeId=0&amp;countryId=0&amp;teamId=0">GROVES Kaden Alexander</a></td><td class="" role="gridcell"><div class="f32" style="display: flex"><div class="flag au" style="position:absolute;margin-top:-5px"></div><div style="padding-left:37px;">AUS       </div></div></td><td class="" role="gridcell">ALPECIN-DECEUNINCK</td><td class="text-right" role="gridcell">26</td><td class="points" role="gridcell"><span class="uci-points-left">1859</span></td></tr><tr class="k-alt k-master-row legal-status legalstatus-color-0" data-uid="b3dda732-30e4-45aa-88ec-36e393588c9c" role="row"><td class="text-right" role="gridcell"><table><tbody><tr><td style="width:50px; padding: 0; text-align: right;"><span class="uci-margin-right">34</span></td><td style="padding: 0; text-align: left;"><span class="preceding-rank uci-small-description down"><span class="ion-arrow-down-c"></span> -1</span></td></tr></tbody></table></td><td style="display:none" class="" role="gridcell">184341</td><td style="display:none" class="" role="gridcell"><span class="legal-status legalstatus-color-0">0</span></td><td class="" role="gridcell"><a href="https://dataride.uci.ch/iframe/RiderRankingDetails/92264?rankingId=1&amp;groupId=1&amp;momentId=184341&amp;baseRankingTypeId=1&amp;disciplineSeasonId=432&amp;disciplineId=10&amp;categoryId=22&amp;raceTypeId=0&amp;countryId=0&amp;teamId=0">MARTINEZ POVEDA Daniel Felipe</a></td><td class="" role="gridcell"><div class="f32" style="display: flex"><div class="flag co" style="position:absolute;margin-top:-5px"></div><div style="padding-left:37px;">COL       </div></div></td><td class="" role="gridcell">RED BULL - BORA - HANSGROHE</td><td class="text-right" role="gridcell">28</td><td class="points" role="gridcell"><span class="uci-points-left">1825</span></td></tr><tr class="k-master-row legal-status legalstatus-color-0" data-uid="c355664f-0795-4ccd-a53b-4f6945d5f3a7" role="row"><td class="text-right" role="gridcell"><table><tbody><tr><td style="width:50px; padding: 0; text-align: right;"><span class="uci-margin-right">35</span></td><td style="padding: 0; text-align: left;"><span class="preceding-rank uci-small-description down"><span class="ion-arrow-down-c"></span> -1</span></td></tr></tbody></table></td><td style="display:none" class="" role="gridcell">184341</td><td style="display:none" class="" role="gridcell"><span class="legal-status legalstatus-color-0">0</span></td><td class="" role="gridcell"><a href="https://dataride.uci.ch/iframe/RiderRankingDetails/109775?rankingId=1&amp;groupId=1&amp;momentId=184341&amp;baseRankingTypeId=1&amp;disciplineSeasonId=432&amp;disciplineId=10&amp;categoryId=22&amp;raceTypeId=0&amp;countryId=0&amp;teamId=0">PIDCOCK Thomas</a></td><td class="" role="gridcell"><div class="f32" style="display: flex"><div class="flag gb" style="position:absolute;margin-top:-5px"></div><div style="padding-left:37px;">GBR       </div></div></td><td class="" role="gridcell">INEOS GRENADIERS</td><td class="text-right" role="gridcell">25</td><td class="points" role="gridcell"><span class="uci-points-left">1815</span></td></tr><tr class="k-alt k-master-row legal-status legalstatus-color-0" data-uid="q0484d02-fc53-4fa1-9247-fe33cf24c11b" role="row"><td class="text-right" role="gridcell"><table><tbody><tr><td style="width:50px; padding: 0; text-align: right;"><span class="uci-margin-right">36</span></td><td style="padding: 0; text-align: left;"><span class="preceding-rank uci-small-description down"><span class="ion-arrow-down-c"></span> -1</span></td></tr></tbody></table></td><td style="display:none" class="" role="gridcell">184341</td><td style="display:none" class="" role="gridcell"><span class="legal-status legalstatus-color-0">0</span></td><td class="" role="gridcell"><a href="https://dataride.uci.ch/iframe/RiderRankingDetails/71557?rankingId=1&amp;groupId=1&amp;momentId=184341&amp;baseRankingTypeId=1&amp;disciplineSeasonId=432&amp;disciplineId=10&amp;categoryId=22&amp;raceTypeId=0&amp;countryId=0&amp;teamId=0">ALAPHILIPPE Julian</a></td><td class="" role="gridcell"><div class="f32" style="display: flex"><div class="flag fr" style="position:absolute;margin-top:-5px"></div><div style="padding-left:37px;">FRA       </div></div></td><td class="" role="gridcell">SOUDAL QUICK-STEP</td><td class="text-right" role="gridcell">32</td><td class="points" role="gridcell"><span class="uci-points-left">1770</span><span class="uci-points-right">.71</span></td></tr><tr class="k-master-row legal-status legalstatus-color-0" data-uid="z95e52fb-ef82-4ba6-ad72-631212ad81f6" role="row"><td class="text-right" role="gridcell"><table><tbody><tr><td style="width:50px; padding: 0; text-align: right;"><span class="uci-margin-right">37</span></td><td style="padding: 0; text-align: left;"><span class="preceding-rank uci-small-description down"><span class="ion-arrow-down-c"></span> -1</span></td></tr></tbody></table></td><td style="display:none" class="" role="gridcell">184341</td><td style="display:none" class="" role="gridcell"><span class="legal-status legalstatus-color-0">0</span></td><td class="" role="gridcell"><a href="https://dataride.uci.ch/iframe/RiderRankingDetails/308040?rankingId=1&amp;groupId=1&amp;momentId=184341&amp;baseRankingTypeId=1&amp;disciplineSeasonId=432&amp;disciplineId=10&amp;categoryId=22&amp;raceTypeId=0&amp;countryId=0&amp;teamId=0">TIBERI Antonio</a></td><td class="" role="gridcell"><div class="f32" style="display: flex"><div class="flag it" style="position:absolute;margin-top:-5px"></div><div style="padding-left:37px;">ITA       </div></div></td><td class="" role="gridcell">BAHRAIN VICTORIOUS</td><td class="text-right" role="gridcell">23</td><td class="points" role="gridcell"><span class="uci-points-left">1726</span></td></tr><tr class="k-alt k-master-row legal-status legalstatus-color-0" data-uid="pfbc85bd-a2bc-4ec4-a0f4-4483152fe573" role="row"><td class="text-right" role="gridcell"><table><tbody><tr><td style="width:50px; padding: 0; text-align: right;"><span class="uci-margin-right">38</span></td><td style="padding: 0; text-align: left;"><span class="preceding-rank uci-small-description up"><span class="ion-arrow-up-c"></span> +1</span></td></tr></tbody></table></td><td style="display:none" class="" role="gridcell">184341</td><td style="display:none" class="" role="gridcell"><span class="legal-status legalstatus-color-0">0</span></td><td class="" role="gridcell"><a href="https://dataride.uci.ch/iframe/RiderRankingDetails/64531?rankingId=1&amp;groupId=1&amp;momentId=184341&amp;baseRankingTypeId=1&amp;disciplineSeasonId=432&amp;disciplineId=10&amp;categoryId=22&amp;raceTypeId=0&amp;countryId=0&amp;teamId=0">WELLENS Tim</a></td><td class="" role="gridcell"><div class="f32" style="display: flex"><div class="flag be" style="position:absolute;margin-top:-5px"></div><div style="padding-left:37px;">BEL       </div></div></td><td class="" role="gridcell">UAE TEAM EMIRATES</td><td class="text-right" role="gridcell">33</td><td class="points" role="gridcell"><span class="uci-points-left">1650</span></td></tr><tr class="k-master-row legal-status legalstatus-color-0" data-uid="m6960b1b-c747-4e8a-91f9-726afcde9fc9" role="row"><td class="text-right" role="gridcell"><table><tbody><tr><td style="width:50px; padding: 0; text-align: right;"><span class="uci-margin-right">39</span></td><td style="padding: 0; text-align: left;"><span class="preceding-rank uci-small-description up"><span class="ion-arrow-up-c"></span> +1</span></td></tr></tbody></table></td><td style="display:none" class="" role="gridcell">184341</td><td style="display:none" class="" role="gridcell"><span class="legal-status legalstatus-color-0">0</span></td><td class="" role="gridcell"><a href="https://dataride.uci.ch/iframe/RiderRankingDetails/79522?rankingId=1&amp;groupId=1&amp;momentId=184341&amp;baseRankingTypeId=1&amp;disciplineSeasonId=432&amp;disciplineId=10&amp;categoryId=22&amp;raceTypeId=0&amp;countryId=0&amp;teamId=0">COSNEFROY Benoit</a></td><td class="" role="gridcell"><div class="f32" style="display: flex"><div class="flag fr" style="position:absolute;margin-top:-5px"></div><div style="padding-left:37px;">FRA       </div></div></td><td class="" role="gridcell">DECATHLON AG2R LA MONDIALE TEAM</td><td class="text-right" role="gridcell">29</td><td class="points" role="gridcell"><span class="uci-points-left">1627</span></td></tr><tr class="k-alt k-master-row legal-status legalstatus-color-0" data-uid="o0d70fda-9b0a-4670-8466-c4c4128caad0" role="row"><td class="text-right" role="gridcell"><table><tbody><tr><td style="width:50px; padding: 0; text-align: right;"><span class="uci-margin-right">40</span></td><td style="padding: 0; text-align: left;"><span class="preceding-rank uci-small-description up"><span class="ion-arrow-up-c"></span> +1</span></td></tr></tbody></table></td><td style="display:none" class="" role="gridcell">184341</td><td style="display:none" class="" role="gridcell"><span class="legal-status legalstatus-color-0">0</span></td><td class="" role="gridcell"><a href="https://dataride.uci.ch/iframe/RiderRankingDetails/91637?rankingId=1&amp;groupId=1&amp;momentId=184341&amp;baseRankingTypeId=1&amp;disciplineSeasonId=432&amp;disciplineId=10&amp;categoryId=22&amp;raceTypeId=0&amp;countryId=0&amp;teamId=0">MADOUAS Valentin</a></td><td class="" role="gridcell"><div class="f32" style="display: flex"><div class="flag fr" style="position:absolute;margin-top:-5px"></div><div style="padding-left:37px;">FRA       </div></div></td><td class="" role="gridcell">GROUPAMA-FDJ</td><td class="text-right" role="gridcell">28</td><td class="points" role="gridcell"><span class="uci-points-left">1588</span></td></tr></tbody></table></div><div class="k-pager-wrap k-grid-pager k-widget k-floatwrap" data-role="pager"><a href="https://dataride.uci.ch/iframe/RankingDetails/1?disciplineId=10&amp;groupId=1&amp;momentId=184341&amp;disciplineSeasonId=432&amp;rankingTypeId=1&amp;categoryId=22&amp;raceTypeId=0#" aria-label="Go to the first page" title="Go to the first page" class="k-link k-pager-nav k-pager-first k-state-disabled" data-page="1" tabindex="-1"><span class="k-icon k-i-arrow-end-left"></span></a><a href="https://dataride.uci.ch/iframe/RankingDetails/1?disciplineId=10&amp;groupId=1&amp;momentId=184341&amp;disciplineSeasonId=432&amp;rankingTypeId=1&amp;categoryId=22&amp;raceTypeId=0#" aria-label="Go to the previous page" title="Go to the previous page" class="k-link k-pager-nav k-state-disabled" data-page="1" tabindex="-1"><span class="k-icon k-i-arrow-60-left"></span></a><div class="k-pager-numbers-wrap"><select class="k-dropdown"><option value="1" selected="selected">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">More pages</option></select><ul class="k-pager-numbers"><li><span class="k-link k-state-selected">1</span></li><li><a tabindex="-1" href="https://dataride.uci.ch/iframe/RankingDetails/1?disciplineId=10&amp;groupId=1&amp;momentId=184341&amp;disciplineSeasonId=432&amp;rankingTypeId=1&amp;categoryId=22&amp;raceTypeId=0#" class="k-link" data-page="2">2</a></li><li><a tabindex="-1" href="https://dataride.uci.ch/iframe/RankingDetails/1?disciplineId=10&amp;groupId=1&amp;momentId=184341&amp;disciplineSeasonId=432&amp;rankingTypeId=1&amp;categoryId=22&amp;raceTypeId=0#" class="k-link" data-page="3">3</a></li><li><a tabindex="-1" href="https://dataride.uci.ch/iframe/RankingDetails/1?disciplineId=10&amp;groupId=1&amp;momentId=184341&amp;disciplineSeasonId=432&amp;rankingTypeId=1&amp;categoryId=22&amp;raceTypeId=0#" class="k-link" data-page="4">4</a></li><li><a tabindex="-1" href="https://dataride.uci.ch/iframe/RankingDetails/1?disciplineId=10&amp;groupId=1&amp;momentId=184341&amp;disciplineSeasonId=432&amp;rankingTypeId=1&amp;categoryId=22&amp;raceTypeId=0#" class="k-link" data-page="5">5</a></li><li><a tabindex="-1" href="https://dataride.uci.ch/iframe/RankingDetails/1?disciplineId=10&amp;groupId=1&amp;momentId=184341&amp;disciplineSeasonId=432&amp;rankingTypeId=1&amp;categoryId=22&amp;raceTypeId=0#" class="k-link" data-page="6">6</a></li><li><a tabindex="-1" href="https://dataride.uci.ch/iframe/RankingDetails/1?disciplineId=10&amp;groupId=1&amp;momentId=184341&amp;disciplineSeasonId=432&amp;rankingTypeId=1&amp;categoryId=22&amp;raceTypeId=0#" class="k-link" data-page="7">7</a></li><li><a tabindex="-1" href="https://dataride.uci.ch/iframe/RankingDetails/1?disciplineId=10&amp;groupId=1&amp;momentId=184341&amp;disciplineSeasonId=432&amp;rankingTypeId=1&amp;categoryId=22&amp;raceTypeId=0#" class="k-link" data-page="8">8</a></li><li><a tabindex="-1" href="https://dataride.uci.ch/iframe/RankingDetails/1?disciplineId=10&amp;groupId=1&amp;momentId=184341&amp;disciplineSeasonId=432&amp;rankingTypeId=1&amp;categoryId=22&amp;raceTypeId=0#" class="k-link" data-page="9">9</a></li><li><a tabindex="-1" href="https://dataride.uci.ch/iframe/RankingDetails/1?disciplineId=10&amp;groupId=1&amp;momentId=184341&amp;disciplineSeasonId=432&amp;rankingTypeId=1&amp;categoryId=22&amp;raceTypeId=0#" class="k-link" data-page="10">10</a></li><li><a tabindex="-1" href="https://dataride.uci.ch/iframe/RankingDetails/1?disciplineId=10&amp;groupId=1&amp;momentId=184341&amp;disciplineSeasonId=432&amp;rankingTypeId=1&amp;categoryId=22&amp;raceTypeId=0#" class="k-link" data-page="11" title="More pages">...</a></li></ul></div><a href="https://dataride.uci.ch/iframe/RankingDetails/1?disciplineId=10&amp;groupId=1&amp;momentId=184341&amp;disciplineSeasonId=432&amp;rankingTypeId=1&amp;categoryId=22&amp;raceTypeId=0#" aria-label="Go to the next page" title="Go to the next page" class="k-link k-pager-nav" data-page="2" tabindex="-1"><span class="k-icon k-i-arrow-60-right"></span></a><a href="https://dataride.uci.ch/iframe/RankingDetails/1?disciplineId=10&amp;groupId=1&amp;momentId=184341&amp;disciplineSeasonId=432&amp;rankingTypeId=1&amp;categoryId=22&amp;raceTypeId=0#" aria-label="Go to the last page" title="Go to the last page" class="k-link k-pager-nav k-pager-last" data-page="86" tabindex="-1"><span class="k-icon k-i-arrow-end-right"></span></a><span class="k-pager-info k-label">1 - 40 of 3416 items</span></div></div>
+</div>
+</div>
+<div class="row uci-main-content">
+<div class="col-12">
+<div class="legend">
+<h3>Legend</h3>
+<ul id="object-legalstatus" data-role="listview" class="k-widget k-listview k-listview-bordered" role="list"><div class="k-listview-content">
+    <li data-uid="n9b44f04-a9bb-46d0-b868-e244ca76a481" role="listitem">
+        <div class="legend-item">
+            <span class="box legalstatus-color-1"></span>
+            <span class="title">
+                Suspended
+            </span>
+        </div>
+    </li>
+
+    <li data-uid="e11e5749-f73c-419c-9801-7e6cceda7637" role="listitem">
+        <div class="legend-item">
+            <span class="box legalstatus-color-2"></span>
+            <span class="title">
+                Provisionally suspended
+            </span>
+        </div>
+    </li>
+
+    <li data-uid="dc495400-c52f-49a0-ad56-44aef8a97572" role="listitem">
+        <div class="legend-item">
+            <span class="box legalstatus-color-4"></span>
+            <span class="title">
+                Reprimand
+            </span>
+        </div>
+    </li>
+</div></ul>
+</div>
+</div>
+</div>
+<input type="hidden" id="fixedDisciplineId" value="10">
+<input type="hidden" id="fixedRankingId" name="rankingId" value="1">
+<input type="hidden" id="fixedRankingTypeId" value="1">
+<input type="hidden" id="fixedRaceTypeId" value="0">
+<input type="hidden" id="fixedCategoryId" value="22">
+</div>
+<script>
+        var exportRankingMenuDiv = $("#exportRankingMenu");
+        var seasonDiv = $("#seasons");
+        var dateDiv = $("#dates");
+        var countryDiv = $("#countries");
+        var filterNameDiv = $("#filterName");
+        var filterTeamDiv = $("#filterTeam");
+        var legalStatusDiv = $("#legalstatus");
+        var filterRankings;
+        
+        var computationDatesDropdown = function(seasonId) {
+            return {
+                dataTextField: "Name",
+                dataValueField: "Id",
+                dataSource: {
+                    transport: {
+                        read: {
+                            type: "get",
+                            dataType: "json",
+                            url: "/iframe/GetRankingMoments/",
+                            data: {
+                                disciplineId: 10,
+                                disciplineSeasonId: seasonId,
+                                rankingId: 1
+                            }
+                        }
+                    }
+                },
+                change: function () {
+                    filterRankings();
+                },
+                dataBound: function () {
+                    filterRankings();
+                }
+            }
+        }
+
+        var seasonsDropdown = function() {
+            return {
+                dataTextField: "Name",
+                dataValueField: "Id",
+                dataSource: {
+                    transport: {
+                        read: {
+                            type: "get",
+                            dataType: "json",
+                            url: "/iframe/GetDisciplineSeasons/",
+                            data: {
+                                disciplineId: 10
+                            }
+                        }
+                    }
+                },
+                change: function () {
+                    dateDiv.kendoDropDownList(computationDatesDropdown(seasonDiv.val()));
+                },
+                dataBound: function () {
+                    // Set season value as previous filter
+                    seasonDiv.data("kendoDropDownList").value(432);
+                    dateDiv.kendoDropDownList(computationDatesDropdown(seasonDiv.val()));
+                }
+            }
+        }
+        $(document)
+            .ready(function () {
+
+                var legalStatusGrid = $("#object-legalstatus")
+                    .kendoListView({
+                        dataSource: window.createLegalStatusSource(),
+                        template: window.kendo.template($("#legalstatus-list-template").html()),
+                        scrollable: false,
+                        pageable: true,
+                        autoBind: true
+                });
+
+                var objectsGrid = $("#object-rankings")
+                    .kendoGrid(window.createObjectRankingsGrid(1,
+                        1,
+                        184341,
+                        1,
+                        10,
+                        432,
+                        22,
+                        0));
+                window.setGridMinHeight(objectsGrid);
+
+                var filterObjectRankings = function () {
+                    var disciplineSeasonId = seasonDiv.val();
+                    var momentId = dateDiv.val();
+                    var countryId = countryDiv.val();
+                    var name = filterNameDiv.val();
+                    var team = filterTeamDiv.val();
+                    objectsGrid.data("kendoGrid")
+                        .dataSource.filter({
+                            filters: [
+                                { field: "RaceTypeId", value: 0 },
+                                { field: "CategoryId", value: 22 },
+                                { field: "SeasonId", value: disciplineSeasonId },
+                                { field: "MomentId", value: momentId },
+                                { field: "CountryId", value: countryId },
+                                { field: "IndividualName", value: name },
+                                { field: "TeamName", value: team }
+                            ]
+                        });
+                }
+
+                var rankingsGrid = $("#rankings")
+                    .kendoListView({
+                        dataSource: window.createRankingsSource(
+                            1,
+                            1,
+                            184341,
+                            1,
+                            10),
+                        template: window.kendo.template($("#rankings-list-template").html()),
+                        scrollable: false,
+                        pageable: true,
+                        autoBind: false,
+                        change: function() {
+                            exportRankingMenuDiv.prop("disabled", true);
+                        },
+                        dataBound: function() {
+                            filterObjectRankings();
+                            window.resizeRankingTypeList();
+                            exportRankingMenuDiv.prop("disabled", false);
+                        }
+                    });
+
+                filterRankings = function () {
+                    var disciplineSeasonId = seasonDiv.val();
+                    var momentId = dateDiv.val();
+                    rankingsGrid.data("kendoListView")
+                        .dataSource.filter({
+                            filters: [
+                                { field: "RaceTypeId", value: 0 },
+                                { field: "CategoryId", value: 22 },
+                                { field: "SeasonId", value: disciplineSeasonId },
+                                { field: "MomentId", value: momentId }
+                            ]
+                        });
+                };
+
+                // Initialize view model
+                var rankingDetailsViewModel = window.kendo.observable({
+                    filter: function () {
+                        delay(function () {
+                            filterObjectRankings();
+                        }, 700);
+                    }
+                });
+
+                window.kendo.bind($("#ranking-details-view"), rankingDetailsViewModel);
+
+                seasonDiv.kendoDropDownList(seasonsDropdown());
+                window.initializeDropdown(countryDiv, "/iframe/GetCountries/", filterObjectRankings);
+
+                // manual filter to bind rankings list
+                rankingsGrid.data("kendoListView")
+                    .dataSource.filter({
+                        filters: [
+                            { field: "RaceTypeId", value: 0 },
+                            { field: "CategoryId", value: 22 },
+                            { field: "SeasonId", value: 432 }
+                        ]
+                    });
+            });
+    </script>
+</div>
+</div>
+<div id="FooterPart">
+</div>
+
+<script async="" src="./js(1)"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-119708018-2');
+</script>
+<script type="text/javascript">
+//<![CDATA[
+;(function() {
+                        function loadHandler() {
+                            var hf = $get('ctl06_TSSM');
+                            if (!hf._RSSM_init) { hf._RSSM_init = true; hf.value = ''; }
+                            hf.value += ';Telerik.Sitefinity.Resources, Version=13.3.7647.0, Culture=neutral, PublicKeyToken=b28c218413bdf563:en:3105d554-a2f7-41dc-9f71-ac414da2be04:850288ef:8da3ae9c:66d61590:d271177c:dff30785';
+                            Sys.Application.remove_load(loadHandler);
+                        };
+                        Sys.Application.add_load(loadHandler);
+                    })();//]]>
+</script>
+</form>
+</div>
+
+
+<div class="k-list-container k-popup k-group k-reset" id="seasons-list" data-role="popup" aria-hidden="true" style="display: none; position: absolute;"><div class="k-group-header" style="display:none"></div><div class="k-list-scroller" unselectable="on"><ul unselectable="on" class="k-list k-reset" tabindex="-1" aria-hidden="true" id="seasons_listbox" aria-live="off" data-role="staticlist" role="listbox"><li tabindex="-1" role="option" unselectable="on" class="k-item k-state-focused k-state-selected" aria-selected="true" data-offset-index="0" id="kcebb89e-dd55-4c98-bf6e-ebc8647b757d">2024</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="1">2023</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="2">2022</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="3">2021</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="4">2020</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="5">2019</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="6">2018</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="7">2017</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="8">2016</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="9">2015</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="10">2014</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="11">2013</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="12">2012</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="13">2011</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="14">2010</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="15">2009</li></ul></div><div class="k-nodata" style="display:none"><div>No data found.</div></div></div><div class="k-list-container k-popup k-group k-reset" id="countries-list" data-role="popup" aria-hidden="true" style="display: none; position: absolute;"><div class="k-group-header" style="display:none"></div><div class="k-list-scroller" unselectable="on"><ul unselectable="on" class="k-list k-reset" tabindex="-1" aria-hidden="true" id="countries_listbox" aria-live="off" data-role="staticlist" role="listbox"><li tabindex="-1" role="option" unselectable="on" class="k-item k-state-focused k-state-selected" aria-selected="true" data-offset-index="0" id="d380989b-8a3b-44b2-9005-edaea914203d">All</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="1">AFGHANISTAN</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="2">ALBANIA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="3">ALGERIA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="4">AMERICAN SAMOA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="5">ANDORRA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="6">ANGOLA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="7">ANGUILLA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="8">ANTIGUA AND BARBUDA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="9">ARGENTINA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="10">ARMENIA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="11">ARUBA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="12">AUSTRALIA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="13">AUSTRIA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="14">AZERBAIJAN</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="15">BAHAMAS</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="16">BAHRAIN</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="17">BANGLADESH</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="18">BARBADOS</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="19">*******</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="20">BELGIUM</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="21">BELIZE</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="22">BENIN</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="23">BERMUDA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="24">BHUTAN</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="25">BOLIVIA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="26">BOSNIA AND HERZEGOVINA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="27">BOTSWANA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="28">BRAZIL</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="29">BRITISH VIRGIN ISLANDS</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="30">BRUNEI</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="31">BULGARIA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="32">BURKINA FASO</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="33">BURUNDI</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="34">CAMBODIA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="35">CAMEROON</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="36">CANADA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="37">CAPE VERDE</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="38">CAYMAN ISLANDS</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="39">CENTRAL AFRICAN REPUBLIC</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="40">CHAD</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="41">CHILE</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="42">CHINA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="43">CHINESE TAIPEI</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="44">COLOMBIA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="45">COMOROS</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="46">CONGO</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="47">COOK ISLANDS</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="48">COSTA RICA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="49">COTE D'IVOIRE</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="50">CROATIA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="51">CUBA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="52">CURACAO</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="53">CYPRUS</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="54">CZECHIA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="55">DENMARK</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="56">DJIBOUTI</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="57">DOMINICA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="58">DOMINICAN REPUBLIC</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="59">DRC CONGO</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="60">ECUADOR</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="61">EGYPT</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="62">EL SALVADOR</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="63">EQUATORIAL GUINEA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="64">ERITREA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="65">ESTONIA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="66">ESWATINI</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="67">ETHIOPIA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="68">FIJI</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="69">FINLAND</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="70">FRANCE</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="71">GABON</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="72">GAMBIA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="73">GEORGIA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="74">GERMANY</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="75">GHANA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="76">GREAT BRITAIN</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="77">GREECE</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="78">GRENADA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="79">GUAM</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="80">GUATEMALA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="81">GUINEA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="82">GUINEA-BISSAU</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="83">GUYANA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="84">HAITI</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="85">HONDURAS</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="86">HONG KONG, CHINA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="87">HUNGARY</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="88">ICELAND</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="89">INDIA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="90">INDONESIA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="91">IRAN</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="92">IRAQ</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="93">IRELAND</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="94">ISRAEL</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="95">ITALY</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="96">JAMAICA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="97">JAPAN</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="98">JORDAN</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="99">KAZAKHSTAN</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="100">KENYA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="101">KOREA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="102">KOREA DPR</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="103">KOSOVO</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="104">KUWAIT</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="105">KYRGYZSTAN</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="106">LAOS</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="107">LATVIA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="108">LEBANON</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="109">LESOTHO</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="110">LIBERIA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="111">LIBYA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="112">LIECHTENSTEIN</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="113">LITHUANIA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="114">LUXEMBOURG</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="115">MACAO, CHINA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="116">MADAGASCAR</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="117">MALAWI</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="118">MALAYSIA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="119">MALDIVES</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="120">MALI</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="121">MALTA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="122">MAURITANIA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="123">MAURITIUS</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="124">MEXICO</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="125">MOLDOVA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="126">MONACO</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="127">MONGOLIA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="128">MONTENEGRO</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="129">MOROCCO</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="130">MOZAMBIQUE</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="131">MYANMAR</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="132">NAMIBIA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="133">NEPAL</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="134">NETHERLANDS</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="135">NEW ZEALAND</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="136">NICARAGUA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="137">NIGER</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="138">NIGERIA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="139">NORTH MACEDONIA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="140">NORWAY</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="141">OMAN</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="142">PAKISTAN</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="143">PALESTINE</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="144">PANAMA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="145">PAPUA NEW GUINEA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="146">PARAGUAY</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="147">PERU</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="148">PHILIPPINES</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="149">POLAND</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="150">PORTUGAL</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="151">PUERTO RICO</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="152">QATAR</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="153">REFUGEE CYCLING TEAM</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="154">ROMANIA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="155">******</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="156">RWANDA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="157">SAINT KITTS AND NEVIS</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="158">SAINT LUCIA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="159">SAINT VINCENT AND THE GRENADINES</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="160">SAMOA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="161">SAN MARINO</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="162">SAO TOME AND PRINCIPE</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="163">SAUDI ARABIA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="164">SENEGAL</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="165">SERBIA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="166">SEYCHELLES</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="167">SIERRA LEONE</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="168">SINGAPORE</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="169">SINT MAARTEN</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="170">SLOVAKIA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="171">SLOVENIA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="172">SOLOMON ISLANDS</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="173">SOMALIA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="174">SOUTH AFRICA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="175">SOUTH SUDAN</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="176">SPAIN</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="177">SRI LANKA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="178">STATELESS</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="179">SUDAN</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="180">SURINAME</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="181">SWEDEN</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="182">SWITZERLAND</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="183">SYRIA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="184">TAHITIAN</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="185">TAJIKISTAN</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="186">TANZANIA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="187">THAILAND</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="188">TIMOR LESTE</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="189">TOGO</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="190">TRINIDAD AND TOBAGO</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="191">TUNISIA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="192">TÜRKIYE</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="193">TURKMENISTAN</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="194">UGANDA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="195">UKRAINE</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="196">UNITED ARAB EMIRATES</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="197">UNITED STATES</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="198">URUGUAY</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="199">UZBEKISTAN</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="200">VANUATU</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="201">VATICAN CITY</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="202">VENEZUELA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="203">VIETNAM</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="204">VIRGIN ISLANDS</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="205">YEMEN</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="206">ZAMBIA</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="207">ZIMBABWE</li></ul></div><div class="k-nodata" style="display:none"><div>No data found.</div></div></div><div class="k-list-container k-popup k-group k-reset" id="dates-list" data-role="popup" aria-hidden="true" style="display: none; position: absolute;"><div class="k-group-header" style="display:none"></div><div class="k-list-scroller" unselectable="on"><ul unselectable="on" class="k-list k-reset" tabindex="-1" aria-hidden="true" id="dates_listbox" aria-live="off" data-role="staticlist" role="listbox"><li tabindex="-1" role="option" unselectable="on" class="k-item k-state-focused k-state-selected" aria-selected="true" data-offset-index="0" id="pa0d04b3-c8bf-463e-8957-18b3acfd6311">Most Recent Ranking</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="1">01/10/2024</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="2">24/09/2024</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="3">17/09/2024</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="4">10/09/2024</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="5">03/09/2024</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="6">27/08/2024</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="7">20/08/2024</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="8">13/08/2024</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="9">08/08/2024</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="10">06/08/2024</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="11">30/07/2024</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="12">23/07/2024</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="13">16/07/2024</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="14">09/07/2024</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="15">02/07/2024</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="16">25/06/2024</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="17">18/06/2024</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="18">11/06/2024</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="19">04/06/2024</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="20">28/05/2024</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="21">21/05/2024</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="22">14/05/2024</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="23">07/05/2024</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="24">30/04/2024</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="25">23/04/2024</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="26">16/04/2024</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="27">09/04/2024</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="28">02/04/2024</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="29">26/03/2024</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="30">19/03/2024</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="31">12/03/2024</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="32">05/03/2024</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="33">27/02/2024</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="34">20/02/2024</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="35">13/02/2024</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="36">06/02/2024</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="37">30/01/2024</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="38">23/01/2024</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="39">16/01/2024</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="40">09/01/2024</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="41">02/01/2024</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="42">26/12/2023</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="43">19/12/2023</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="44">12/12/2023</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="45">05/12/2023</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="46">28/11/2023</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="47">21/11/2023</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="48">14/11/2023</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="49">07/11/2023</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="50">31/10/2023</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="51">24/10/2023</li><li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="52">18/10/2023</li></ul></div><div class="k-nodata" style="display:none"><div>No data found.</div></div></div></body></html>

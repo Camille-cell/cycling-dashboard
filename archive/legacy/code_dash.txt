@@ -1,0 +1,71 @@
+# Import packages
+import dash
+from dash import Dash, html, dash_table, dcc
+import pandas as pd
+import plotly.express as px
+import plotly.graph_objs as go
+from dash.dependencies import Input, Output
+
+
+# Incorporate data
+df = pd.read_csv('G:\Mon Drive\E4\DSIA-A\projet\clean_data(4).csv')
+
+
+# Créer une application Dash
+app = dash.Dash(__name__)
+
+# Liste des anciens pays de cyclisme
+old_countries = ["France", "Germany", "Italy", "Belgium", "Spain"]
+
+    
+# Définir les anciennes et nouvelles catégories de pays
+df['type'] = df['country'].apply(lambda x: 'Old Countries' if x in old_countries else 'New Countries')
+
+# Créer la figure de l'histogramme empilé
+fig = go.Figure()
+
+# Ajouter les anciens pays
+fig.add_trace(go.Histogram(
+    x=df[df['type'] == 'Old Countries']['points'],
+    name='Old Cycling Countries',
+    marker_color='blue',
+    xbins=dict(
+        start=1,
+        end=50000,
+        size=5000,  # Vous pouvez ajuster la taille des "bins"
+    )
+))
+
+# Ajouter les nouveaux pays
+fig.add_trace(go.Histogram(
+    x=df[df['type'] == 'New Countries']['points'],
+    name='New Cycling Countries',
+    marker_color='green',
+    xbins=dict(
+        start=1,
+        end=50000,
+        size=5000,  # Taille des bins
+    )
+))
+
+# Configurer le layout de l'histogramme
+fig.update_layout(
+    barmode='stack',
+    title="Globalisation du Cyclisme - Distribution des Points",
+    xaxis_title="Points marqués",
+    yaxis_title="Nombre de pays (log scale)",
+    yaxis_type="log",  # Échelle linéaire pour l'axe des ordonnées
+
+    xaxis_type="linear",  # Échelle logarithmique pour l'axe des abscisses
+    legend_title="Type de pays"
+)
+
+# Disposition du dashboard
+app.layout = html.Div([
+    html.H1("Dashboard - Globalisation du Cyclisme"),
+    dcc.Graph(id="stacked_histogram", figure=fig)
+])
+
+# Lancer l'application
+if __name__ == '__main__':
+    app.run_server(debug=True)

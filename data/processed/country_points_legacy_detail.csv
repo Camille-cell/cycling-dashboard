@@ -1,0 +1,2596 @@
+ranking,previous,country,rider,points
+1,1.0,Slovenia,POGAČAR Tadej,4588.0
+2,2.0,Belgium,EVENEPOEL Remco,2944.0
+3,3.0,Belgium,PHILIPSEN Jasper,2355.0
+4,4.0,Swiss,HIRSCHI Marc,2076.0
+5,7.0,Denmark,VINGEGAARD Jonas,1702.0
+6,6.0,Australia,O'CONNOR Ben,1695.0
+7,10.0,Eritrea,GIRMAY Biniam,1666.0
+8,8.0,Dutch,VAN DER POEL Mathieu,1612.0
+9,9.0,United States,JORGENSON Matteo,1569.0
+10,5.0,Slovenia,ROGLIČ Primož,1513.0
+11,13.0,Belgium,MERLIER Tim,1485.0
+12,19.0,Belgium,DE LIE Arnaud,1484.0
+13,12.0,Denmark,PEDERSEN Mads,1467.0
+14,11.0,Belgium,VAN AERT Wout,1428.0
+15,18.0,Italy,MILAN Jonathan,1381.0
+16,22.0,United States,MCNULTY Brandon,1373.0
+17,14.0,Great Britain,YATES Adam,1342.0
+18,24.0,Spain,MAS Enric,1283.0
+19,17.0,Spain,RODRÍGUEZ Carlos,1279.0
+20,23.0,Spain,AYUSO Juan,1236.0
+21,15.0,Ecuadore,CARAPAZ Richard,1233.0
+22,20.0,Belgium,VAN GILS Maxim,1229.0
+23,21.0,Dutch,KOOIJ Olav,1207.0
+24,16.0,Russia,VLASOV Aleksandr,1181.0
+25,25.0,Denmark,SKJELMOSE Mattias,1156.0
+26,27.0,Portuguese,ALMEIDA João,1100.0
+27,26.0,Italy,ULISSI Diego,1084.0
+28,28.0,Spain,LANDA Mikel,1074.0
+29,29.0,Ecuadore,NARVÁEZ Jhonatan,1061.0
+30,35.0,Great Britain,PIDCOCK Thomas,1053.0
+31,31.0,Belgium,WELLENS Tim,1031.0
+32,32.0,France,COSNEFROY Benoît,1014.0
+33,30.0,Norwegia,KRISTOFF Alexander,972.0
+34,33.0,Great Britain,WILLIAMS Stephen,963.0
+35,37.0,France,ZINGLE Axel,950.0
+36,36.0,France,ALAPHILIPPE Julian,909.0
+37,34.0,France,BARDET Romain,908.0
+38,38.0,Australia,MATTHEWS Michael,901.0
+39,40.0,Swiss,KÜNG Stefan,889.0
+40,43.0,Spain,ARANBURU Alex,883.0
+41,41.0,Spain,BILBAO Pello,874.0
+42,39.0,Italy,TIBERI Antonio,868.0
+43,44.0,Italy,BETTIOL Alberto,853.0
+44,49.0,Latvia,SKUJIŅŠ Toms,837.0
+45,46.0,Mexico,DEL TORO Isaac,835.0
+46,45.0,France,MARTINEZ Lenny,834.0
+47,58.0,new zealand,STRONG Corbin,831.0
+48,47.0,Dutch,GROENEWEGEN Dylan,826.0
+49,57.0,France,LAPORTE Christophe,825.0
+50,51.0,France,MADOUAS Valentin,780.0
+51,52.0,Great Britain,ONLEY Oscar,778.0
+52,63.0,France,GAUDU David,775.0
+53,53.0,Colombia,BERNAL Egan,773.0
+54,69.0,Belgium,VAN EETVELT Lennert,771.0
+55,55.0,Colombia,MARTÍNEZ Daniel Felipe,766.0
+56,75.0,Belgium,MEEUS Jordi,763.0
+57,54.0,Colombia,BUITRAGO Santiago,763.0
+58,48.0,Australia,GROVES Kaden,745.0
+59,61.0,Italy,TRENTIN Matteo,738.0
+60,62.0,new zealand,PITHIE Laurence,723.0
+61,42.0,Great Britain,YATES Simon,714.0
+62,65.0,France,VAUQUELIN Kévin,703.0
+63,66.0,Denmark,CORT Magnus,700.0
+64,78.0,France,JEANNIÈRE Emilien,695.0
+65,68.0,Belgium,BERCKMOES Jenno,695.0
+66,88.0,Czech Republic,VACEK Mathias,695.0
+67,74.0,France,MARTIN Guillaume,693.0
+68,80.0,France,GRÉGOIRE Romain,690.0
+69,71.0,Norwegia,ABRAHAMSEN Jonas,684.0
+70,59.0,Italy,GANNA Filippo,684.0
+71,72.0,Canada,GEE Derek,684.0
+72,64.0,Norwegia,WÆRENSKJOLD Søren,678.0
+73,73.0,Germany,LIPOWITZ Florian,676.0
+74,50.0,Venezuela,AULAR Orluis,674.0
+75,56.0,Italy,MOZZATO Luca,674.0
+76,83.0,Australia,STORER Michael,673.0
+77,84.0,Dutch,KELDERMAN Wilco,672.0
+78,85.0,Dutch,DE KLEIJN Arvid,670.0
+79,101.0,Spain,ADRIÀ Roger,668.0
+80,79.0,Germany,POLITT Nils,651.0
+81,67.0,Italy,ALBANESE Vincenzo,651.0
+82,81.0,Belgium,NYS Thibau,647.0
+83,76.0,Belgium,THIJSSEN Gerben,639.0
+84,70.0,United States,SHEFFIELD Magnus,634.0
+85,77.0,Slovenia,TRATNIK Jan,630.0
+86,112.0,Italy,CICCONE Giulio,630.0
+87,91.0,Dutch,VAN DEN BERG Marijn,624.0
+88,82.0,Norwegia,JOHANNESSEN Tobias Halland,624.0
+89,89.0,United States,VERMAERKE Kevin,622.0
+90,94.0,France,GODON Dorian,619.0
+91,87.0,Great Britain,BLACKMORE Joseph,617.0
+92,153.0,Great Britain,POOLE Max,608.0
+93,60.0,Belgium,VAN WILDER Ilan,602.0
+94,92.0,Ireland,BENNETT Sam,601.0
+95,93.0,Australia,HINDLEY Jai,600.0
+96,90.0,Ireland,HEALY Ben,600.0
+97,115.0,Italy,ZAMBANINI Edoardo,592.0
+98,99.0,France,LAPEIRA Paul,584.0
+99,95.0,Slovenia,MOHORIČ Matej,577.0
+100,132.0,Belgium,FRETIN Milan,567.0
+101,86.0,Belgium,BENOOT Tiesj,564.0
+102,141.0,France,SIVAKOV Pavel,564.0
+103,104.0,Dutch,ARENSMAN Thymen,560.0
+104,97.0,Austria,GALL Felix,557.0
+105,98.0,Belgium,STUYVEN Jasper,552.0
+106,100.0,Kazakhstan,LUTSENKO Alexey,543.0
+107,123.0,Italy,PIGANZOLI Davide,537.0
+108,96.0,Italy,ZANA Filippo,536.0
+109,102.0,Great Britain,TARLING Joshua,535.0
+110,103.0,new zealand,GATE Aaron,534.0
+111,117.0,France,PARET-PEINTRE Aurélien,526.0
+112,108.0,Hungary,VALTER Attila,523.0
+113,105.0,France,PENHOËT Paul,520.0
+114,109.0,Belgium,SEGAERT Alec,520.0
+115,110.0,Dutch,VAN POPPEL Danny,518.0
+116,111.0,Ecuadore,CEPEDA Jefferson Alveiro,517.0
+117,151.0,France,BAUDIN Alex,514.0
+118,131.0,Germany,ACKERMANN Pascal,503.0
+119,116.0,Germany,BAUHAUS Phil,502.0
+120,118.0,Spain,SOLER Marc,500.0
+121,127.0,France,DELETTRE Alexandre,497.0
+122,138.0,Dutch,LEMMEN Bart,496.0
+123,107.0,France,DÉMARE Arnaud,494.0
+124,106.0,France,CHAMPOUSSIN Clément,492.0
+125,120.0,Swiss,CHRISTEN Jan,492.0
+126,121.0,new zealand,FISHER-BLACK Finn,489.0
+127,122.0,Spain,RODRÍGUEZ Cristián,488.0
+128,126.0,France,VENTURINI Clément,483.0
+129,125.0,Belgium,VANSEVENANT Mauri,481.0
+130,124.0,France,COQUARD Bryan,479.0
+131,129.0,United States,KUSS Sepp,479.0
+132,159.0,United States,LAMPERTI Luke,473.0
+133,130.0,Belgium,DE PLUS Laurens,471.0
+134,135.0,Italy,FORTUNATO Lorenzo,462.0
+135,136.0,Colombia,RUBIO Einer,460.0
+136,290.0,Dutch,KRIJNSEN Jelte,459.0
+137,133.0,France,PARET-PEINTRE Valentin,458.0
+138,170.0,Spain,IZAGIRRE Ion,457.0
+139,134.0,Great Britain,THOMAS Geraint,454.0
+140,310.0,United States,POWLESS Neilson,453.0
+141,140.0,Dutch,POELS Wout,448.0
+142,137.0,Czech Republic,BITTNER Pavel,447.0
+143,139.0,Uruguay,SILVA Guillermo Thomas,445.0
+144,169.0,Dutch,TEUNISSEN Mike,438.0
+145,146.0,France,JEGAT Jordan,438.0
+146,142.0,France,MAGNIER Paul,438.0
+147,143.0,Spain,LAZKANO Oier,436.0
+148,180.0,Denmark,ANDRESEN Tobias Lund,436.0
+149,154.0,Belgium,VAN ASBROECK Tom,434.0
+150,144.0,Italy,VENDRAME Andrea,434.0
+151,145.0,Germany,SCHACHMANN Maximilian,433.0
+152,147.0,Belgium,BIERMANS Jenthe,432.0
+153,148.0,Australia,VINE Jay,431.0
+154,149.0,Denmark,BJERG Mikkel,429.0
+155,150.0,France,LAURANCE Axel,429.0
+156,152.0,Dutch,VAN DEN BROEK Frank,428.0
+157,155.0,France,PACHER Quentin,419.0
+158,160.0,Kazakhstan,FEDOROV Yevgeniy,419.0
+159,119.0,Spain,CASTRILLO Pablo,418.0
+160,177.0,Dutch,MOLLEMA Bauke,417.0
+161,161.0,Swiss,SCHMID Mauro,417.0
+162,172.0,Ireland,RYAN Archie,414.0
+163,164.0,France,GAUTHERAT Pierre,406.0
+164,157.0,Germany,ZIMMERMANN Georg,405.0
+165,184.0,Italy,PELLIZZARI Giulio,405.0
+166,171.0,Belgium,NAESEN Oliver,404.0
+167,166.0,Austria,GROßSCHARTNER Felix,399.0
+168,167.0,Uruguay,FAGÚNDEZ Eric Antonio,399.0
+169,168.0,Belgium,VERMEERSCH Gianni,396.0
+170,165.0,Swiss,BISSEGGER Stefan,395.0
+171,175.0,Belgium,HERMANS Quinten,384.0
+172,113.0,Norwegia,HAGENES Per Strand,383.0
+173,201.0,Denmark,FOLDAGER Anders,381.0
+174,178.0,Czech Republic,HIRT Jan,379.0
+175,176.0,Portuguese,MORGADO António,378.0
+176,183.0,Italy,VELASCO Simone,377.0
+177,174.0,Italy,ALEOTTI Giovanni,377.0
+178,173.0,Ireland,DUNBAR Eddie,376.0
+179,179.0,Eritrea,KUDUS Merhawi,375.0
+180,227.0,France,TESSON Jason,375.0
+181,200.0,Swiss,CHRISTEN Fabio,370.0
+182,181.0,Estonia,MIHKELS Madis,369.0
+183,203.0,France,BURGAUDEAU Mathieu,367.0
+184,185.0,Belgium,REX Laurenz,365.0
+185,189.0,Dutch,VAN UDEN Casper,364.0
+186,198.0,Colombia,HIGUITA Sergio,363.0
+187,163.0,Italy,AFFINI Edoardo,362.0
+188,158.0,Great Britain,HAYTER Ethan,361.0
+189,187.0,Spain,SÁNCHEZ Pelayo,360.0
+190,128.0,United States,SHEEHAN Riley,357.0
+191,202.0,Colombia,MOLANO Juan Sebastián,356.0
+192,194.0,Belgium,TAMINIAUX Lionel,355.0
+193,190.0,Norwegia,DVERSNES Fredrik,355.0
+194,195.0,Belgium,MENTEN Milan,349.0
+195,156.0,Canada,WOODS Michael,347.0
+196,211.0,Belgium,TEUNS Dylan,346.0
+197,193.0,Norwegia,HOELGAARD Markus,345.0
+198,196.0,Colombia,GAVIRIA Fernando,342.0
+199,197.0,Dutch,VADER Milan,342.0
+200,214.0,Italy,BARONCINI Filippo,340.0
+201,204.0,Colombia,RIVERA Brandon Smith,339.0
+202,199.0,Spain,MIQUEL Pau,338.0
+203,191.0,France,BERTHET Clément,335.0
+204,205.0,Australia,PLAPP Luke,334.0
+205,206.0,United States,RICCITELLO Matthew,333.0
+206,207.0,Belgium,CAMPENAERTS Victor,330.0
+207,212.0,new zealand,BENNETT George,330.0
+208,218.0,France,ROCHAS Rémy,327.0
+209,223.0,Poland,ANIOŁKOWSKI Stanisław,326.0
+210,345.0,Poland,BUDZIŃSKI Marcin,326.0
+211,210.0,Spain,ROMO Javier,326.0
+212,162.0,Italy,FORMOLO Davide,322.0
+213,215.0,Spain,LÓPEZ Juan Pedro,321.0
+214,186.0,Great Britain,DOUBLE Paul,321.0
+215,235.0,Eritrea,TESFATSION Natnael,317.0
+216,261.0,Germany,WALSCHEID Max,316.0
+217,217.0,Belgium,CAPIOT Amaury,315.0
+218,229.0,Italy,ROTA Lorenzo,315.0
+219,208.0,Italy,SCARONI Christian,310.0
+220,224.0,Swiss,VOISARD Yannis,307.0
+221,192.0,France,BARGUIL Warren,306.0
+222,241.0,Italy,DE PRETTO Davide,303.0
+223,216.0,Spain,CANAL Carlos,302.0
+224,221.0,Poland,MAJKA Rafał,300.0
+225,209.0,Mongolia,SAINBAYAR Jambaljamts,299.0
+226,320.0,Colombia,PAREDES Wilmar,299.0
+227,232.0,Germany,BRENNER Marco,298.0
+228,275.0,Great Britain,WRIGHT Fred,297.0
+229,225.0,France,HOFSTETTER Hugo,295.0
+230,230.0,Norwegia,FOSS Tobias,295.0
+231,231.0,France,BARRÉ Louis,295.0
+232,246.0,Dutch,PLUIMERS Rick,295.0
+233,248.0,Belgium,BRAET Vito,294.0
+234,242.0,France,MOLARD Rudy,289.0
+235,234.0,Eritrea,MULUBRHAN Henok,288.0
+236,219.0,Colombia,TEJADA Harold,287.0
+237,237.0,Germany,KANTER Max,285.0
+238,238.0,Italy,CONSONNI Simone,284.0
+239,236.0,Argentina,SEPÚLVEDA Eduardo,281.0
+240,253.0,Australia,WELSFORD Sam,280.0
+241,244.0,Luxembourg,KIRSCH Alex,277.0
+242,252.0,South Africa,MEINTJES Louis,276.0
+243,182.0,Portuguese,COSTA Rui,274.0
+244,266.0,Italy,LONARDI Giovanni,274.0
+245,250.0,Denmark,ASGREEN Kasper,272.0
+246,259.0,France,TURGIS Anthony,271.0
+247,251.0,Italy,BRAMBILLA Gianluca,267.0
+248,258.0,Germany,STEINHAUSER Georg,267.0
+249,249.0,Italy,POZZOVIVO Domenico,266.0
+250,228.0,Belgium,LECERF William Junior,266.0
+251,278.0,Mauritius,MAYER Alexandre,265.0
+252,260.0,Denmark,VALGREN Michael,264.0
+253,255.0,Spain,VERONA Carlos,263.0
+254,240.0,Spain,BERRADE Urko,263.0
+255,269.0,Belgium,DEWULF Stan,262.0
+256,262.0,France,PAGE Hugo,262.0
+257,263.0,Great Britain,WATSON Samuel,260.0
+258,264.0,Australia,EWAN Caleb,259.0
+259,265.0,Belgium,VANHOUCKE Harm,259.0
+260,257.0,Italy,DAINESE Alberto,258.0
+261,233.0,Denmark,KRAGH ANDERSEN Søren,254.0
+262,226.0,Australia,HARPER Chris,250.0
+263,256.0,Belgium,MONIQUET Sylvain,250.0
+264,342.0,Spain,DÍAZ José Manuel,249.0
+265,267.0,Italy,MOSCHETTI Matteo,248.0
+266,270.0,Belgium,DUPONT Timothy,247.0
+267,271.0,Belgium,CRAS Steff,246.0
+268,495.0,Italy,MALUCELLI Matteo,246.0
+269,245.0,Italy,OLDANI Stefano,246.0
+270,286.0,Belgium,DEHAIRS Simon,245.0
+271,272.0,Italy,CIMOLAI Davide,242.0
+272,274.0,France,DUJARDIN Sandy,242.0
+273,277.0,Dutch,JAKOBSEN Fabio,241.0
+274,254.0,Norwegia,TILLER Rasmus,239.0
+275,276.0,France,COSTIOU Ewen,237.0
+276,281.0,Denmark,HONORÉ Mikkel Frølich,235.0
+277,243.0,Russia,SYRITSA Gleb,235.0
+278,282.0,Australia,HAIG Jack,234.0
+279,565.0,Estonia,LAAS Martin,233.0
+280,283.0,France,GACHIGNARD Thomas,233.0
+281,322.0,Italy,TAROZZI Manuele,232.0
+282,280.0,Great Britain,DONOVAN Mark,232.0
+283,305.0,Great Britain,NERURKAR Lukas,231.0
+284,247.0,Australia,SCHULTZ Nick,229.0
+285,291.0,France,TRONCHON Bastien,229.0
+286,304.0,Denmark,WANDAHL Frederik,228.0
+287,287.0,Italy,BATTISTELLA Samuele,226.0
+288,383.0,Uganda,KAGIMU Charles,226.0
+289,289.0,Austria,HALLER Marco,224.0
+290,316.0,Ecuadore,LÓPEZ Harold Martín,224.0
+291,292.0,Belgium,VAN MOER Brent,222.0
+292,311.0,Great Britain,TURNER Ben,222.0
+293,293.0,Portuguese,OLIVEIRA Nelson,221.0
+294,395.0,Italy,BUSATTO Francesco,221.0
+295,288.0,Spain,RODRÍGUEZ Óscar,220.0
+296,285.0,Ecuadore,CAICEDO Jonathan Klever,219.0
+297,382.0,Italy,MAGLI Filippo,217.0
+298,297.0,Belgium,LOOCKX Lander,216.0
+299,306.0,Norwegia,LEKNESSUND Andreas,216.0
+300,300.0,Spain,ABERASTURI Jon,213.0
+301,301.0,Spain,PRADES Eduard,213.0
+302,303.0,Germany,MAYRHOFER Marius,212.0
+303,279.0,Belgium,VAN GESTEL Dries,210.0
+304,309.0,Austria,ZOIDL Riccardo,208.0
+305,302.0,Germany,GESCHKE Simon,208.0
+306,308.0,Australia,CAVANAGH Ryan,208.0
+307,312.0,Belgium,LAMPAERT Yves,207.0
+308,313.0,France,ARMIRAIL Bruno,207.0
+309,352.0,Portuguese,OLIVEIRA Rui,207.0
+310,296.0,Belgium,VAN BOVEN Luca,207.0
+311,314.0,Austria,KONRAD Patrick,206.0
+312,315.0,Great Britain,CARTHY Hugh,206.0
+313,188.0,Italy,ZANONCELLO Enrico,206.0
+314,299.0,France,MARIAULT Axel,206.0
+315,222.0,Belgium,VAN DE PAAR Jarne,204.0
+316,614.0,Italy,PESENTI Thomas,204.0
+317,307.0,Germany,ENGELHARDT Felix,203.0
+318,318.0,Spain,GARCÍA PIERNA Raúl,203.0
+319,298.0,Germany,TEUTENBERG Tim Torn,203.0
+320,319.0,Australia,HOWSON Damien,202.0
+321,317.0,Italy,CATTANEO Mattia,200.0
+322,284.0,Italy,VIVIANI Elia,199.0
+323,323.0,United States,SIMMONS Quinn,199.0
+324,324.0,Russia,NYCH Artem,198.0
+325,331.0,Spain,APARICIO Mario,198.0
+326,340.0,Norwegia,GUDMESTAD Tord,198.0
+327,337.0,Algeria,LAGAB Azzedine,197.0
+328,330.0,Spain,PARRA José Félix,197.0
+329,213.0,Ecuadore,CEPEDA Jefferson Alexander,197.0
+330,392.0,Canada,CÔTÉ Pier-André,196.0
+331,335.0,Colombia,VARGAS Walter,196.0
+332,327.0,Colombia,PEÑA Jesús David,196.0
+333,575.0,Estonia,LAUK Karl Patrick,194.0
+334,332.0,Norwegia,HOLTER Ådne,192.0
+335,343.0,Latvia,NEILANDS Krists,191.0
+336,325.0,United States,BARTA Will,191.0
+337,333.0,Great Britain,CAVENDISH Mark,190.0
+338,334.0,Austria,MÜHLBERGER Gregor,190.0
+339,336.0,South Africa,GEARY Dillon,190.0
+340,321.0,Dutch,BOUWMAN Koen,189.0
+341,339.0,Venezuela,LINAREZ Leangel Rubén,188.0
+342,341.0,Germany,ZWIEHOFF Ben,188.0
+343,420.0,Colombia,QUINTANA Nairo,187.0
+344,329.0,Dutch,VAN DIJKE Tim,187.0
+345,344.0,France,BARBIER Pierre,186.0
+346,346.0,Belgium,UIJTDEBROEKS Cian,186.0
+347,581.0,Belgium,MEURISSE Xandro,185.0
+348,347.0,Kazakhstan,GRUZDEV Dmitriy,185.0
+349,273.0,Dutch,VAN ENGELEN Adne,185.0
+350,348.0,Colombia,CONTRERAS Rodrigo,185.0
+351,349.0,Hungary,DINA Márton,185.0
+352,354.0,Great Britain,FLYNN Sean,185.0
+353,350.0,Australia,PLOWRIGHT Jensen,185.0
+354,355.0,Italy,CARBONI Giovanni,184.0
+355,386.0,Italy,TONELLI Alessandro,183.0
+356,294.0,Spain,GARCÍA CORTINA Iván,183.0
+357,359.0,Luxembourg,GENIETS Kevin,183.0
+358,353.0,France,PRODHOMME Nicolas,182.0
+359,364.0,Spain,BARCELÓ Fernando,182.0
+360,441.0,Italy,PINARELLO Alessandro,182.0
+361,435.0,Dutch,BOL Cees,181.0
+362,356.0,South Korea,KIM Euro,181.0
+363,357.0,Germany,STEIMLE Jannik,180.0
+364,756.0,Belgium,VAN TRICHT Stan,180.0
+365,358.0,Belgium,BONNEU Kamiel,180.0
+366,360.0,Belgium,KIELICH Timo,179.0
+367,361.0,Slovakia,KUBIŠ Lukáš,179.0
+368,423.0,Romania,RAILEANU Cristian,178.0
+369,363.0,Australia,CLARKE Simon,177.0
+370,379.0,Norwegia,EIKING Odd Christian,177.0
+371,365.0,Spain,ROMEO Iván,177.0
+372,385.0,Australia,BETTLES Carter,175.0
+373,430.0,Spain,BIZKARRA Mikel,174.0
+374,370.0,China,LYU Xianjing,174.0
+375,362.0,Germany,BUCHMANN Emanuel,173.0
+376,503.0,France,RENARD Alexis,173.0
+377,371.0,Monaco,LANGELLOTTI Victor,172.0
+378,268.0,Spain,BOU Joan,171.0
+379,375.0,Bermuda,HOPKINS Kaden,171.0
+380,376.0,Portuguese,GUERREIRO Ruben,170.0
+381,374.0,Spain,DE LA CRUZ David,168.0
+382,378.0,Belgium,ALLEGAERT Piet,168.0
+383,381.0,France,BERNARD Julien,167.0
+384,369.0,Czech Republic,KOPECKÝ Matyáš,167.0
+385,433.0,Italy,CONTI Valerio,166.0
+386,368.0,Italy,VERRE Alessandro,166.0
+387,402.0,Belgium,HERREGODTS Rune,165.0
+388,387.0,Dutch,EENKHOORN Pascal,164.0
+389,366.0,Norwegia,TRÆEN Torstein,164.0
+390,389.0,Grenada,WALTERS Red,164.0
+391,390.0,France,DONNENWIRTH Tom,164.0
+392,391.0,France,TOUZÉ Damien,163.0
+393,367.0,Belgium,MARIT Arne,162.0
+394,328.0,Belgium,SLOCK Liam,161.0
+395,388.0,Dutch,EEKHOFF Nils,160.0
+396,472.0,Israel,KOGUT Oded,160.0
+397,408.0,Belgium,DE BONDT Dries,159.0
+398,436.0,Italy,MARECZKO Jakub,159.0
+399,396.0,Israel,EINHORN Itamar,159.0
+400,415.0,Italy,VERGALLITO Luca,158.0
+401,397.0,Germany,BEHRENS Niklas,158.0
+402,404.0,Belgium,DE GENDT Aimé,157.0
+403,393.0,Colombia,CHAVES Esteban,157.0
+404,398.0,Poland,KWIATKOWSKI Michał,157.0
+405,399.0,Germany,RUTSCH Jonas,157.0
+406,400.0,Spain,NICOLAU Joel,157.0
+407,394.0,Ireland,RAFFERTY Darren,157.0
+408,431.0,Dutch,ZIJLAARD Maikel,155.0
+409,403.0,Panama,ARCHIBOLD Franklin,154.5
+410,461.0,Italy,MAESTRI Mirco,154.0
+411,295.0,Great Britain,ASKEY Lewis,154.0
+412,405.0,Kazakhstan,DOSTIYEV Ilkhan,154.0
+413,406.0,Belgium,WIDAR Jarno,154.0
+414,407.0,France,VERCHER Mattéo,153.0
+415,409.0,Australia,SCOTSON Callum,152.0
+416,410.0,Australia,HAMILTON Chris,152.0
+417,411.0,Belgium,DESAL Ceriel,152.0
+418,412.0,Colombia,SOSA Iván Ramiro,152.0
+419,373.0,Germany,DEGENKOLB John,151.0
+420,414.0,Great Britain,GEOGHEGAN HART Tao,151.0
+421,417.0,Italy,ROMELE Alessandro,151.0
+422,418.0,Dutch,HOOLE Daan,149.0
+423,427.0,Germany,UHLIG Henri,149.0
+424,419.0,Thailand,CHAIYASOMBAT Thanakhan,148.0
+425,421.0,Spain,GALVÁN Francisco,147.0
+426,774.0,Spain,IRIBAR Unai,147.0
+427,422.0,Spain,BARRENETXEA Jon,147.0
+428,452.0,Norwegia,NORDHAGEN Jørgen,147.0
+429,326.0,Denmark,KRON Andreas,146.0
+430,426.0,Sweden,SÖDERQVIST Jakob,146.0
+431,486.0,Ireland,TOWNSEND Rory,145.0
+432,428.0,Italy,CARUSO Damiano,144.0
+433,380.0,Dutch,DE VRIES Hartthijs,144.0
+434,429.0,Bermuda,WHITE Conor,144.0
+435,432.0,Belgium,VERMEERSCH Florian,143.0
+436,463.0,France,ROLLAND Brieuc,143.0
+437,620.0,Belgium,DE SCHUYTENEER Steffen,143.0
+438,450.0,Italy,BALLERINI Davide,142.0
+439,434.0,South Africa,GIBBONS Ryan,142.0
+440,467.0,Spain,ARRIETA Igor,141.0
+441,438.0,Italy,COVI Alessandro,140.0
+442,439.0,Italy,FIORELLI Filippo,139.0
+443,454.0,Italy,SOBRERO Matteo,139.0
+444,440.0,Australia,O'BRIEN Kelland,139.0
+445,424.0,Germany,STORK Florian,138.0
+446,437.0,Australia,DYBALL Benjamin,137.0
+447,442.0,Belgium,DE TIER Floris,135.0
+448,443.0,Japan,ARASHIRO Yukiya,135.0
+449,828.0,Denmark,CHARMIG Anthon,135.0
+450,444.0,Australia,SWEENY Harry,135.0
+451,445.0,Mongolia,BATSAIKHAN Tegsh-bayar,135.0
+452,220.0,Great Britain,CARR Simon,135.0
+453,446.0,Eritrea,EYOB Metkel,134.0
+454,447.0,France,THOMAS Benjamin,134.0
+455,448.0,Eritrea,YEMANE Dawit,134.0
+456,416.0,Italy,SBARAGLI Kristian,133.0
+457,449.0,Colombia,RESTREPO Jhonatan,133.0
+458,451.0,Great Britain,STEWART Jake,132.0
+459,401.0,Italy,COVILI Luca,131.0
+460,460.0,France,MORIN Emmanuel,131.0
+461,455.0,Brazil,SESSLER Nícolas,131.0
+462,507.0,Dutch,VAN DIJKE Mick,131.0
+463,457.0,Swiss,STÜSSI Colin,130.0
+464,377.0,Italy,MARCELLUSI Martin,130.0
+465,372.0,Slovenia,MEZGEC Luka,129.0
+466,459.0,Norwegia,HAGEN Carl Fredrik,129.0
+467,462.0,France,PETERS Nans,128.0
+468,481.0,United States,WARBASSE Larry,127.0
+469,464.0,Spain,FERNÁNDEZ Rubén,127.0
+470,465.0,Japan,KOISHI Yuma,127.0
+471,497.0,Italy,MILESI Lorenzo,127.0
+472,468.0,Iran,LABIB SHOTORBAN Ali,127.0
+473,469.0,Austria,HAJEK Alexander,127.0
+474,474.0,Latvia,LIEPIŅŠ Emīls,126.0
+475,479.0,Great Britain,SWIFT Ben,126.0
+476,470.0,Spain,BERASATEGI Xabier,126.0
+477,624.0,South Africa,DOWNES Brandon,125.0
+478,466.0,Great Britain,VERNON Ethan,125.0
+479,490.0,Italy,FRIGO Marco,125.0
+480,473.0,Belgium,GELDERS Gil,125.0
+481,413.0,Dutch,ARTZ Huub,124.0
+482,560.0,new zealand,CURRIE Logan,124.0
+483,338.0,Belgium,THEUNS Edward,123.0
+484,475.0,Italy,CONCI Nicola,123.0
+485,476.0,France,LOUVEL Matis,123.0
+486,478.0,Great Britain,WALKER Max,123.0
+487,482.0,Swiss,LIENHARD Fabian,121.0
+488,483.0,Germany,ARNDT Nikias,121.0
+489,484.0,France,RUSSO Clément,121.0
+490,485.0,Estonia,KISKONEN Siim,121.0
+491,487.0,Denmark,PEDERSEN Rasmus Søjberg,121.0
+492,724.0,Spain,OKAMIKA Ander,121.0
+493,491.0,Puerto Rico,GONZÁLEZ Abner,120.0
+494,492.0,France,ISIDORE Noa,120.0
+495,494.0,Italy,PERSICO Davide,119.0
+496,477.0,Slovenia,GOVEKAR Matevž,118.0
+497,511.0,Norwegia,KULSET Johannes,118.0
+498,498.0,Great Britain,DOULL Owain,117.0
+499,499.0,Ukraine,BUDYAK Anatoliy,117.0
+500,480.0,Austria,PERNSTEINER Hermann,117.0
+501,513.0,France,PALENI Enzo,117.0
+502,500.0,Great Britain,BRENNAN Matthew,117.0
+503,501.0,France,LEROUX Samuel,116.0
+504,502.0,United States,STITES Tyler,116.0
+505,384.0,France,DELBOVE Joris,116.0
+506,578.0,Dutch,VAN SINTMAARTENSDIJK Roel,116.0
+507,493.0,Spain,PRADES Benjamín,115.0
+508,456.0,Luxembourg,JUNGELS Bob,115.0
+509,504.0,Denmark,FUGLSANG Jakob,115.0
+510,522.0,Dutch,LEEMREIZE Gijs,115.0
+511,508.0,Belgium,CRAPS Lars,115.0
+512,543.0,Italy,TIZZA Marco,114.0
+513,509.0,Belgium,BEULLENS Cedric,114.0
+514,510.0,Portuguese,OLIVEIRA Ivo,114.0
+515,114.0,Italy,BAGIOLI Andrea,114.0
+516,506.0,Algeria,HAMZA Yacine,112.0
+517,512.0,Germany,BALLERSTEDT Maurice,112.0
+518,514.0,Portuguese,EULÁLIO Afonso,112.0
+519,536.0,Dutch,KRUIJSWIJK Steven,111.0
+520,517.0,France,CAPRON Rémi,111.0
+521,519.0,South Korea,JANG Kyung-Gu,110.0
+522,520.0,Belgium,LIVYNS Arjen,110.0
+523,505.0,Poland,PAWLAK Tobiasz,110.0
+524,521.0,France,GUERNALEC Thibault,110.0
+525,523.0,Canada,PICKRELL Riley,110.0
+526,525.0,Germany,KÄMNA Lennard,109.0
+527,528.0,Australia,GREENWOOD Matthew,109.0
+528,529.0,Giatemala,CHUMIL Sergio Geovani,108.7
+529,530.0,Canada,HOULE Hugo,108.0
+530,531.0,Dutch,DEKKER David,108.0
+531,516.0,Malaysia,ROSLI Muhammad Nur Aiman Bin,108.0
+532,569.0,Australia,RICHARDS Kane,108.0
+533,741.0,Spain,GUTIÉRREZ Jorge,108.0
+534,524.0,Thailand,SIRIRONNACHAI Sarawut,107.0
+535,534.0,Ireland,MULLEN Ryan,107.0
+536,738.0,Spain,PEÑALVER Manuel,107.0
+537,535.0,France,MAIRE Adrien,107.0
+538,515.0,Colombia,URÁN Rigoberto,106.0
+539,538.0,Norwegia,FREDHEIM Stian,106.0
+540,992.0,Spain,SORARRAIN Gorka,106.0
+541,550.0,Belgium,HERMANS Ben,105.0
+542,539.0,France,BRAZ AFONSO Clément,105.0
+543,542.0,Dutch,RONHAAR Pim,105.0
+544,527.0,Austria,KEPPLINGER Rainer,105.0
+545,706.0,Rwanda,MUGISHA Moise,104.0
+546,544.0,Spain,LÓPEZ Jordi,104.0
+547,532.0,Italy,GAROFOLI Gianmarco,104.0
+548,545.0,France,LE BERRE Mathis,103.0
+549,546.0,Dutch,DEL GROSSO Tibor,103.0
+550,547.0,Indonesia,CAHYADI Aiman,102.0
+551,602.0,South Africa,DE BOD Stefan,102.0
+552,425.0,Italy,PARISINI Nicolò,102.0
+553,549.0,Belgium,GOOSSENS Kobe,101.0
+554,540.0,France,HUENS Axel,101.0
+555,488.0,Kazakhstan,ZEITS Andrey,100.0
+556,551.0,France,GRUEL Thibaud,100.0
+557,554.0,Spain,HERRADA Jesús,98.0
+558,555.0,Swiss,BADILATTI Matteo,98.0
+559,556.0,Italy,DE MARCHI Alessandro,97.0
+560,557.0,Japan,YAMAMOTO Masaki,97.0
+561,541.0,Dutch,BOVEN Lars,97.0
+562,558.0,Dutch,OOMEN Sam,96.0
+563,559.0,Swiss,BOHLI Tom,96.0
+564,649.0,Estonia,ÄRM Rait,96.0
+565,561.0,new zealand,THOMPSON Reuben,96.0
+566,582.0,France,DELAPLACE Anthony,95.0
+567,533.0,Italy,NIZZOLO Giacomo,95.0
+568,563.0,Italy,FABBRO Matteo,95.0
+569,572.0,Dutch,JOHANNINK Jelle,95.0
+570,566.0,Belgium,VERVAEKE Louis,94.0
+571,627.0,Italy,BAIS Mattia,93.0
+572,567.0,Denmark,NORSGAARD Mathias,93.0
+573,570.0,Denmark,ANDERSEN Mads,93.0
+574,571.0,Colombia,UMBA Santiago,93.0
+575,351.0,Poland,BANASZEK Norbert,92.0
+576,573.0,France,BREUILLARD Nicolas,92.0
+577,574.0,Denmark,PEDERSEN Casper,91.0
+578,576.0,Honkong,LAU Wan Yau Vincent,91.0
+579,579.0,Kazakhstan,VINOKUROV Nicolas,91.0
+580,580.0,Denmark,DALBY Simon,91.0
+581,636.0,Belgium,WOUTERS Rutger,90.0
+582,660.0,Norwegia,BLIKRA Erlend,90.0
+583,584.0,France,RONDEL Mathys,90.0
+584,585.0,Great Britain,MCLAY Daniel,89.0
+585,586.0,Slovenia,NOVAK Domen,89.0
+586,604.0,Luxembourg,RIES Michel,89.0
+587,564.0,Italy,QUARTUCCI Lorenzo,89.0
+588,587.0,Taiwan,TU Sergio,89.0
+589,588.0,Norwegia,DREGE André,89.0
+590,979.0,Spain,RUIZ Ibon,89.0
+591,589.0,Norwegia,BYSTRØM Sven Erik,88.0
+592,590.0,new zealand,SMITH Dion,88.0
+593,736.0,Morocco,EL ARBAOUI Adil,88.0
+594,553.0,Austria,GOGL Michael,87.0
+595,591.0,Spain,SAMITIER Sergio,87.0
+596,675.0,United States,QUINN Sean,87.0
+597,593.0,Kazakhstan,BRUSSENSKIY Gleb,87.0
+598,595.0,Denmark,WÜRTZ SCHMIDT Mads,86.0
+599,596.0,Australia,MOREY Drew,86.0
+600,598.0,Luxembourg,WENZEL Mats,86.0
+601,599.0,Mauritius,DE COMARMOND Aurelien,86.0
+602,600.0,United Arabes Emirates,JASIM AL-ALI Abdulla,86.0
+603,601.0,Australia,MEDWAY Jackson,85.0
+604,603.0,Dutch,WELTEN Bram,84.0
+605,631.0,Germany,HOLLMANN Juri,84.0
+606,632.0,Italy,GERMANI Lorenzo,84.0
+607,607.0,China,XUE Ming,84.0
+608,671.0,Etiopia,ROGORA Kiya,84.0
+609,609.0,Poland,MAŁECKI Kamil,83.0
+610,610.0,Spain,LASTRA Jonathan,83.0
+611,611.0,Norwegia,STAUNE-MITTET Johannes,83.0
+612,612.0,Slovakia,SVRČEK Martin,83.0
+613,615.0,Belgium,VANGHELUWE Warre,82.0
+614,616.0,Great Britain,DONALDSON Robert,82.0
+615,617.0,Belgium,SENTJENS Sente,82.0
+616,618.0,Poland,MACIEJUK Filip,81.0
+617,526.0,Slovenia,GLIVAR Gal,81.0
+618,619.0,Germany,HERZOG Emil,81.0
+619,621.0,Austria,PÖSTLBERGER Lukas,80.0
+620,1900.0,Dutch,VAN DER HOORN Taco,80.0
+621,622.0,Swiss,JACOBS Johan,80.0
+622,623.0,Spain,MARTÍN Gotzon,80.0
+623,664.0,Belgium,VAN DEN BOSSCHE Fabio,80.0
+624,625.0,Spain,GONZÁLEZ David,80.0
+625,682.0,Great Britain,WOOD Harrison,80.0
+626,,Spain,TERCERO Fernando,80.0
+627,628.0,Poland,BANASZEK Alan,79.0
+628,629.0,Belgium,DE PESTEL Sander,79.0
+629,633.0,Spain,TORRES Pablo,79.0
+630,634.0,Denmark,BREGNHØJ Mathias,78.0
+631,667.0,Great Britain,SWIFT Connor,78.0
+632,637.0,Uzbekistan,KHALMURATOV Muradjan,77.0
+633,640.0,France,CAVAGNA Rémi,77.0
+634,641.0,Thailand,CHAWCHIANGKWANG Peerapol,77.0
+635,642.0,Norwegia,URIANSTAD BUGGE Martin,77.0
+636,643.0,Ukraine,TSARENKO Kyrylo,77.0
+637,644.0,chile,VIDAURRE Martín,77.0
+638,626.0,Morocco,ED DOGHMY Achraf,77.0
+639,645.0,Eritrea,ZERAY Nahom,77.0
+640,646.0,France,LABROSSE Jordan,77.0
+641,693.0,Italy,TONEATTI Davide,77.0
+642,883.0,Dutch,REINDERS Elmar,76.0
+643,647.0,Spain,SERRANO Gonzalo,76.0
+644,648.0,Spain,COBO Iván,76.0
+645,650.0,Dutch,MOURIS Wessel,76.0
+646,651.0,Spain,GUARDEÑO Jaume,76.0
+647,652.0,Spain,MATÉ Luis Ángel,75.0
+648,583.0,Czech Republic,OTRUBA Jakub,75.0
+649,653.0,Belgium,MEENS Johan,75.0
+650,655.0,Poland,STOSZ Patryk,74.0
+651,656.0,France,PEREZ Anthony,74.0
+652,657.0,Belgium,VAN ROOY Kenneth,74.0
+653,658.0,Italy,PASQUALON Andrea,74.0
+654,659.0,South Africa,VAN NIEKERK Morné,74.0
+655,681.0,France,GUGLIELMI Simon,74.0
+656,662.0,Belgium,GRIGNARD Sébastien,74.0
+657,663.0,France,CHAMPION Thomas,74.0
+658,665.0,France,RETAILLEAU Valentin,74.0
+659,666.0,Serbia,RAJOVIĆ Dušan,73.0
+660,668.0,Germany,HEIDEMANN Miguel,73.0
+661,594.0,France,LATOUR Pierre,72.0
+662,669.0,Denmark,KLARIS Magnus Bak,72.0
+663,630.0,Poland,PĘKALA Piotr,72.0
+664,496.0,Spain,MURGUIALDAY Jokin,72.0
+665,670.0,Czech Republic,KOPECKÝ Tomáš,72.0
+666,661.0,Italy,BALDACCINI Davide,71.0
+667,674.0,Germany,MÄRKL Niklas,71.0
+668,676.0,France,SIMON Julien,70.0
+669,613.0,Italy,NIBALI Antonio,70.0
+670,677.0,Belgium,HESTERS Jules,70.0
+671,678.0,Poland,RUDYK Bartosz,70.0
+672,654.0,Austria,BAYER Tobias,70.0
+673,679.0,chile,RODRIGUEZ José Luis,69.0
+674,562.0,Belgium,PLANCKAERT Edward,69.0
+675,757.0,Italy,PIETROBON Andrea,69.0
+676,683.0,Russia,RIKUNOV Petr,68.0
+677,709.0,Germany,ADAMIETZ Johannes,68.0
+678,684.0,Costa Rica,BRENES Sebastian,68.0
+679,686.0,Czech Republic,ČERNÝ Josef,67.0
+680,687.0,Spain,JAIME Álex,67.0
+681,688.0,Burkina Faso,DAUMONT Paul,67.0
+682,689.0,France,HUBY Antoine,67.0
+683,690.0,Etiopia,BERHE Welay Hagos,67.0
+684,691.0,Colombia,CAMARGO Diego Andrés,67.0
+685,763.0,France,BASSET Pierre-Henry,67.0
+686,672.0,Australia,EAVES William,67.0
+687,695.0,Germany,DENZ Nico,66.0
+688,696.0,France,CALMEJANE Lilian,66.0
+689,817.0,Dutch,TUSVELD Martijn,66.0
+690,697.0,Australia,DURBRIDGE Luke,66.0
+691,537.0,Belgium,BOMBOI Davide,66.0
+692,698.0,Mauritius,ROUGIER-LAGANE Christopher,66.0
+693,518.0,France,LE GAC Olivier,65.0
+694,700.0,Swiss,DILLIER Silvan,65.0
+695,719.0,Denmark,JUUL-JENSEN Christopher,65.0
+696,701.0,new zealand,CLARK Boris,65.0
+697,702.0,Austria,GAMPER Patrick,65.0
+698,694.0,laos,PHOUNSAVATH Ariya,64.0
+699,1418.0,France,OURSELIN Paul,64.0
+700,704.0,Cyprus,MILTIADIS Andreas,64.0
+701,749.0,Belgium,HUYS Laurens,64.0
+702,606.0,Portuguese,LEITÃO Iúri,64.0
+703,705.0,Colombia,OSORIO Alejandro,64.0
+704,716.0,Spain,MARTIN David,64.0
+705,707.0,Italy,KAJAMINI Florian Samuel,64.0
+706,726.0,Angola,CHINGUI Euclides,64.0
+707,708.0,Iran,SAFARZADEH Saeid,63.0
+708,639.0,Italy,MOSCA Jacopo,63.0
+709,713.0,Swiss,FROIDEVAUX Robin,63.0
+710,458.0,Belgium,WEEMAES Sasha,63.0
+711,710.0,Dutch,MOLENAAR Alex,63.0
+712,711.0,Italy,FANCELLU Alessandro,63.0
+713,712.0,China,MA Binyan,63.0
+714,685.0,Belgium,JANSSENS Jimmy,62.0
+715,714.0,France,HENNEQUIN Paul,62.0
+716,731.0,Dutch,REINDERINK Pepijn,61.0
+717,717.0,chile,QUINTANA Hector Exequiel,61.0
+718,834.0,France,L'HOTE Antoine,61.0
+719,718.0,Poland,OWSIAN Łukasz,60.0
+720,720.0,Canada,BOIVIN Guillaume,60.0
+721,489.0,Italy,MASNADA Fausto,60.0
+722,680.0,Eritrea,GHEBREIGZABHIER Amanuel,60.0
+723,721.0,Serbia,ILIĆ Ognjen,60.0
+724,722.0,Belgium,BLOUWE Louis,60.0
+725,723.0,Australia,METCALFE Ben,60.0
+726,760.0,Etiopia,ABREHA Negasi Haylu,60.0
+727,1588.0,Australia,HOPKINS Dylan,60.0
+728,692.0,Dutch,VAN BEKKUM Darren,60.0
+729,725.0,France,FAURE PROST Alexy,60.0
+730,727.0,Ivory Coast,CISSÉ Isiaka,59.0
+731,766.0,Spain,CASTROVIEJO Jonathan,59.0
+732,728.0,Belgium,DE BUYST Jasper,59.0
+733,729.0,Australia,QUICK Blake,59.0
+734,730.0,Dutch,LEIJNSE Enzo,59.0
+735,732.0,Belgium,POLLEFLIET Gianluca,59.0
+736,733.0,Mexico,CADENA Edgar David,59.0
+737,734.0,Italy,MOSCON Gianni,58.0
+738,735.0,Great Britain,SHAW James,58.0
+739,592.0,Czech Republic,BABOR Daniel,58.0
+740,737.0,Denmark,STAMPE Daniel,58.0
+741,740.0,Belgium,DE POOTER Dries,58.0
+742,742.0,Belgium,DOCKX Aaron,58.0
+743,745.0,Belgium,VANDENSTORME Dylan,57.0
+744,747.0,Great Britain,HOBBS Noah,57.0
+745,699.0,Cameroon,KAMZONG Clovis,56.0
+746,897.0,Russia,SMIRNOV Ivan,56.0
+747,750.0,France,DELACROIX Théo,56.0
+748,751.0,Australia,NIQUET-OLDEN Bentley,56.0
+749,752.0,Denmark,BLUME LEVY William,56.0
+750,753.0,Italy,CRESCIOLI Ludovico,56.0
+751,754.0,Costa Rica,RAMÍREZ Donovan,56.0
+752,755.0,Belgium,VANDEN HEEDE Lars,56.0
+753,786.0,Swiss,DARBELLAY Valentin,56.0
+754,638.0,Germany,KOCH Jonas,55.0
+755,673.0,Dutch,BAX Sjoerd,55.0
+756,796.0,Norwegia,ANDERSEN Idar,55.0
+757,758.0,Great Britain,HAYTER Leo,55.0
+758,746.0,Italy,DE CASSAN Davide,55.0
+759,761.0,Australia,TREZISE Declan,55.0
+760,715.0,France,GUERIN Alexis,54.0
+761,552.0,Greece,TZORTZAKIS Polychronis,54.0
+762,743.0,Ecuadore,GUAMÁ Byron,54.0
+763,453.0,Germany,CARSTENSEN Lucas,54.0
+764,767.0,Italy,COLNAGHI Luca,54.0
+765,768.0,Poland,PROĆ Bartłomiej,54.0
+766,769.0,Luxembourg,KLUCKERS Arthur,54.0
+767,1333.0,France,GUILLON Célestin,54.0
+768,770.0,Algeria,SAIDI Nassim,53.0
+769,771.0,France,DOUBEY Fabien,53.0
+770,772.0,Dutch,SCHELLING Ide,53.0
+771,773.0,new zealand,FOUCHÉ James,53.0
+772,568.0,France,DE ROSSI Lucas,53.0
+773,775.0,Czech Republic,VOLTR Martin,53.0
+774,813.0,Algeria,AMARI Hamza,53.0
+775,776.0,Argentina,ROSAS Laureano,52.0
+776,777.0,Spain,TORRES Albert,52.0
+777,779.0,France,GRELLIER Fabien,52.0
+778,781.0,Spain,SOTO Antonio Jesús,52.0
+779,782.0,France,FERRON Valentin,52.0
+780,783.0,Australia,SCOTT Cameron,52.0
+781,744.0,Italy,PICCOLO Andrea,52.0
+782,868.0,Italy,SAVINO Federico,52.0
+783,875.0,Morocco,EL KOURAJI Mohcine,51.0
+784,952.0,Italy,CONCA Filippo,51.0
+785,471.0,Kazakhstan,PRONSKIY Vadim,51.0
+786,1080.0,Dutch,BLOEM Joren,51.0
+787,785.0,France,GRONDIN Donavan,51.0
+788,878.0,Germany,HEIDUK Kim,51.0
+789,787.0,Belgium,MARCHAND Gianni,50.0
+790,837.0,France,COMBAUD Romain,50.0
+791,788.0,Portuguese,REIS Rafael,50.0
+792,860.0,Swiss,PELLAUD Simon,50.0
+793,789.0,Belgium,VAN LERBERGHE Bert,50.0
+794,790.0,Germany,SÜTTERLIN Jasha,50.0
+795,791.0,Belgium,TEUGELS Lennert,50.0
+796,792.0,Italy,PETILLI Simone,50.0
+797,608.0,France,LAFAY Victor,50.0
+798,793.0,France,RIOU Alan,50.0
+799,794.0,Denmark,SALBY Alexander,50.0
+800,795.0,Kazakhstan,CHZHAN Igor,50.0
+801,739.0,France,DAUPHIN Florian,50.0
+802,798.0,Crotia,MIHOLJEVIĆ Fran,50.0
+803,799.0,Türkiye,ÖRKEN Ahmet,49.0
+804,801.0,Belgium,LEYSEN Senne,49.0
+805,802.0,United States,MCGILL Scott,49.0
+806,803.0,Australia,DRIZNERS Jarrad,49.0
+807,804.0,Australia,CHRISTIE-JOHNSTON Alastair,49.0
+808,805.0,Argentina,CONTTE Tomas,49.0
+809,806.0,Iran,SEYFOLLAHIFARD Hasan,49.0
+810,807.0,new zealand,BURNETT Josh,49.0
+811,808.0,United Arabes Emirates,ALMUTAIWEI Mohammad,49.0
+812,605.0,Spain,JUARISTI Txomin,48.0
+813,811.0,Colombia,OCAMPO Victor,48.0
+814,759.0,Italy,BURATTI Nicolò,48.0
+815,1178.0,Italy,PINAZZI Mattia,48.0
+816,814.0,Kazakhstan,REMKHE Andrey,48.0
+817,815.0,Czech Republic,PŘIDAL Tomáš,48.0
+818,778.0,Swiss,REICHENBACH Sébastien,47.0
+819,816.0,Australia,HEPBURN Michael,47.0
+820,847.0,Dutch,MEIJERS Jeroen,47.0
+821,818.0,Sweden,ERIKSSON Lucas,47.0
+822,819.0,Estonia,VAHTRA Norman,47.0
+823,1525.0,Spain,CAÑELLAS Xavier,47.0
+824,820.0,Lithuania,LAŠINIS Venantas,47.0
+825,821.0,France,JARNET Maxime,47.0
+826,822.0,Sweden,ERIKSSON Jacob,47.0
+827,823.0,Belgium,MARIS Elias,47.0
+828,824.0,France,BARTHE Cyril,47.0
+829,825.0,Brazil,GONZELI Otavio Augusto,47.0
+830,826.0,Eritrea,BERHANE Natnael,46.0
+831,827.0,France,GUÉGAN Maël,46.0
+832,829.0,Costa Rica,RIVERA Kevin,46.0
+833,830.0,Hungary,PEÁK Barnabás,46.0
+834,831.0,Belgium,DE MEESTER Luca,46.0
+835,877.0,Denmark,NIELSEN Sebastian,46.0
+836,832.0,Austria,RITZINGER Felix,46.0
+837,833.0,Denmark,GUDNITZ Joshua,46.0
+838,784.0,Israel,RAISBERG Nadav,46.0
+839,846.0,Greece,BOUGLAS Georgios,45.0
+840,835.0,Belgium,VERGAERDE Otto,45.0
+841,748.0,Dutch,OTTEMA Rick,45.0
+842,838.0,Dutch,RIESEBEEK Oscar,45.0
+843,839.0,Czech Republic,ŠTYBAR Zdeněk,45.0
+844,840.0,Norwegia,BOASSON HAGEN Edvald,45.0
+845,841.0,Spain,ARCAS Jorge,45.0
+846,842.0,Germany,MATTHEIS Oliver,45.0
+847,844.0,Italy,CALZONI Walter,45.0
+848,845.0,Australia,STENNING Oliver,45.0
+849,1666.0,South Africa,JANSE VAN RENSBURG Reinardt,44.0
+850,765.0,Belgium,VAN HOECKE Gijs,44.0
+851,848.0,Belgium,SERRY Pieter,44.0
+852,849.0,Belgium,VERMOTE Julien,44.0
+853,780.0,Denmark,GREGAARD Jonas,44.0
+854,851.0,Belgium,REYNDERS Jens,44.0
+855,810.0,Denmark,JOHANSEN Julius,44.0
+856,852.0,Italy,SKERL Daniel,44.0
+857,548.0,Italy,CONFORTI Lorenzo,44.0
+858,1143.0,Rwanda,MASENGESHO Vainqueur,44.0
+859,853.0,Australia,BURNS Luke,44.0
+860,854.0,Denmark,KAMP Alexander,43.0
+861,809.0,Australia,HAMILTON Lucas,43.0
+862,855.0,Finland,HÄNNINEN Jaakko,43.0
+863,956.0,Colombia,JAMAICA Javier Ernesto,43.0
+864,909.0,Norwegia,SVESTAD-BÅRDSENG Embret,43.0
+865,857.0,Italy,OIOLI Manuel,43.0
+866,762.0,Dutch,GRAAT Tijmen,43.0
+867,858.0,Poland,GRADEK Kamil,42.0
+868,870.0,Spain,ANGULO Antonio,42.0
+869,859.0,Venezuela,MONSALVE Yonathan,42.0
+870,861.0,France,GOUGEARD Alexis,42.0
+871,862.0,Morocco,SABBAHI El Houcaine,42.0
+872,863.0,Portuguese,LEAÇA Gonçalo,42.0
+873,864.0,Italy,GAZZOLI Michele,42.0
+874,865.0,Denmark,PRICE-PEJTERSEN Johan,42.0
+875,867.0,Peru,RUIZ Hugo Nestor Emiliano,42.0
+876,871.0,Estonia,TAARAMÄE Rein,41.0
+877,872.0,South Africa,SMIT Willie,41.0
+878,873.0,Great Britain,KNOX James,41.0
+879,874.0,Australia,JENNER Samuel,41.0
+880,879.0,Venezuela,PEÑUELA Francisco Joel,41.0
+881,880.0,Mexico,MUÑIZ José Ramón,41.0
+882,945.0,Morocco,ESSABAHY Ibrahim,41.0
+883,836.0,Italy,GAROSIO Andrea,40.0
+884,881.0,Estonia,NISU Oskar,40.0
+885,882.0,Mexico,CASTILLO Ulises Alfredo,40.0
+886,884.0,Dutch,VAN BAARLE Dylan,40.0
+887,885.0,Dutch,GESINK Robert,40.0
+888,886.0,Czech Republic,KUKRLE Michael,40.0
+889,887.0,France,LECROQ Jérémy,40.0
+890,888.0,Australia,SCOTSON Miles,40.0
+891,889.0,Czech Republic,ŤOUPALÍK Adam,40.0
+892,703.0,Italy,VIVIANI Attilio,40.0
+893,890.0,Swiss,RÜEGG Lukas,40.0
+894,891.0,France,DAVY Clément,40.0
+895,892.0,Belize,WILLIAMS Cory,40.0
+896,893.0,Spain,ELOSEGUI Iñigo,40.0
+897,894.0,Luxembourg,WIRTGEN Luc,40.0
+898,895.0,Italy,COLLEONI Kevin,40.0
+899,896.0,Australia,PORTER Rudy,40.0
+900,898.0,Brazil,RANGEL Vinícius,40.0
+901,899.0,France,LE HUITOUZE Eddy,40.0
+902,900.0,Uzbekistan,TSVETKOV Nikita,40.0
+903,901.0,United States,AUGUST Andrew,40.0
+904,903.0,Australia,EARLE Nathan,39.0
+905,904.0,Poland,SAJNOK Szymon,39.0
+906,850.0,Spain,SEVILLA Diego Pablo,39.0
+907,905.0,South Korea,JUNG Woo-ho,39.0
+908,906.0,Swiss,BALMER Alexandre,39.0
+909,907.0,Dutch,RASENBERG Martijn,39.0
+910,908.0,Spain,SERRANO Javier,39.0
+911,910.0,Swiss,WEISS Fabian,39.0
+912,983.0,Spain,CAMPRUBÍ Marcel,39.0
+913,911.0,Burkina Faso,ILBOUDO Mohamadi,39.0
+914,912.0,United Arabes Emirates,ALHAMMADI Abdulla,39.0
+915,1345.0,Uganda,LOROT Lawrence,39.0
+916,913.0,Honduras,MATUTE Fredd,38.3
+917,869.0,Russia,MAIKIN Roman,38.0
+918,915.0,Denmark,WALLIN Rasmus Bøgh,38.0
+919,916.0,Bahrain,NASER Ahmed,38.0
+920,1002.0,Swiss,BRUN Nils,38.0
+921,917.0,Great Britain,HOLLYMAN Mason,38.0
+922,918.0,Bermuda,NARRAWAY Nicholas,38.0
+923,919.0,Great Britain,ROOTKIN-GRAY Jack,38.0
+924,920.0,Italy,D'AIUTO Filippo,38.0
+925,1439.0,Rwanda,TUYIZERE Etienne,38.0
+926,1087.0,Italy,BRUTTOMESSO Alberto,38.0
+927,1160.0,Algeria,MIMOUNI Oussama Abdellah,38.0
+928,922.0,Sweden,LUDVIGSSON Tobias,37.0
+929,876.0,Malaysia,ABDUL HALIL Mohamad Izzat Hilmi,37.0
+930,923.0,Costa Rica,HUERTAS Jason Andrey,37.0
+931,924.0,Dutch,VAN DER TUUK Axel,37.0
+932,925.0,Australia,WALSH Liam,37.0
+933,926.0,Dutch,KRAMER Jesse,37.0
+934,927.0,Eritrea,AREFAYNE Aklilu,37.0
+935,928.0,Tunisia,DELLAI Mohamed Aziz,37.0
+936,929.0,Italy,GUALDI Simone,37.0
+937,930.0,Brazil,MENDES Diego De Jesus,37.0
+938,931.0,Bulgaria,STOYNEV Emil,37.0
+939,932.0,Brazil,RAMOS Kléber,36.0
+940,936.0,Belgium,VANHOOF Ward,36.0
+941,597.0,Spain,AGIRRE Jon,36.0
+942,939.0,Colombia,MENDEZ Daniel Alejandro,36.0
+943,940.0,Great Britain,GLOAG Thomas,36.0
+944,941.0,Belgium,ORINS Robin,36.0
+945,942.0,Uzbekistan,BOCHAROV Dmitriy,36.0
+946,944.0,France,LOZOUET Léandre,36.0
+947,1202.0,Dutch,HUISING Menno,36.0
+948,1105.0,Eritrea,MAEKELE Milkias,36.0
+949,946.0,Colombia,MUÑOZ Jaider,36.0
+950,947.0,Belgium,DECLERCQ Tim,35.0
+951,948.0,Denmark,MØRKØV Michael,35.0
+952,949.0,Norwegia,LAENGEN Vegard Stake,35.0
+953,950.0,Norwegia,JANSEN Amund Grøndahl,35.0
+954,951.0,France,DEBEAUMARCHÉ Nicolas,35.0
+955,953.0,Italy,ZOCCARATO Samuele,35.0
+956,954.0,Poland,KOSTAŃSKI Mateusz,35.0
+957,955.0,Serbia,STOJNIĆ Veljko,35.0
+958,957.0,Colombia,GÓMEZ Germán Darío,35.0
+959,959.0,Thailand,SOSALAM Tullatorn,35.0
+960,960.0,Denmark,BÉVORT Carl-Frederik,35.0
+961,961.0,Costa Rica,BONILLA Daniel Andres,34.2
+962,962.0,Bosnia and Erzegovina,KARIĆ Vedad,34.0
+963,764.0,France,SÉNÉCHAL Florian,34.0
+964,963.0,Belgium,DE GENDT Thomas,34.0
+965,964.0,France,PETIT Adrien,34.0
+966,965.0,Slovenia,PRIMOŽIČ Jaka,34.0
+967,966.0,Mali,DIALLO Yaya,34.0
+968,967.0,Colombia,ALBA Juan Diego,34.0
+969,968.0,Australia,SCHULTZ Elliot,34.0
+970,969.0,Czech Republic,KELEMEN Petr,34.0
+971,1026.0,Spain,LÓPEZ DE ABETXUKO Andoni,34.0
+972,958.0,Poland,BUDZIŃSKI Tomasz,34.0
+973,970.0,Spain,LÓPEZ Joseba,34.0
+974,971.0,Slovakia,SCHWARZBACHER Matthias,34.0
+975,973.0,Argentina,TIVANI German Nicolás,33.0
+976,975.0,Slovenia,FINKŠT Tilen,33.0
+977,1066.0,new zealand,MUDGWAY Luke,33.0
+978,977.0,Italy,BUDA Simone,33.0
+979,978.0,Belgium,VAN DE WYNKELE Lorenz,33.0
+980,980.0,Bolivia,ARAMAYO Jose Manuel,33.0
+981,981.0,Colombia,CASTILLO Kevin David,33.0
+982,982.0,Italy,RACCAGNI NOVIERO Andrea,33.0
+983,984.0,France,ELISSONDE Kenny,32.0
+984,985.0,Albanie,VELIA Olsian,32.0
+985,997.0,Japan,OKA Atsushi,32.0
+986,986.0,Dutch,PAASSCHENS Mathijs,32.0
+987,987.0,Panama,ESPINOZA Bolivar,32.0
+988,1082.0,Norwegia,JOHANNESSEN Anders Halland,32.0
+989,988.0,Bahrain,MADAN Ahmed,32.0
+990,989.0,Lithuania,MIKUTIS Aivaras,32.0
+991,990.0,Australia,WARD Jack,32.0
+992,991.0,Italy,NEGRENTE Mattia,32.0
+993,993.0,Panama,JURADO Christofer Robín,31.5
+994,,Belgium,VAN DYCK Wesley,31.0
+995,902.0,Latvia,BOGDANOVIČS Māris,31.0
+996,1072.0,Spain,SEVILLA Óscar,31.0
+997,994.0,Estonia,RÄIM Mihkel,31.0
+998,914.0,France,VUILLERMOZ Alexis,31.0
+999,995.0,Thailand,LIPHONGYU Navuti,31.0
+1000,933.0,Italy,GABBURO Davide,31.0
+1001,996.0,Poland,BROŻYNA Piotr,31.0
+1002,998.0,Norwegia,SKAARSETH Anders,31.0
+1003,999.0,Puerto Rico,REYES Elvys Noel,31.0
+1004,934.0,Italy,LUCCA Riccardo,31.0
+1005,1000.0,Türkiye,ABAY Burak,31.0
+1006,1001.0,Colombia,ACOSTA Ruben Dario,31.0
+1007,1121.0,Australia,EDDY Patrick,31.0
+1008,1003.0,Dutch,VAN BELLE Loe,31.0
+1009,1004.0,Paraguay,ACUÑA Carlos Sebastian,31.0
+1010,1005.0,France,BISIAUX Léo,31.0
+1011,1006.0,Nicaragua,VANEGAS Argenis,30.7
+1012,1007.0,El Salvador,RODRÍGUEZ Brandon Ulises,30.2
+1013,1008.0,Spain,DE LA PARTE Víctor,30.0
+1014,1107.0,Swiss,THALMANN Roland,30.0
+1015,1009.0,new zealand,VINK Michael,30.0
+1016,1010.0,Italy,PUCCIO Salvatore,30.0
+1017,1011.0,France,SARREAU Marc,30.0
+1018,1012.0,Singapore,YEO Boon Kiak,30.0
+1019,1013.0,Angola,SILVA Igor,30.0
+1020,1014.0,Dutch,VAN DEN BERG Julius,30.0
+1021,1015.0,Belgium,GHYS Robbe,30.0
+1022,1016.0,Italy,BAIS Davide,30.0
+1023,1017.0,France,LE NY Jean-Louis,30.0
+1024,1018.0,Azebaijan,MIKAYILZADE Musa,30.0
+1025,1019.0,Saint Vincent and the Grenadines,BAILEY Zefal Trevor,30.0
+1026,1020.0,Dutch,NABERMAN Tim,30.0
+1027,1021.0,Mexico,MACIAS Cesar,30.0
+1028,1023.0,Russia,GONOV Lev,30.0
+1029,1024.0,Zimbabwe,CHIKWAKA Andrew,30.0
+1030,1025.0,South Korea,JOO Daeyeong,30.0
+1031,797.0,Germany,WILKSCH Hannes,30.0
+1032,1027.0,Georgia,PIRANISHVILI Avtandil,30.0
+1033,1028.0,Botswana,BOTLHOLE Matlhogonolo,30.0
+1034,1029.0,Etiopia,HAILEMICHAEL Mulu Kinfe,30.0
+1035,1030.0,Spain,ISASA Xabier,30.0
+1036,1031.0,Peru,TOSCANO Bill Janz,30.0
+1037,1032.0,Benin,SOWOU Rémi,30.0
+1038,1034.0,Norwegia,STENSBY Anton,30.0
+1039,1035.0,Germany,BORRESCH Julian,30.0
+1040,1036.0,Austria,ZANGERLE Emanuel,30.0
+1041,1037.0,Benin,SODJEDE Ricardo,30.0
+1042,1038.0,Australia,MARRIAGE Zac,30.0
+1043,1039.0,Montenegro,RADUNOVIĆ Aleksandar,30.0
+1044,1040.0,Eritrea,HABTEAB Yoel,30.0
+1045,2312.0,China,WANG Kuicheng,30.0
+1046,1041.0,Romania,TOADER Alin,30.0
+1047,1042.0,Canada,LEONARD Michael,30.0
+1048,1043.0,Russia,ERMAKOV Roman,30.0
+1049,1044.0,Dutch,DORUSSEN Johan,30.0
+1050,1045.0,Belgium,VANEECKHOUTTE Victor,30.0
+1051,1046.0,France,MAISONOBE Sam,30.0
+1052,1047.0,Giatemala,TOC Gerson,29.7
+1053,1048.0,Costa Rica,ARIAS Sergio,29.2
+1054,1049.0,Uruguay,ASCONEGUY Roderick,29.0
+1055,1050.0,Dutch,QUAEDVLIEG Lars,29.0
+1056,1052.0,Colombia,HODEG Álvaro José,29.0
+1057,937.0,Venezuela,QUINTERO Leonel,29.0
+1058,1137.0,Norwegia,RESELL Erik Nordsæter,29.0
+1059,1053.0,Colombia,PEÑA Wilson Estiben,29.0
+1060,1054.0,Bulgaria,PAPANOV Martin,29.0
+1061,1055.0,Germany,HEMING Mika,29.0
+1062,1056.0,Indonesia,KUSUMA Terry,29.0
+1063,1057.0,Greece,ARVANITOU Nikiforos,29.0
+1064,1058.0,Luxembourg,WALLENBORN Arno,29.0
+1065,943.0,France,THIERRY Pierre,29.0
+1066,1060.0,chile,ROJAS Vicente,29.0
+1067,1061.0,Italy,DONATI Davide,29.0
+1068,921.0,Algeria,REGUIGUI Youcef,28.0
+1069,1062.0,Algeria,BENYOUCEF Abdallah,28.0
+1070,972.0,Colombia,CHALAPUD Robinson,28.0
+1071,1837.0,Eritrea,TESHOME HAGOS Meron,28.0
+1072,1063.0,Poland,PALUTA Michał,28.0
+1073,1064.0,France,TRARIEUX Julien,28.0
+1074,1065.0,Denmark,TOUDAL Emil,28.0
+1075,976.0,Ecuadore,MONTENEGRO Santiago,28.0
+1076,1067.0,Colombia,CASTAÑO Sebastián Alexander,28.0
+1077,1068.0,Uzbekistan,FOMOVSKIY Aleksey,28.0
+1078,1069.0,Türkiye,DEPE Serdar Anıl,28.0
+1079,1070.0,France,MAHOUDO Nolann,28.0
+1080,,Uganda,LOMURIA Paul,28.0
+1081,1071.0,Mexico,RICO David,28.0
+1082,1073.0,Austria,SCHÖNBERGER Sebastian,27.0
+1083,1074.0,Germany,RAPP Jonas,27.0
+1084,1075.0,France,BONNAMOUR Franck,27.0
+1085,1076.0,Ukraine,GRYNIV Vitaliy,27.0
+1086,1077.0,Dutch,MAAS Jan,27.0
+1087,1078.0,Colombia,SOTO Nelson Andrés,27.0
+1088,974.0,Denmark,STOKBRO Andreas,27.0
+1089,1081.0,Czech Republic,VACEK Karel,27.0
+1090,1218.0,Ireland,CORKERY Dillon,27.0
+1091,1176.0,Cameroon,KUERE NOUNAWE Rodrigue Eric,27.0
+1092,1083.0,Ukraine,PONOMAR Andrii,27.0
+1093,1084.0,Belgium,LAMBRECHT Michiel,27.0
+1094,1085.0,Denmark,PEDERSEN Henrik,27.0
+1095,1086.0,Dutch,VAN DER WOUDE Casper,27.0
+1096,1088.0,Germany,DORN Vinzent,27.0
+1097,1089.0,Philippines,PASCUAL Joshua,27.0
+1098,2122.0,Belgium,HEYLEN Wannes,26.0
+1099,1090.0,Spain,DEL PINO Jesus,26.0
+1100,1091.0,United States,CRADDOCK Lawson,26.0
+1101,1109.0,Poland,KACZMAREK Jakub,26.0
+1102,1092.0,Denmark,PEDERSEN Nicklas Amdi,26.0
+1103,1093.0,Belgium,WILLEMS Thimo,26.0
+1104,1094.0,France,COUANON Jonathan,26.0
+1105,1079.0,Australia,MONK Cyrus,26.0
+1106,935.0,Spain,FERNÁNDEZ Miguel Ángel,26.0
+1107,1095.0,Belgium,MATTHYS Louka,26.0
+1108,812.0,Morocco,KHAFI Oussama,26.0
+1109,1096.0,Great Britain,TULETT Ben,26.0
+1110,1140.0,Tunisia,MAHER Habouriya,26.0
+1111,1097.0,Seychelles,SOUYANE Jean-Yves,26.0
+1112,1099.0,France,NILSSON-JULIEN Oscar,26.0
+1113,,Australia,FRISLIE Graeme,26.0
+1114,1100.0,France,MIDEY Valentin,26.0
+1115,1101.0,Belgium,VERSTRYNGE Emiel,26.0
+1116,1102.0,new zealand,BOWER Lewis,26.0
+1117,1103.0,Czech Republic,NOVÁK Pavel,26.0
+1118,1104.0,United States,SIMMONS Colby,26.0
+1119,1106.0,Antigua and Barbuda,MARSH Robert,25.0
+1120,800.0,Germany,SCHWARZMANN Michael,25.0
+1121,1108.0,Poland,BENEDETTI Cesare,25.0
+1122,1190.0,Belgium,VAN DER SANDE Tosh,25.0
+1123,1111.0,Namibia,COETZEE Drikus,25.0
+1124,1112.0,Belgium,BASTIAENS Ayco,25.0
+1125,1113.0,Paraguay,RIVEROS Francisco Daniel,25.0
+1126,1114.0,Italy,MONACO Alessandro,25.0
+1127,577.0,Dutch,RASCH Jesper,25.0
+1128,1115.0,Japan,KANEKO Sohei,25.0
+1129,1116.0,Belgium,PAQUOT Tom,25.0
+1130,1117.0,Spain,AZPARREN Xabier Mikel,25.0
+1131,1022.0,Norwegia,HVIDEBERG Jonas Iversby,25.0
+1132,1118.0,France,NARBONNE ZUCCARELLI Axel,25.0
+1133,1119.0,Belgium,VAN TRICHT Floris,25.0
+1134,1120.0,Bosnia and Erzegovina,SELIMOVIĆ Husein,25.0
+1135,1122.0,China,MIAO Chengshuo,25.0
+1136,1123.0,Poland,FRĄTCZAK Radosław,25.0
+1137,1124.0,France,URCEL Damien,25.0
+1138,1125.0,Spain,MUÑOZ Francisco,25.0
+1139,1126.0,Kosovo,YMERI Albion,25.0
+1140,1127.0,Latvia,KLISMETS Kārlis,25.0
+1141,1280.0,Norwegia,DOLVEN Halvor,25.0
+1142,1128.0,Crotia,GOJKOVIĆ Nicolas,25.0
+1143,1129.0,Belgium,DONIE Milan,25.0
+1144,1130.0,Cape Verde,SOARES Eliezer,25.0
+1145,1131.0,Saint Lucia,WILLIAMS Stanislas,25.0
+1146,1132.0,Venezuela,RUIZ Juan José,24.0
+1147,1133.0,Germany,SELIG Rüdiger,24.0
+1148,1134.0,Dutch,SINKELDAM Ramon,24.0
+1149,1110.0,Mexico,PRADO Ignacio de Jesús,24.0
+1150,1258.0,Angola,DÁRIO António,24.0
+1151,1135.0,Japan,OKAMOTO Hayato,24.0
+1152,1136.0,Australia,BERWICK Sebastian,24.0
+1153,1173.0,Dutch,DE JONG Timo,24.0
+1154,1139.0,Dutch,HABETS Jordan,24.0
+1155,1141.0,Bulgaria,PETROV Yordan,24.0
+1156,1142.0,Spain,RETEGI Mikel,24.0
+1157,1145.0,Belgium,RICKAERT Jonas,23.0
+1158,1146.0,Belgium,WARLOP Jordi,23.0
+1159,1147.0,Japan,KOBAYASHI Marino,23.0
+1160,1148.0,Great Britain,STEDMAN Maximilian,23.0
+1161,1149.0,Spain,BRUSTENGA Marc,23.0
+1162,1151.0,Colombia,CHIA Luis Carlos,23.0
+1163,1152.0,Czech Republic,SCHURAN Michal,23.0
+1164,1138.0,Italy,TOLIO Alex,23.0
+1165,1153.0,Kazakhstan,SHTEIN Iogan,23.0
+1166,1154.0,France,ALLENO Clément,23.0
+1167,1033.0,Belgium,DEBRUYNE Ramses,23.0
+1168,239.0,new zealand,JACKSON George,23.0
+1169,1157.0,Algeria,SAHIRI Ayoub,23.0
+1170,1158.0,Poland,GIERYK Kacper,23.0
+1171,1159.0,Italy,ZAMPERINI Edoardo,23.0
+1172,1162.0,chile,KOTSAKIS Francisco,23.0
+1173,1163.0,Indonesia,ROYAN Muhammad Andy,23.0
+1174,1164.0,Antigua and Barbuda,BRIDGES Jyme,22.0
+1175,1165.0,Dutch,SCHULTING Peter,22.0
+1176,1167.0,Spain,IZAGIRRE Gorka,22.0
+1177,1168.0,Costa Rica,VILLALOBOS Rodolfo,22.0
+1178,1420.0,Belgium,DE VYLDER Lindsay,22.0
+1179,1169.0,Colombia,REYES Aldemar,22.0
+1180,1171.0,Trinitad & Tobago,CAMPBELL Akill,22.0
+1181,1172.0,Dominican Republic,GERMOSO Rudy,22.0
+1182,1174.0,Russia,STEPANOV Andrei,22.0
+1183,1175.0,Iceland,JONSSON Kristinn,22.0
+1184,1177.0,Dutch,VAN VEENENDAAL Hidde,22.0
+1185,1179.0,Latvia,BELOHVOŠČIKS Kristiāns,22.0
+1186,1155.0,Belgium,VERCOUILLIE Victor,22.0
+1187,1180.0,Spain,ÁLVAREZ Rodrigo,22.0
+1188,1181.0,South Africa,STEDMAN Travis,22.0
+1189,1182.0,Paraguay,FERREIRA Fernando Andres,22.0
+1190,1183.0,Poland,CZABOK Konrad,22.0
+1191,1184.0,Virgin Island,LEROY Phillippe,22.0
+1192,1161.0,Algeria,FERKOUS Ayoub,22.0
+1193,1185.0,Spain,MARTÍ Pau,22.0
+1194,1186.0,Saint Lucia,JOSEPH Eltus,22.0
+1195,1187.0,France,LEVEAU Jérémy,21.0
+1196,1188.0,United States,ROSSKOPF Joey,21.0
+1197,1189.0,Belgium,AERTS Toon,21.0
+1198,1192.0,Dutch,VAN SCHIP Jan-Willem,21.0
+1199,1194.0,Japan,ISHIGAMI Masahiro,21.0
+1200,1195.0,France,TABELLION Valentin,21.0
+1201,1304.0,Italy,MERIS Sergio,21.0
+1202,1197.0,Germany,KRETSCHY Moritz,21.0
+1203,1198.0,Dutch,VISSER Guillaume,21.0
+1204,1199.0,Denmark,HANSEN Alexander Arnt,21.0
+1205,1200.0,Australia,BROWNING Fergus,21.0
+1206,1201.0,Austria,PUTZ Sebastian,21.0
+1207,1203.0,Colombia,PESCADOR Diego,21.0
+1208,1204.0,Cyprus,ZABELINSKIY Bogdan,21.0
+1209,1205.0,Germany,SCHIFFER Anton,21.0
+1210,1206.0,Morocco,SABER Lahcen,20.0
+1211,1207.0,Poland,WIŚNIOWSKI Łukasz,20.0
+1212,1208.0,France,BOUCHARD Geoffrey,20.0
+1213,1209.0,Australia,EDMONDSON Alex,20.0
+1214,1360.0,Italy,CATALDO Dario,20.0
+1215,1210.0,Great Britain,ROWE Luke,20.0
+1216,1211.0,Kazakhstan,GIDICH Yevgeniy,20.0
+1217,1213.0,Portuguese,ANTUNES Tiago,20.0
+1218,1214.0,Denmark,MUFF Frederik,20.0
+1219,1215.0,new zealand,KERGOZOU DE LA BOESSIERE Nick,20.0
+1220,1217.0,Belgium,VAN DER BEKEN Aaron,20.0
+1221,1219.0,Canada,ERNST Chris,20.0
+1222,1220.0,Great Britain,COLEMAN Zak,20.0
+1223,1221.0,Ireland,CROCKETT Finn,20.0
+1224,1222.0,United States,SCALA JR Hugo,20.0
+1225,1223.0,Dutch,WILLEMSEN Steven,20.0
+1226,1224.0,Unknown Country,ANSARI Amir Arsalan,20.0
+1227,1226.0,Denmark,ROSENLUND Stian,20.0
+1228,1227.0,Italy,MORO Manlio,20.0
+1229,1228.0,France,ROULAND Louis,20.0
+1230,1229.0,Uzbekistan,RAKHIMBAEV Behzodek,20.0
+1231,1230.0,Great Britain,PICKERING Finlay,20.0
+1232,1231.0,new zealand,MURPHY Lucas,20.0
+1233,1232.0,Thailand,SAMANSANTI Nati,20.0
+1234,1233.0,Australia,ROGERS Cameron,20.0
+1235,,Eritrea,BERHANE Hebron,20.0
+1236,1234.0,Dutch,VAN DER MEULEN Max,20.0
+1237,1235.0,Great Britain,HICKS Dylan,20.0
+1238,1236.0,United States,LÓPEZ Ian,20.0
+1239,1237.0,Spain,PEDRERO Antonio,19.0
+1240,1238.0,Spain,FRAILE Omar,19.0
+1241,1239.0,Kazakhstan,KUZMIN Anton,19.0
+1242,1240.0,Uruguay,MOREIRA Mauricio,19.0
+1243,1241.0,Costa Rica,MOYA Sebastián,19.0
+1244,1242.0,North Macedonia,SIMONOVSKI Darko,19.0
+1245,1243.0,Lithuania,KMIELIAUSKAS Rokas,19.0
+1246,1244.0,Italy,DELLA LUNGA Francesco,19.0
+1247,1245.0,France,GIRARD Damien,19.0
+1248,1246.0,Philippines,LUCERO Jericho,19.0
+1249,1247.0,Swiss,BLUM Elia,19.0
+1250,1248.0,France,VERSCHUREN Killian,19.0
+1251,1249.0,Canada,WALTON Jonas,19.0
+1252,1250.0,Dutch,DEN BRABER Tim,19.0
+1253,1251.0,France,VEISTROFFER Baptiste,19.0
+1254,1507.0,Italy,BORGO Alessandro,19.0
+1255,1252.0,Spain,DARDER Sergi,19.0
+1256,1253.0,Giatemala,RODAS Manuel,18.7
+1257,1254.0,Czech Republic,BOROŠ Michael,18.0
+1258,1256.0,Spain,FERNÁNDEZ Delio,18.0
+1259,1257.0,France,LEBAS Thomas,18.0
+1260,1259.0,Honkong,MOW Ching Yin,18.0
+1261,1193.0,Ecuadore,MONTENEGRO Jorge,18.0
+1262,1260.0,Denmark,SANDER HANSEN Marcus,18.0
+1263,1261.0,Belgium,COLMAN Alex,18.0
+1264,1262.0,Colombia,BUSTAMANTE Adrián,18.0
+1265,1216.0,Italy,KONYCHEV Alexander,18.0
+1266,1263.0,Colombia,REYES Yeison Sebastian,18.0
+1267,1264.0,Angola,ARAUJO Bruno,18.0
+1268,1266.0,France,GUERNALEC Victor,18.0
+1269,1268.0,Portuguese,SILVA Afonso,18.0
+1270,1269.0,Czech Republic,VANÍČEK Šimon,18.0
+1271,1270.0,Russia,IVANOV Timofei,18.0
+1272,1272.0,Italy,QUARANTA Samuel,18.0
+1273,1274.0,Colombia,PIRA Yesid Albeiro,18.0
+1274,1275.0,Türkiye,ÖZKALBIM Kaan,18.0
+1275,1276.0,Belgium,VAN HAUTEGEM Leander,18.0
+1276,1277.0,France,DEVROUTE Corentin,18.0
+1277,1278.0,France,POULARD Baptiste,18.0
+1278,1279.0,China,SU Haoyu,18.0
+1279,1399.0,Germany,MÜLLER Tobias,18.0
+1280,1340.0,Belgium,SOENENS Viktor,18.0
+1281,1281.0,Trinitad & Tobago,TREPTE Liam,18.0
+1282,1282.0,Nicaragua,ROJAS Henry Antonio,17.7
+1283,1283.0,South Korea,CHOE Hyeong Min,17.0
+1284,1284.0,Germany,ZABEL Rick,17.0
+1285,1191.0,Dutch,VAN EMPEL Etienne,17.0
+1286,1286.0,Malaysia,AZMAN Muhamad Zawawi,17.0
+1287,1287.0,United Arabes Emirates,MAYOUF Khaled,17.0
+1288,843.0,Spain,FUENTES Ángel,17.0
+1289,1288.0,Romania,DIMA Emil,17.0
+1290,1289.0,Mongolia,ERDENEBAT Bilguunjargal,17.0
+1291,1290.0,Zimbabwe,DUBE Nkumalo,17.0
+1292,1291.0,Barbados,KELLY Joshua,17.0
+1293,1292.0,Ivory Coast,SANOGO Abou,17.0
+1294,1293.0,Denmark,BENDIXEN Louis,17.0
+1295,1294.0,laos,PHONASA Thavone,17.0
+1296,1295.0,Kosovo,NUHA Blerton,17.0
+1297,1296.0,El Salvador,HERRERA Erick,17.0
+1298,1297.0,France,VANDEPITTE Nathan,17.0
+1299,1298.0,Kazakhstan,PRONSKIY Daniil,17.0
+1300,1299.0,Thailand,KLAHAN Noppachai,17.0
+1301,1300.0,Iceland,ÓMARSSON Ingvar,17.0
+1302,1302.0,Türkiye,ARIKAN Doğukan,17.0
+1303,1303.0,Costa Rica,ROJAS Gabriel Francisco,17.0
+1304,1305.0,China,HAO Ran,17.0
+1305,1306.0,Ecuadore,PUENTESTAR Stalin Wladimir,17.0
+1306,1273.0,Ecuadore,OBANDO Bryan Raul,17.0
+1307,1307.0,Türkiye,BULUT Samet,17.0
+1308,1308.0,Slovenia,ŠTAJNAR Mihael,17.0
+1309,1309.0,Bulgaria,LUMPAROV Georgi,17.0
+1310,1310.0,Italy,CHESINI Cesare,17.0
+1311,1311.0,United States,SHMIDT Artem,17.0
+1312,1312.0,Spain,BELOKI Markel,17.0
+1313,1313.0,Denmark,ØXENBERG Peter,17.0
+1314,1314.0,Virgin Island,SMITH Calvin,17.0
+1315,1315.0,Virgin Island,JONES Barry,17.0
+1316,1144.0,Spain,MORA Sebastián,16.0
+1317,1285.0,Italy,FORTIN Filippo,16.0
+1318,1316.0,Slovakia,SAGAN Peter,16.0
+1319,1317.0,Italy,BONIFAZIO Niccolò,16.0
+1320,1318.0,Portuguese,GOMES Luís,16.0
+1321,1319.0,Honkong,LEUNG Ka Yu,16.0
+1322,1421.0,Belgium,STOCKMAN Abram,16.0
+1323,1562.0,Colombia,SÁNCHEZ Brayan,16.0
+1324,1320.0,Russia,ROSTOVTSEV Sergey,16.0
+1325,2216.0,Algeria,MANSOURI Islam,16.0
+1326,1526.0,Venezuela,PINTO Luis,16.0
+1327,1422.0,Belgium,BOUTS Jordy,16.0
+1328,1640.0,Venezuela,TORRES Edwin Yair,16.0
+1329,1322.0,Denmark,LARSEN Mathias Alexander Erik,16.0
+1330,1323.0,Japan,TANI Junsei,16.0
+1331,1324.0,Colombia,LOPEZ Fabian Robinson,16.0
+1332,1325.0,Serbia,ĐURIĆ Đorđe,16.0
+1333,1326.0,Belgium,VAN HEMELEN Vincent,16.0
+1334,1327.0,Canada,MILES Carson,16.0
+1335,1328.0,Belgium,BELLENS Jarno,16.0
+1336,1329.0,Mongolia,IDERBOLD Bold,16.0
+1337,1330.0,Portuguese,COSTA Fábio,16.0
+1338,1331.0,Dutch,VOOGT Niek,16.0
+1339,1332.0,Spain,BALDERSTONE Abel,16.0
+1340,1156.0,Japan,TODOME Yuhi,16.0
+1341,1395.0,Poland,POMORSKI Michał,16.0
+1342,1334.0,Spain,ETXEBERRIA Haimar,16.0
+1343,1335.0,Malaysia,KEE Zhe Yie,16.0
+1344,1336.0,Germany,PALZER Anton,16.0
+1345,1337.0,Denmark,SCHULZ JØRGENSEN Mads,16.0
+1346,1338.0,Italy,ARRIGHETTI Nicolò,16.0
+1347,1339.0,Oman,ALYAQOOBI Abdulrahman,16.0
+1348,1341.0,Slovenia,ERŽEN Žak,16.0
+1349,1342.0,Iraq,ALI Mohammed,16.0
+1350,1343.0,Norwegia,MADSEN Erik,16.0
+1351,1344.0,Ukraine,YAKOVLEV Daniil,16.0
+1352,1346.0,Honduras,MARTINEZ Diler,15.3
+1353,1347.0,Cuba,DE LEÓN Yariel,15.0
+1354,1348.0,Denmark,NORMAN LETH Lasse,15.0
+1355,1349.0,Germany,KRIEGER Alexander,15.0
+1356,1350.0,Malaysia,MAZUKI Nur Amirul Fakhruddin,15.0
+1357,1351.0,Giatemala,TORRES Alder,15.0
+1358,1352.0,Brazil,SILVA Roberto Pinheiro,15.0
+1359,1353.0,Venezuela,CAMARGO Nelson,15.0
+1360,1354.0,Belgium,SWEECK Laurens,15.0
+1361,1356.0,Belgium,VAN BREUSSEGEM Elias,15.0
+1362,1357.0,Taiwan,HSIAO Shih Hsin,15.0
+1363,1358.0,Belgium,PLANCKAERT Baptiste,15.0
+1364,1359.0,new zealand,BEVIN Patrick,15.0
+1365,1361.0,Italy,GUARNIERI Jacopo,15.0
+1366,1362.0,Belgium,NOPPE Christophe,15.0
+1367,1363.0,Belgium,ROBEET Ludovic,15.0
+1368,1364.0,Venezuela,PAREDES Anderson Timoteo,15.0
+1369,1365.0,India,JOHN Naveen,15.0
+1370,1366.0,France,FINÉ Eddy,15.0
+1371,1367.0,Italy,MURGANO Marco,15.0
+1372,1368.0,Dominican Republic,MARTE Junior Antonio,15.0
+1373,1369.0,Crotia,POTOČKI Viktor,15.0
+1374,1370.0,France,DUCRET Justin,15.0
+1375,1371.0,Czech Republic,BÁRTA Tomáš,15.0
+1376,866.0,new zealand,STEWART Campbell,15.0
+1377,1372.0,new zealand,JONES Ollie,15.0
+1378,1373.0,Namibia,MILLER Alex,15.0
+1379,1374.0,North Macedonia,VANCHEVSKI Kristijan,15.0
+1380,1375.0,Finland,LARSEN Trond,15.0
+1381,1376.0,Lebanon,ISKANDAR Georges,15.0
+1382,1377.0,Philippines,CARCUEVA Jonel,15.0
+1383,1378.0,Denmark,KOLZE CHANGIZI Sebastian,15.0
+1384,1271.0,Belgium,VANDEVELDE Yentl,15.0
+1385,1379.0,Uruguay,RODRÍGUEZ Diego Leonel,15.0
+1386,1380.0,Latvia,KRASTS Alekss,15.0
+1387,1225.0,Germany,OSBORNE Jason,15.0
+1388,1381.0,Barbados,KELLY Jacob,15.0
+1389,1382.0,Dutch,UPTEGROVE Pete,15.0
+1390,1384.0,Egypt,ELSEIFY Hassan,15.0
+1391,1385.0,new zealand,YARRELL Guy,15.0
+1392,1386.0,Sweden,LOVIDIUS Edvin,15.0
+1393,1387.0,Uruguay,ALONSO Agustín,15.0
+1394,856.0,Dutch,VAN DER LEE Jardi Christiaan,15.0
+1395,1388.0,Philippines,PAREJA Nichol Blanca,15.0
+1396,1389.0,Russia,SCHEGOLKOV Ilia,15.0
+1397,1390.0,Italy,DATI Tommaso,15.0
+1398,1391.0,Italy,PEZZO ROSOLA Kevin,15.0
+1399,1392.0,Belgium,VERMOOTE Jelle,15.0
+1400,1393.0,Guam,APONIK Dan,15.0
+1401,1394.0,Ukraine,SYDOR Serhii,15.0
+1402,1396.0,Poland,MACIEJUK Kacper,15.0
+1403,1397.0,France,HOUCOU Emmanuel,15.0
+1404,1398.0,new zealand,MURPHY Finnegan,15.0
+1405,,South Africa,DIKE Joshua Ethan,15.0
+1406,1400.0,Italy,BELLETTA Dario Igor,15.0
+1407,1401.0,Oman,AL-WAHIBI Mohammed,15.0
+1408,1402.0,India,KUMAR Manjeet,15.0
+1409,1403.0,Australia,LANE WELSH Tali,15.0
+1410,1404.0,new zealand,BEAUMONT Cameron,15.0
+1411,1405.0,Colombia,RODRIGUEZ Juan Felipe,15.0
+1412,1406.0,Great Britain,PATTINSON Tomos,15.0
+1413,1407.0,Argentina,KALEJMANN Mateo,15.0
+1414,1408.0,Mali,DIALLO Tiémoko,15.0
+1415,1409.0,Costa Rica,CHAVES Kenny,15.0
+1416,1410.0,Cuba,DOMINGUEZ Jose Alberto,15.0
+1417,1411.0,Cape Verde,MONTEIRO DIAS Gilberto,15.0
+1418,1412.0,Kenya,KARANJA Peter,15.0
+1419,1413.0,Somalia,ABDUQADIR Osman,15.0
+1420,1414.0,Giatemala,JULAJUJ Alex Rony,14.7
+1421,1255.0,new zealand,ORAM James,14.0
+1422,1415.0,Dutch,KERS Koos Jeroen,14.0
+1423,1416.0,Honkong,KO Siu Wai,14.0
+1424,1417.0,Germany,KLUGE Roger,14.0
+1425,1521.0,France,SOUPE Geoffrey,14.0
+1426,1419.0,France,PELLEGRIN Mathieu,14.0
+1427,1170.0,Italy,DALLA VALLE Nicolas,14.0
+1428,1424.0,Dutch,NIJSSEN Kenny,14.0
+1429,1425.0,Cyprus,AGROTIS Alexandros,14.0
+1430,1426.0,Giatemala,VÁSQUEZ Juan Mardoqueo,14.0
+1431,1427.0,Dutch,DAEMEN Stijn,14.0
+1432,1574.0,Indonesia,VAN AERT Bernard,14.0
+1433,1429.0,South Africa,MUNTON Byron,14.0
+1434,1431.0,United States,MENDEZ Gabriel,14.0
+1435,1432.0,Swiss,STEHLI Félix,14.0
+1436,1433.0,Colombia,ROJAS Brandon Alejandro,14.0
+1437,1434.0,Czech Republic,ŘÍMAN Jakub,14.0
+1438,1435.0,Swiss,AEBERSOLD Nils,14.0
+1439,1436.0,Italy,BIAGINI Federico,14.0
+1440,1437.0,France,POTHIN Anthony,14.0
+1441,1438.0,Malaysia,TSEN Ren Bao,14.0
+1442,1653.0,Serbia,STOLIĆ Mihajlo,14.0
+1443,1440.0,Kazakhstan,ALIYEV Ruslan,14.0
+1444,1441.0,Mexico,GARCIA Carlos Alfonso,14.0
+1445,1442.0,Albanie,BALAJ Mateo,14.0
+1446,1443.0,Canada,COWAN Quentin,14.0
+1447,1444.0,Mauritius,MARRIER D'UNIENVILLE Thibault,14.0
+1448,1445.0,Burkina Faso,MOUNI Vincent,14.0
+1449,1446.0,Australia,CAMPBELL Max,14.0
+1450,1447.0,Ireland,O'BRIEN Liam,14.0
+1451,1448.0,Azebaijan,ISMAYILOV Yusif,14.0
+1452,1355.0,Belgium,FRISON Frederik,13.0
+1453,1450.0,Colombia,HENAO Sergio,13.0
+1454,1451.0,United States,RHIM Brendan,13.0
+1455,1452.0,Dutch,BUDDING Martijn,13.0
+1456,1453.0,China,NIU Yikui,13.0
+1457,1454.0,Swiss,AEBI Antoine,13.0
+1458,1455.0,Morocco,RAHIL Zouhair,13.0
+1459,1321.0,Poland,TRACZ Szymon,13.0
+1460,1456.0,Germany,NOLDE Tobias,13.0
+1461,1457.0,Ireland,MCDUNPHY Conn,13.0
+1462,1458.0,Dutch,WEULINK Meindert,13.0
+1463,1459.0,France,JOUSSEAUME Alan,13.0
+1464,1460.0,United States,ROSS Kent,13.0
+1465,1461.0,Honkong,CHU Tsun Wai,13.0
+1466,1462.0,Portuguese,LEAL Tiago,13.0
+1467,1646.0,Australia,AGNOLETTO Blake,13.0
+1468,1463.0,Italy,VILLA Giacomo,13.0
+1469,1464.0,Australia,MUELLER Taj,13.0
+1470,1465.0,Colombia,RICO Cristian David,13.0
+1471,1466.0,Dutch,ROUFFAER Lars,13.0
+1472,2163.0,Denmark,MIKKELSEN Pelle Køster,13.0
+1473,1467.0,Belgium,VAN MECHELEN Vlad,13.0
+1474,1468.0,France,BOULAHOITE Rayan,13.0
+1475,1469.0,qatar,AL KHATER Fadhel,13.0
+1476,1470.0,Romania,CRISTA Daniel,12.0
+1477,1471.0,South Korea,PARK Sanghong,12.0
+1478,1472.0,Portuguese,FERNANDES Luís,12.0
+1479,1473.0,Portuguese,CARVALHO Antonio,12.0
+1480,1166.0,Greece,ILIAS Periklis,12.0
+1481,1475.0,Russia,GRIGOREV Aleksandr,12.0
+1482,1476.0,Hungary,PELIKÁN János,12.0
+1483,1477.0,Namibia,FREYER Martin,12.0
+1484,1478.0,Ecuadore,HARO Wilson,12.0
+1485,1479.0,Italy,BALLABIO Giacomo,12.0
+1486,1480.0,Belgium,GODART Bo,12.0
+1487,1481.0,Belgium,DE WILDE Gilles,12.0
+1488,1482.0,Swiss,DEBONS Antoine,12.0
+1489,1150.0,Denmark,HELLEMOSE Asbjørn,12.0
+1490,1483.0,Italy,CATALDO Lorenzo,12.0
+1491,1484.0,Brazil,DA SILVA SANTOS Vinicius,12.0
+1492,2038.0,Russia,POPOV Anton,12.0
+1493,1485.0,Australia,MACKELLAR Alastair,12.0
+1494,1301.0,France,TOUMIRE Hugo,12.0
+1495,1487.0,Estonia,KANNIMÄE Taavi,12.0
+1496,1488.0,Honkong,NG Sum Lui,12.0
+1497,1489.0,Australia,SAUNDERS Tristan,12.0
+1498,1490.0,Norwegia,FJELLHEIM Henrik Teslo,12.0
+1499,1491.0,Denmark,ANDERSEN Kasper,12.0
+1500,1492.0,Honduras,TRIMINIO Cristian,12.0
+1501,1493.0,Spain,URIARTE Diego,12.0
+1502,1495.0,China,SHEN Yutao,12.0
+1503,1496.0,Georgia,KHORGUANI Giorgi,12.0
+1504,1497.0,Thailand,THIMACHAI Kongphob,12.0
+1505,1498.0,France,WATTELLE Célestin,12.0
+1506,1499.0,Australia,HARRISON Curtis,12.0
+1507,1500.0,Estonia,TAMM Lauri,12.0
+1508,1501.0,Dutch,KONING Stef,12.0
+1509,1502.0,Belize,GONZALEZ Jyven,12.0
+1510,1787.0,Italy,SCALCO Matteo,12.0
+1511,1503.0,Eritrea,MENGS Petros,12.0
+1512,1504.0,Indonesia,HERLANGGA Muhamad,12.0
+1513,1505.0,Slovakia,DUNÁR Dominik,12.0
+1514,1506.0,Dutch,VAN DER VEEN Cas,12.0
+1515,1508.0,Colombia,BUSTOS Cristian Yesid,12.0
+1516,1509.0,Azebaijan,NEVZAT Mahmud,12.0
+1517,1510.0,Trinitad & Tobago,WOODS Tariq,12.0
+1518,1511.0,Albanie,VENOMI Flavio,12.0
+1519,1512.0,Colombia,MARTINEZ Guillermo Juan,12.0
+1520,1513.0,North Macedonia,LEFKOV Nikola,12.0
+1521,1514.0,Colombia,GUERRERO Juan Esteban,12.0
+1522,2116.0,Kenya,NYAGA KAMAU Joseph,12.0
+1523,1515.0,Giatemala,MONTERROSO Dorian,11.7
+1524,1516.0,Costa Rica,PACHECO Gabriel,11.2
+1525,1517.0,Montenegro,CEROVIĆ Goran,11.0
+1526,1518.0,Morocco,MRAOUNI Salah Eddine,11.0
+1527,1519.0,Iran,ALIZADEH Hossein,11.0
+1528,1520.0,Spain,EZQUERRA Jesús,11.0
+1529,1474.0,Dutch,VERMELTFOORT Coen,11.0
+1530,1522.0,Panama,GONZÁLEZ Roberto Carlos,11.0
+1531,1523.0,Denmark,LARSEN Niklas,11.0
+1532,1527.0,France,BONNET Thomas,11.0
+1533,1528.0,Poland,SOWINSKI Artur,11.0
+1534,1529.0,Germany,RÖBER Dominik,11.0
+1535,1530.0,Kosovo,HASANI Samir,11.0
+1536,1531.0,France,BEZZA Quentin,11.0
+1537,1532.0,new zealand,WRIGHT Paul,11.0
+1538,1849.0,Dutch,VELING Quinten,11.0
+1539,1856.0,Italy,MARTINELLI Alessio,11.0
+1540,1533.0,Italy,GUZZO Federico,11.0
+1541,1535.0,Georgia,MAMULASHVILI Valeri,11.0
+1542,1536.0,Morocco,RAHMOU Anouar,11.0
+1543,1537.0,Kazakhstan,REMKHI Rudolf,11.0
+1544,1538.0,France,WILL Dilhan,11.0
+1545,1540.0,Norwegia,GRAVÅS Peder Antoni,11.0
+1546,1541.0,Finland,KÄLLBERG Axel,11.0
+1547,1542.0,Germany,GRIXA Jarno,11.0
+1548,1543.0,Colombia,PINZON Edgar Andres,11.0
+1549,1544.0,Italy,PALETTI Luca,11.0
+1550,1545.0,Germany,SARNOWSKI Tillman,11.0
+1551,1546.0,Costa Rica,CASTRO Emanuel,11.0
+1552,1547.0,Crotia,PERAN Ian,11.0
+1553,1548.0,China,JU Jinyang,11.0
+1554,1549.0,France,IZQUIERDO Clément,11.0
+1555,1550.0,Bulgaria,IVANOV Borislav,10.0
+1556,1551.0,chile,OYARZÚN Carlos Iván,10.0
+1557,1552.0,Australia,WURF Cameron,10.0
+1558,1554.0,France,LEDANOIS Kévin,10.0
+1559,1555.0,Uruguay,MALDONADO Ignacio Raúl,10.0
+1560,1556.0,Dutch,ROOSEN Timo,10.0
+1561,1557.0,Belarus,SHNYRKO Alexei,10.0
+1562,1558.0,Tanzania,LAIZER Richard,10.0
+1563,1559.0,Costa Rica,SALAS Brian Alonso,10.0
+1564,1668.0,Malaysia,LAKASEK Irwandie,10.0
+1565,1560.0,France,DANÈS Léo,10.0
+1566,1561.0,Colombia,TAMAYO Christian Leandro,10.0
+1567,1563.0,Belgium,CLÉ Brent,10.0
+1568,1564.0,Mongolia,BAT-ERDENE Narankhuu,10.0
+1569,1565.0,Unknown Country,WAIS Ahmad Badreddin,10.0
+1570,1566.0,Gahna,SYMONDS Christopher,10.0
+1571,1567.0,Germany,HOMRIGHAUSEN Heiko,10.0
+1572,1734.0,France,BOUVIER Léo,10.0
+1573,1568.0,France,LE CUNFF Kévin,10.0
+1574,1569.0,Dutch,VAN DEN DOOL Jens,10.0
+1575,1570.0,Italy,BASEGGIO Matteo,10.0
+1576,1571.0,United Arabes Emirates,TALAL Soudir Shir Mohamad,10.0
+1577,1572.0,Italy,GARIBBO Nicolò,10.0
+1578,1573.0,Finland,JUNTUNEN Antti-Jussi,10.0
+1579,1575.0,Japan,KAZAMA Shoma,10.0
+1580,1576.0,Kazakhstan,MARUKHIN Daniil,10.0
+1581,1577.0,Barbados,VANDERPOOL Gregory,10.0
+1582,1578.0,United Arabes Emirates,AL KAABI Saif Mayoof,10.0
+1583,1579.0,Thailand,PHODINGAM Sakchai,10.0
+1584,1580.0,Ireland,MCGEOUGH Cormac,10.0
+1585,1581.0,Belgium,KUYPERS Gerben,10.0
+1586,938.0,Hungary,FETTER Erik,10.0
+1587,1582.0,Iceland,GEIRSSON Hafsteinn Ægir,10.0
+1588,1583.0,Russia,YATSENKO Ivan,10.0
+1589,1584.0,Uzbekistan,EVDOKIMOV Danil,10.0
+1590,1585.0,Brazil,ROSSI João Pedro,10.0
+1591,1586.0,Swiss,SOMMER Jan,10.0
+1592,1587.0,Great Britain,STOCKWELL Oliver,10.0
+1593,1589.0,Belgium,DEWEIRDT Siebe,10.0
+1594,1590.0,Dutch,HOOGENDOORN Roy,10.0
+1595,1591.0,Italy,MONTOLI Andrea,10.0
+1596,1592.0,Serbia,DIVNIĆ Jovan,10.0
+1597,1593.0,Denmark,WANG Gustav,10.0
+1598,1594.0,Brazil,DA PAIXAO MARQUES Felipe Cristiano,10.0
+1599,1595.0,Venezuela,ARAUJO Jhonny Alexander,10.0
+1600,1596.0,Belize,CHAVARRIA Derrick,10.0
+1601,1494.0,Ecuadore,ROSERO Nixon Efrain,10.0
+1602,1597.0,Dominican Republic,DE LOS SANTOS GUZMAN Hector,10.0
+1603,1598.0,Saint Vincent and the Grenadines,ANTROBUS Lucky,10.0
+1604,1599.0,Swiss,JENNI Luca,10.0
+1605,1600.0,Belgium,VANDENBRANDEN Noah,10.0
+1606,1601.0,Spain,FRANCO Alejandro,10.0
+1607,1602.0,Germany,LÜHRS Luis-Joe,10.0
+1608,1539.0,Italy,DE CARLO Giovanni,10.0
+1609,1603.0,China,WANG Ruidong,10.0
+1610,1604.0,Australia,MCDONALD Bailey,10.0
+1611,1059.0,Rwanda,NIYONKURU Samuel,10.0
+1612,1605.0,South Africa,NORTJE Tristan,10.0
+1613,1606.0,Montenegro,LAZAREVIĆ Miloš,10.0
+1614,1607.0,Italy,MATTIO Pietro,10.0
+1615,1608.0,France,CUSHWAY Maximilian,10.0
+1616,1609.0,Guam,OINGERANG Edward,10.0
+1617,1610.0,Kazakhstan,KOLTUNOV Vladimir,10.0
+1618,1611.0,Puerto Rico,PÉREZ Georwill,10.0
+1619,1612.0,Lebanon,ALAHMAD Jihad,10.0
+1620,1613.0,Dutch,TOUSSAINT Wouter,10.0
+1621,1614.0,Portuguese,MONTEZ Alexandre,10.0
+1622,1615.0,Colombia,GUATIBONZA Jonathan,10.0
+1623,1616.0,Oman,ALRAHBI Said,10.0
+1624,1617.0,Uzbekistan,ERGASHEV Sanjarbek,10.0
+1625,1618.0,Italy,CAPRA Thomas,10.0
+1626,1619.0,Singapore,TONG Khoon Fung Thomas,10.0
+1627,1620.0,Panama,VASQUEZ Pablo,10.0
+1628,1621.0,Afghanistan,HAIDARI Qais,10.0
+1629,,Tunisia,NEFZI Yassine,10.0
+1630,1622.0,Egypt,AZIZ Mohab Youssef,10.0
+1631,1623.0,India,THATHU Surya,10.0
+1632,1624.0,Afghanistan,MIRZAYE Ahmad,10.0
+1633,1625.0,Sweden,RYDERGREN Joel,10.0
+1634,1626.0,Cuba,MARCOS Amed,10.0
+1635,1627.0,qatar,AL-KUWARI Tamim Jamal,10.0
+1636,1628.0,Peru,ATENCIO Arquimides Clinton,10.0
+1637,1629.0,Mexico,DÍAZ Miguel,10.0
+1638,1630.0,Panama,RUIZ Bredio,9.5
+1639,1631.0,Italy,PERON Andrea,9.0
+1640,1632.0,Venezuela,BRICEÑO Fernando,9.0
+1641,1633.0,Colombia,OYOLA Róbigzon Leandro,9.0
+1642,1634.0,Czech Republic,ZAHÁLKA Matěj,9.0
+1643,1636.0,Costa Rica,ALPÍZAR Andrés Jesús,9.0
+1644,1638.0,Luxembourg,WIRTGEN Tom,9.0
+1645,1639.0,Giatemala,MORALES Esdras,9.0
+1646,1641.0,Italy,CAVALLO Luca,9.0
+1647,2231.0,Malaysia,HAMDAN Wan Abdul Rahman,9.0
+1648,1428.0,Ecuadore,HUERA Richard,9.0
+1649,1642.0,new zealand,BEADLE Hamish,9.0
+1650,1643.0,Philippines,MENDOZA Aidan James,9.0
+1651,1644.0,Peru,RUIZ Robinson Steven,9.0
+1652,1645.0,Cameroon,KOSSOKO Sadikou Jérémie,9.0
+1653,1647.0,France,SOUCHON Antonin,9.0
+1654,,France,CLEMENT Guillaume,9.0
+1655,1648.0,Spain,MINTEGI Iker,9.0
+1656,1649.0,Japan,MIYAZAKI Taishi,9.0
+1657,1650.0,Great Britain,KING Matthew,9.0
+1658,1651.0,Norwegia,RYE-JOHNSEN Jon,9.0
+1659,1652.0,Australia,TUCKWELL Luke,9.0
+1660,1654.0,Luxembourg,KOCKELMANN Mathieu,9.0
+1661,1655.0,Belgium,MICHELS Jente,9.0
+1662,1656.0,Panama,CHAN Hassan Felipe,9.0
+1663,1657.0,Denmark,JAKOBSEN Jonas Nordal,9.0
+1664,1658.0,France,AUGÉ Ronan,9.0
+1665,1659.0,Oman,AL-MAMARI Faisal,9.0
+1666,1660.0,Italy,SIERRA Juan David,9.0
+1667,1661.0,Cape Verde,DA CRUZ Nelio,9.0
+1668,,Venezuela,MÉNDEZ Arlex José,9.0
+1669,1662.0,Bosnia and Erzegovina,MAHMUTOVIĆ Amir,9.0
+1670,1663.0,Saint Lucia,MOSES Gillan,9.0
+1671,1664.0,Honduras,CASTILLO Cesar,8.3
+1672,1665.0,Portuguese,FIGUEIREDO Frederico,8.0
+1673,1449.0,Italy,FELLINE Fabio,8.0
+1674,1667.0,France,BOUDAT Thomas,8.0
+1675,1838.0,France,MANZIN Lorrenzo,8.0
+1676,1669.0,Israel,GOLDSTEIN Omer,8.0
+1677,1670.0,Taiwan,LU Shao Hsuan,8.0
+1678,1671.0,Belgium,JOSEPH Thomas,8.0
+1679,1672.0,Argentina,RAMOS Rubén,8.0
+1680,1673.0,South Africa,HATHERLY Alan,8.0
+1681,1674.0,Belgium,ROGIER Stef,8.0
+1682,2132.0,Japan,KUSABA Keigo,8.0
+1683,1675.0,Argentina,FREDES Sergio,8.0
+1684,1676.0,Greece,ZEGKLIS Nikolaos,8.0
+1685,1677.0,Costa Rica,VARELA Leandro,8.0
+1686,1678.0,Colombia,HOYOS Juan Diego,8.0
+1687,1679.0,Greece,GIANNOUTSOS Miltiadis,8.0
+1688,1680.0,Australia,EVANS Alexander,8.0
+1689,1682.0,Japan,KADOTA Yusuke,8.0
+1690,1383.0,Norwegia,LØLAND Sakarias Koller,8.0
+1691,1534.0,Slovakia,ROVDER Pavol,8.0
+1692,1683.0,France,PETIT Clément,8.0
+1693,1684.0,China,TENG Geng,8.0
+1694,1685.0,Italy,EPIS Giosuè,8.0
+1695,1686.0,Türkiye,YIĞIT Tahir,8.0
+1696,1687.0,Ireland,DOYLE Leo,8.0
+1697,1863.0,Great Britain,GIDDINGS Joshua,8.0
+1698,1688.0,Brazil,DE PAULA Victor Cesar,8.0
+1699,1689.0,Italy,PERANI Riccardo,8.0
+1700,1690.0,China,LI Zhen,8.0
+1701,1691.0,Russia,LAPTEV Savelii,8.0
+1702,1692.0,Swiss,JANSSEN Christoph,8.0
+1703,1693.0,Italy,MILESI Nicolas,8.0
+1704,1694.0,Belgium,DE BRUYCKERE Kay,8.0
+1705,1695.0,Brazil,FONSECA DA SILVA FREITAS Kacio,8.0
+1706,1696.0,South Africa,KIECK Blaine,8.0
+1707,1697.0,Italy,TURCONI Filippo,8.0
+1708,1698.0,Australia,SWAN Bailey,8.0
+1709,1699.0,Benin,MENSAH Ezer,8.0
+1710,1700.0,Norwegia,HANSEN Martin Solhaug,8.0
+1711,1701.0,United States,MAKOHON Jack,8.0
+1712,1702.0,Cameroon,ACHIETKUEYINYI Aurélien,8.0
+1713,1703.0,China,GAO Yongbing,8.0
+1714,1704.0,Great Britain,RADCLIFFE George,8.0
+1715,1705.0,Canada,BOUCHARD Félix,8.0
+1716,1706.0,Benin,TOSSAVI Ted,8.0
+1717,1707.0,Macau,KAM Chin Pok,8.0
+1718,1708.0,United States,CONLEY Chad,8.0
+1719,1709.0,El Salvador,JOYA José Dagoberto,7.2
+1720,1710.0,Costa Rica,SALAS Josué,7.2
+1721,1711.0,Mauritius,LINCOLN Yannick,7.0
+1722,1712.0,Cuba,SANABRIA Vicente,7.0
+1723,1713.0,Namibia,CUFF Ingram,7.0
+1724,1714.0,chile,BRAVO Edison Fernando,7.0
+1725,1715.0,Poland,BERNAS Paweł,7.0
+1726,1717.0,Venezuela,BRICEÑO Yimmi José,7.0
+1727,1718.0,Iran,NATEGHI Mahdi,7.0
+1728,1719.0,Taiwan,FENG Chun Kai,7.0
+1729,1720.0,Dutch,LINDEMAN Bert-Jan,7.0
+1730,1635.0,Germany,HUPPERTZ Joshua,7.0
+1731,1721.0,Thailand,LADNGERN Peerapong,7.0
+1732,1722.0,Honkong,LAU Wan Hei Victor,7.0
+1733,1723.0,Australia,CARMAN Ben,7.0
+1734,1724.0,Philippines,LOMOTOS Ronald,7.0
+1735,1725.0,Algeria,SASSANE El Khacib,7.0
+1736,1726.0,Iran,ARIYAN Behnam,7.0
+1737,1727.0,Georgia,SUVADZOGLU Giorgi,7.0
+1738,1728.0,Barbados,CLARKE Philip,7.0
+1739,1729.0,Guam,HORTON Derek,7.0
+1740,1913.0,Venezuela,MORA Luis Guillermo,7.0
+1741,1730.0,Venezuela,MARTINEZ Clever,7.0
+1742,1731.0,Brazil,FERREIRA GUIMARÃES Alessandro,7.0
+1743,1732.0,Dominican Republic,GARCÍA Joel José,7.0
+1744,1524.0,Spain,GARCÍA PIERNA Carlos,7.0
+1745,1733.0,South Korea,MIN Kyeongho,7.0
+1746,1735.0,Dutch,VAN SINTMAARTENSDIJK Daan,7.0
+1747,1736.0,Norwegia,HOLSTAD Ludvik,7.0
+1748,1737.0,Belgium,VAN POUCKE Aaron,7.0
+1749,1738.0,Antigua and Barbuda,THOMAS Conroy,7.0
+1750,1739.0,United Arabes Emirates,ALNAQBI Waleed,7.0
+1751,1740.0,Algeria,MANSOURI Hamza,7.0
+1752,1741.0,Singapore,MUN Yong Liang,7.0
+1753,1742.0,Poland,SZÓSTKA Paweł,7.0
+1754,1743.0,Japan,ISHIHARA Yuki,7.0
+1755,1744.0,Rwanda,MANIZABAYO Eric,7.0
+1756,1745.0,Venezuela,RAMIREZ Yurgen,7.0
+1757,1746.0,Egypt,KAMEL Ahmed Gamal,7.0
+1758,1747.0,France,SILLIAU Nicolas,7.0
+1759,1748.0,France,HUYET Baptiste,7.0
+1760,1749.0,Estonia,PAJUR Markus,7.0
+1761,1750.0,Dutch,VAN BELLE Bas,7.0
+1762,1751.0,Belize,QUIROZ Oscar,7.0
+1763,,Slovakia,KAŠKO Dávid,7.0
+1764,1752.0,Greece,VILA Emiliano,7.0
+1765,1753.0,Bosnia and Erzegovina,DELANOVIC Ferhad,7.0
+1766,1754.0,South Africa,PRITZEN Marc Oliver,7.0
+1767,1755.0,Honkong,NG Pak Hang,7.0
+1768,1756.0,Portuguese,SALGUEIRO Carlos Miguel,7.0
+1769,1757.0,new zealand,WATTS Kiaan,7.0
+1770,1758.0,Israel,TENE Rotem,7.0
+1771,1759.0,Czech Republic,KMÍNEK Vojtěch,7.0
+1772,1760.0,Germany,GATHEMANN Albert,7.0
+1773,1761.0,Dutch,VERBURG Luke,7.0
+1774,1762.0,Italy,RACCANI Simone,7.0
+1775,1763.0,Singapore,BIN FAISAL Arfan,7.0
+1776,1764.0,Austria,MESSNER Martin,7.0
+1777,1765.0,Great Britain,KNIGHT Oliver,7.0
+1778,1766.0,Barbados,HOWARD Dominic,7.0
+1779,1767.0,Romania,PICIU Mattew-Denis,7.0
+1780,1768.0,Brazil,MAGNO RABELO Euller,7.0
+1781,1769.0,Brazil,MOLINA Igor,7.0
+1782,1770.0,Italy,PALOMBA Marco,7.0
+1783,1771.0,Italy,PESCHI Lorenzo,7.0
+1784,1772.0,Denmark,AAGAARD HANSEN Tobias,7.0
+1785,1773.0,Venezuela,GUEVARA Gregory,7.0
+1786,1774.0,Belgium,VAN DE PUTTE Victor,7.0
+1787,1775.0,Denmark,NØRTOFT Morten Aalling,7.0
+1788,1776.0,Saint Vincent and the Grenadines,JAMES Sherwin,7.0
+1789,1777.0,Iceland,JÓNSSON Davíð,7.0
+1790,1778.0,Italy,PORTELLO Alessio,7.0
+1791,1779.0,Sweden,SANDØR Gabriel,7.0
+1792,1780.0,Luxembourg,KESS Alexandre,7.0
+1793,1781.0,North Macedonia,TRPCEVSKI Ivan,7.0
+1794,1782.0,Denmark,SVARRE Tobias,7.0
+1795,1783.0,Israel,LOGINOV Vladislav,7.0
+1796,1784.0,Paraguay,ZACHAR Bruno,7.0
+1797,1785.0,Türkiye,EMISCI Ferhat,7.0
+1798,1786.0,Lithuania,MIKUTIS Kristupas,7.0
+1799,1788.0,Montenegro,DAŠIĆ Milić,7.0
+1800,1789.0,United States,KILLY Jonah,7.0
+1801,1790.0,Lebanon,ALMANE Abdel Azez,7.0
+1802,1791.0,Italy,CASALINI Gabriele,7.0
+1803,1792.0,China,LIU Chenrui,7.0
+1804,1793.0,Dutch,LOUWERENSEN Tijn,7.0
+1805,1794.0,chile,CARVACHO Sebastian,7.0
+1806,1795.0,Uruguay,WEICKERT Ivo,7.0
+1807,1796.0,Oman,AL FARSI Hashim,7.0
+1808,1797.0,Cyprus,KOUZIS Georgios,7.0
+1809,1798.0,Australia,COOPER William,7.0
+1810,1799.0,Australia,HENDERSON Kobe,7.0
+1811,1800.0,Bahrain,HUSAIN Jasim,7.0
+1812,1801.0,France,GRISEL Matys,7.0
+1813,1802.0,Finland,GRÖNLUND Karl-Nicolas,7.0
+1814,1803.0,Slovakia,RIŠKA Richard,7.0
+1815,1804.0,Zimbabwe,CHAKAZA Amos,7.0
+1816,1805.0,Crotia,TISAJ Jan,7.0
+1817,1806.0,Cameroon,CHOFOR Fabrice,7.0
+1818,1807.0,Spain,DELGADO David,7.0
+1819,1808.0,Trinitad & Tobago,DE COMARMOND Enrique,7.0
+1820,1809.0,Puerto Rico,OLIVERAS Miguel,7.0
+1821,1810.0,North Macedonia,PETROVSKI Aleksandar,7.0
+1822,,Tunisia,MECHERGUI Mohamed Amine,7.0
+1823,1811.0,India,KUMAR Sahil,7.0
+1824,1812.0,China,CAO Houwang,7.0
+1825,1813.0,India,KUMAR Dinesh,7.0
+1826,1814.0,Ecuadore,NAVAS Kevin,7.0
+1827,1815.0,Puerto Rico,RIVERA Loyd Yuan,7.0
+1828,1816.0,Vietnam,PHAM Le Xuan Loc,7.0
+1829,1817.0,laos,SOUTHAMMAVONG Fongsamouth,7.0
+1830,1818.0,Kosovo,SEJDIU Edmond,7.0
+1831,1819.0,Cuba,SANTIAGO Ernesto,7.0
+1832,1820.0,China,LIU Zhicheng,7.0
+1833,1821.0,Malaysia,ZULKIFLI Zulfikri,7.0
+1834,1822.0,Türkiye,KÖFTECİ Aydin,7.0
+1835,1823.0,France,COURTOIS Kévin,7.0
+1836,1824.0,Belize,LESLIE Leon,7.0
+1837,1825.0,Australia,BOYS Matt,7.0
+1838,1826.0,Angola,CRUZ Tuto,7.0
+1839,1827.0,Etiopia,TESFAY Amanuel,7.0
+1840,1828.0,Peru,URBINA Alexander,7.0
+1841,1829.0,Cape Verde,DAVID Klisman,7.0
+1842,1830.0,Nicaragua,REYES Jose Alexis,7.0
+1843,1831.0,Panama,GUERRA Sandi,6.5
+1844,1832.0,El Salvador,ROMERO Jorge,6.2
+1845,1833.0,Portuguese,SILVA Joaquim,6.0
+1846,1834.0,France,CARDIS Romain,6.0
+1847,1836.0,Czech Republic,TUREK Daniel,6.0
+1848,1839.0,Italy,RAVASI Edward,6.0
+1849,1841.0,Great Britain,LEWIS Adam,6.0
+1850,1842.0,Zimbabwe,SIBANDA Mthokozisi,6.0
+1851,1843.0,United States,BICKMORE Cade,6.0
+1852,1845.0,Italy,ZAMBELLI Samuele,6.0
+1853,1846.0,Türkiye,ÖZGÜR Batuhan,6.0
+1854,1847.0,Thailand,YAOWARAT Ratchanon,6.0
+1855,1848.0,France,MAINGUENAUD Tom,6.0
+1856,1850.0,Germany,PETER Jannis,6.0
+1857,1851.0,Belgium,VANDEPUTTE Niels,6.0
+1858,1852.0,Slovakia,LÍŠKA Andrej,6.0
+1859,1853.0,new zealand,SEXTON Tom,6.0
+1860,1854.0,Giatemala,CANASTUJ José David,6.0
+1861,1681.0,Dutch,GELEIJN Owen,6.0
+1862,1855.0,Belgium,WILLEMS Jago,6.0
+1863,1857.0,Philippines,QUITA Ronnilan,6.0
+1864,1858.0,Portuguese,BARBOSA Diogo,6.0
+1865,1859.0,France,VADIC Baptiste,6.0
+1866,1860.0,Denmark,JØRGENSEN Adam Holm,6.0
+1867,1861.0,Spain,FERNÁNDEZ Sinuhé,6.0
+1868,1862.0,Great Britain,MITCHELL Adam,6.0
+1869,1864.0,Spain,AZNAR Hugo,6.0
+1870,1865.0,Great Britain,SUTTON Louis,6.0
+1871,1866.0,Denmark,EGHOLM Kristian,6.0
+1872,1867.0,China,SUN Changsheng,6.0
+1873,1959.0,Swiss,STÖCKLI Jan,6.0
+1874,1868.0,Czech Republic,VYSOČAN Daniel,6.0
+1875,1869.0,Belgium,PLACE Maxence,6.0
+1876,1870.0,Denmark,HELLERUP Malte,6.0
+1877,1871.0,Ecuadore,REVELO Franklin Joel,6.0
+1878,1872.0,Antigua and Barbuda,FLEMMING Abbiel,6.0
+1879,1873.0,Germany,AMANN Meo,6.0
+1880,1874.0,Dutch,VAN ZANDEN Otto,6.0
+1881,1875.0,Dutch,ABMA Elmar,6.0
+1882,1876.0,France,CIALONE Alessio,6.0
+1883,1877.0,Canada,PARRISH Campbell,6.0
+1884,1878.0,Paraguay,DOMINGUEZ Carlos,6.0
+1885,1879.0,Bahrain,MOHAMED Husain,6.0
+1886,2097.0,Slovenia,MAROLT Jaka,6.0
+1887,1880.0,Great Britain,THORNLEY Callum,6.0
+1888,1881.0,United States,FELTON Quinn,6.0
+1889,1882.0,Benin,SIDI Zoukanairi,6.0
+1890,1883.0,Italy,PERRACCHIONE Alessandro,6.0
+1891,1981.0,Great Britain,GOLLIKER Joshua,6.0
+1892,1884.0,France,RIBEIRO DA CRUZ Mathias,6.0
+1893,1885.0,Iceland,BÁRÐARSON Þorsteinn,6.0
+1894,1886.0,Colombia,MOLINA Héctor Ferney,6.0
+1895,1887.0,Australia,JARVIS Hayden,6.0
+1896,1888.0,Benin,ATTAI Corneil Kokou,6.0
+1897,1889.0,Barbados,HUTHINSON Liam,6.0
+1898,1890.0,new zealand,PRINGLE Nate,6.0
+1899,1891.0,Costa Rica,JIMENEZ Bryan,5.2
+1900,1892.0,Belarus,SOBAL Yauhen,5.0
+1901,1893.0,Belgium,DEVRIENDT Tom,5.0
+1902,1894.0,Spain,LOZANO David,5.0
+1903,1895.0,Serbia,STANKOVIĆ Marko,5.0
+1904,1896.0,Costa Rica,MUDARRA Pablo,5.0
+1905,1897.0,new zealand,ARCHBOLD Shane,5.0
+1906,1553.0,chile,ALARCÓN Pablo Andres,5.0
+1907,1898.0,Latvia,VOSEKALNS Andris,5.0
+1908,1899.0,Dutch,EISING Tijmen,5.0
+1909,1901.0,Dutch,VAN POPPEL Boy,5.0
+1910,1902.0,Dutch,BOL Jetse,5.0
+1911,1835.0,Belgium,KEUKELEIRE Jens,5.0
+1912,1906.0,Costa Rica,AMADOR Andrey,5.0
+1913,1907.0,Great Britain,FROOME Chris,5.0
+1914,1908.0,France,GESBERT Élie,5.0
+1915,1909.0,Hungary,RÓZSA Balázs,5.0
+1916,1051.0,Spain,ITURRIA Mikel,5.0
+1917,1910.0,Czech Republic,NEUMAN Dominik,5.0
+1918,1911.0,Dutch,TOLHOEK Antwan,5.0
+1919,1912.0,United States,BASSETT Stephen,5.0
+1920,1914.0,China,LIU Jiankun,5.0
+1921,1915.0,Great Britain,STEWART Mark,5.0
+1922,1916.0,Panama,SAMUDIO Carlos,5.0
+1923,1917.0,Germany,PESCHGES Marcel,5.0
+1924,1918.0,Japan,SAWADA Toki,5.0
+1925,2018.0,Malaysia,ZAKARIA Akmal Hakim,5.0
+1926,1919.0,Australia,STANNARD Robert,5.0
+1927,1920.0,Great Britain,WALLS Matthew,5.0
+1928,2019.0,Colombia,CARDONA Julián,5.0
+1929,1922.0,Spain,PELEGRÍ Óscar,5.0
+1930,1923.0,Portuguese,MENDONÇA Luís,5.0
+1931,1924.0,Swiss,SUTER Joel,5.0
+1932,1926.0,Burkina Faso,NANA Boureima,5.0
+1933,1927.0,Great Britain,LONGSTAFF Frank,5.0
+1934,1928.0,Italy,MASOTTO Giulio,5.0
+1935,1929.0,Great Britain,BRAND Sam,5.0
+1936,1930.0,Canada,FOLEY Michael,5.0
+1937,1931.0,China,SUN Zhengshuai,5.0
+1938,1932.0,new zealand,GAZE Samuel,5.0
+1939,,Colombia,TOBAR Cristian Camilo,5.0
+1940,1933.0,Belgium,VANDENABEELE Henri,5.0
+1941,1934.0,new zealand,O'DONNELL Bailey,5.0
+1942,1935.0,France,BONIFACE Lucas,5.0
+1943,1936.0,Denmark,MALMBERG Matias,5.0
+1944,1937.0,Great Britain,KYFFIN Zeb,5.0
+1945,1938.0,Spain,ETXEBERRIA Asier,5.0
+1946,1939.0,Italy,BIANCALANI Andrea,5.0
+1947,1940.0,Great Britain,GEORGE Alfred,5.0
+1948,1941.0,Spain,MARTÍN Alex,5.0
+1949,1942.0,Italy,DEBIASI Andrea,5.0
+1950,1943.0,Belgium,CLYNHENS Toon,5.0
+1951,1944.0,Italy,AMELLA Matteo,5.0
+1952,1945.0,Australia,JONES Taj,5.0
+1953,1946.0,Colombia,CASALLAS Yeisson Ferney,5.0
+1954,1947.0,Great Britain,PIDCOCK Joseph,5.0
+1955,1948.0,Germany,DUCKERT Roman,5.0
+1956,1949.0,Kazakhstan,SLAMZHANOV Orken,5.0
+1957,1950.0,Spain,AZPARREN Enekoitz,5.0
+1958,1951.0,Denmark,DAHL Gustav Frederik,5.0
+1959,1952.0,Belgium,DE KEYSER Ewout,5.0
+1960,1953.0,Curaçao,CANNISTER Goldwynn,5.0
+1961,1954.0,Denmark,BAK Simon,5.0
+1962,1955.0,Costa Rica,ROUILLON Ricardo,5.0
+1963,1956.0,Russia,BEREZNYAK Aleksandr,5.0
+1964,1957.0,Belgium,HULSMANS Senne,5.0
+1965,1958.0,France,RENARD-HAQUIN Henri-François,5.0
+1966,1960.0,Australia,TOMKINSON Tyler,5.0
+1967,1961.0,Swiss,PÜNTENER Fabio,5.0
+1968,1962.0,Spain,FERNÁNDEZ Samuel,5.0
+1969,1963.0,Belgium,AVONDTS Mathis,5.0
+1970,1964.0,Italy,BRACALENTE Diego,5.0
+1971,1965.0,Canada,GAUTHIER Jérôme,5.0
+1972,1966.0,Great Britain,HANNAY Tyler,5.0
+1973,1967.0,Costa Rica,OSES Luis Daniel,5.0
+1974,1968.0,Malaysia,MAZLIN Muhammad Syawal,5.0
+1975,1969.0,Australia,HADDEN Nate,5.0
+1976,1970.0,Australia,JESSEN Cohen,5.0
+1977,1971.0,Australia,CLAYTON Thomas,5.0
+1978,1972.0,Australia,LUDMAN Joshua,5.0
+1979,1974.0,Belgium,CUYLITS Mauro,5.0
+1980,1975.0,Benin,SAÏZONOU J. Glorad,5.0
+1981,1976.0,Italy,GIAIMI Luca,5.0
+1982,1977.0,Germany,LEIDERT Louis,5.0
+1983,1978.0,Portuguese,LIMA Daniel,5.0
+1984,1979.0,Sweden,MERLÖV Ville,5.0
+1985,1980.0,Belgium,VAN DEN BOER Seppe,5.0
+1986,1982.0,Japan,KAMADA Koki,5.0
+1987,1983.0,Swiss,SOMMER Lars,5.0
+1988,1984.0,Australia,CARTER John,5.0
+1989,,Colombia,GONZALEZ David Alejandro,5.0
+1990,1985.0,Australia,DOHLER Jack,5.0
+1991,1986.0,Mali,DIALLO Yacouba,5.0
+1992,1987.0,Great Britain,GROVER Freddie,5.0
+1993,1988.0,Slovenia,GLADEK Marcel,5.0
+1994,1989.0,France,LEBON Victor,5.0
+1995,1990.0,Serbia,MILOŠEVIĆ Vladimir,5.0
+1996,,Etiopia,HAILEMARYAM Gereziher Geremedhin,5.0
+1997,1991.0,Panama,LORENZO Randish Abdul,4.5
+1998,1992.0,Honduras,CHEVEZ Cristian,4.3
+1999,1993.0,Honduras,MENÉNDEZ Héctor,4.3
+2000,1994.0,El Salvador,HURTADO Josué Oswaldo,4.2
+2001,1995.0,Austria,FEDERSPIEL Daniel,4.0
+2002,1996.0,Cuba,CARDOSO Adonis,4.0
+2003,1997.0,Cameroon,TELLA Artuce Jodele,4.0
+2004,1998.0,Ukraine,POLIVODA Oleksandr,4.0
+2005,1999.0,chile,ALVARADO Adrian,4.0
+2006,1716.0,Belgium,PEYSKENS Dimitri,4.0
+2007,2000.0,France,CARÈNE Boris,4.0
+2008,2001.0,Costa Rica,ROJAS Mainor,4.0
+2009,2002.0,Venezuela,BECERRA Eduin,4.0
+2010,2003.0,Poland,KONWA Marek,4.0
+2011,2004.0,Spain,MANCEBO Francisco,4.0
+2012,2005.0,Dominican Republic,MILÁN Diego,4.0
+2013,2006.0,Dutch,MEGENS Brian,4.0
+2014,2007.0,Spain,TORIBIO José Vicente,4.0
+2015,2008.0,Colombia,DUARTE Fabio,4.0
+2016,2009.0,Israel,SAGIV Guy,4.0
+2017,2010.0,Italy,TAGLIANI Filippo,4.0
+2018,1637.0,France,CABOT Jérémy,4.0
+2019,2011.0,Australia,FRASER Cameron,4.0
+2020,2012.0,Peru,NAVARRO Royner,4.0
+2021,2013.0,Azebaijan,ALIZADA Elgun,4.0
+2022,2014.0,Philippines,NAVARRA Junrey Janjan,4.0
+2023,2015.0,Belgium,DE POORTER Maxime,4.0
+2024,2016.0,United States,SWIRBUL Keegan,4.0
+2025,2017.0,Canada,DROUIN David,4.0
+2026,1844.0,Great Britain,GARDNER Dan,4.0
+2027,2020.0,Colombia,MUÑOZ Cristian Camilo,4.0
+2028,2021.0,Portuguese,DUARTE Emanuel,4.0
+2029,2022.0,France,LAGNET Gari,4.0
+2030,2023.0,Singapore,NG Kian Hiang Brian,4.0
+2031,2024.0,Hungary,KARL Ádám Kristóf,4.0
+2032,2025.0,Costa Rica,ZAMORA Richard Alonso,4.0
+2033,2026.0,new zealand,BATT Ethan,4.0
+2034,2027.0,Morocco,MINOUAL Soulayman,4.0
+2035,2028.0,France,THEOT Killian,4.0
+2036,2029.0,Mali,TOGOLA Moussa,4.0
+2037,2030.0,Thailand,PAEKRATHOK Warut,4.0
+2038,2031.0,Uruguay,FERNÁNDEZ Germán,4.0
+2039,1430.0,Dutch,MARSMAN Tim,4.0
+2040,2032.0,Austria,STEININGER Fabian,4.0
+2041,2033.0,Slovenia,SKOK Anže,4.0
+2042,2034.0,Dutch,BROEX Victor,4.0
+2043,2035.0,Finland,MAKOGON Vladyslav,4.0
+2044,2036.0,Honkong,TSO Kai Kwong,4.0
+2045,2037.0,Belgium,VERWILT Mauro,4.0
+2046,2039.0,Belgium,ERAUW Thiemo,4.0
+2047,2040.0,Belgium,SANTY Arne,4.0
+2048,2041.0,Giatemala,SAM Henry Alberto,4.0
+2049,2042.0,Denmark,LOND Daniel,4.0
+2050,2043.0,Japan,TERADA Yoshiki,4.0
+2051,2044.0,Russia,MALKOV Kirill,4.0
+2052,2045.0,Russia,IGOSHEV Egor,4.0
+2053,,Italy,GALIMBERTI Lorenzo,4.0
+2054,2046.0,France,CHAUSSINAND Joris,4.0
+2055,2047.0,Austria,BUSCHEK Paul,4.0
+2056,2048.0,Taiwan,CHANG Chih Sheng,4.0
+2057,2049.0,Colombia,ARBOLEDA Anderson,4.0
+2058,2050.0,Denmark,LOCK Dennis,4.0
+2059,2051.0,Belgium,WYSEURE Joran,4.0
+2060,2052.0,Great Britain,WOOD George,4.0
+2061,2053.0,Monaco,BERLIN Antoine,4.0
+2062,2054.0,South Korea,YUN Jaebin,4.0
+2063,2055.0,Türkiye,AKPINAR Ahmet,4.0
+2064,2056.0,Rwanda,NSENGIYUMVA Shemu,4.0
+2065,2057.0,Dutch,KONINGS Roan,4.0
+2066,2058.0,Romania,MOLDANSKY Gerhard-Cristin,4.0
+2067,2059.0,Norwegia,VANG AAS Eirik,4.0
+2068,2060.0,Greece,DRAKOS Nikolaos Michail,4.0
+2069,2061.0,Lithuania,ADOMAITIS Rokas,4.0
+2070,2062.0,Italy,ANDREAUS Marco,4.0
+2071,2063.0,Dutch,REINDERINK Joris,4.0
+2072,2064.0,Ireland,HARVEY Dean,4.0
+2073,2065.0,Colombia,RUIZ Jeferson Armando,4.0
+2074,2066.0,Germany,LENNÉ Arthur,4.0
+2075,2067.0,Norwegia,MARTINSEN Toralf Rydningen,4.0
+2076,2068.0,Belize,GABOUREL Goran,4.0
+2077,2069.0,Kazakhstan,VASSILYEV Dmitriy,4.0
+2078,2070.0,Denmark,MORELL Noah Borgen,4.0
+2079,2071.0,United States,CHRISTIAN Sean,4.0
+2080,2072.0,Iran,AGHAKASHI Mahdi,4.0
+2081,2073.0,Algeria,MEGNOUCHE Hamza,4.0
+2082,2074.0,China,SHAO Junqi,4.0
+2083,2075.0,Dutch,BRONSWIJK Mike,4.0
+2084,2076.0,Nicaragua,URIARTE Leenar Antonio,4.0
+2085,2077.0,Belgium,VERVENNE Jonathan,4.0
+2086,2078.0,France,GILLET Baptiste,4.0
+2087,2079.0,France,BOULET Enzo,4.0
+2088,2080.0,Poland,GLANZ Michał,4.0
+2089,2081.0,Belgium,LANHOVE Milan,4.0
+2090,2082.0,Mali,KONE Sitapha,4.0
+2091,2083.0,Oman,AL RIYAMI Mazin,4.0
+2092,2084.0,Brazil,METZGER Gabriel,4.0
+2093,2085.0,Mali,DJIRE Daouda,4.0
+2094,2086.0,Indonesia,RAMADHAN Ilham Dzikri,4.0
+2095,2087.0,United Arabes Emirates,KAHIR Saeed,4.0
+2096,2088.0,Namibia,LOWE Kevin,4.0
+2097,2089.0,South Africa,TERLOUW Jaedon,4.0
+2098,2090.0,Belgium,VAN BYLEN Liam,4.0
+2099,2091.0,Dutch,TIJSSEN Viego,4.0
+2100,2092.0,Türkiye,TARAKCI Mustafa,4.0
+2101,2093.0,Norwegia,INGEBRIGTSEN Storm,4.0
+2102,2094.0,France,FABRIES Ugo,4.0
+2103,2095.0,Germany,EISENBARTH Pirmin,4.0
+2104,2096.0,Thailand,SAENTA Tanawat,4.0
+2105,2098.0,Colombia,AVILA Freddy,4.0
+2106,2099.0,United States,HAUG Kieran,4.0
+2107,2340.0,Morocco,EL ALOUANI Driss,4.0
+2108,2100.0,Eritrea,GIRMAY Mewael,4.0
+2109,2101.0,Trinitad & Tobago,GEORGE Kirtson,4.0
+2110,2102.0,Algeria,N'HARI Mohamed Amine,4.0
+2111,2103.0,Algeria,CHENNAFI Bachir,4.0
+2112,2104.0,France,HECTOR Raphaël,4.0
+2113,,Belgium,POELVOORDE Tars,4.0
+2114,2105.0,Albanie,HYSA Henri,4.0
+2115,2106.0,Peru,GONZÁLES Charle,4.0
+2116,2107.0,Egypt,MANSOUR Omar Hussein,4.0
+2117,2108.0,Etiopia,REDAE Bizay Tesfu,4.0
+2118,2109.0,Panama,BRITO Maicol,4.0
+2119,2110.0,laos,PHANNAVONG Thepphavong,4.0
+2120,2111.0,Bosnia and Erzegovina,BULJUBAŠIĆ Mirsad,4.0
+2121,2112.0,Lebanon,KALLAS Mark,4.0
+2122,2113.0,France,DAUMONT William,4.0
+2123,,Tunisia,MED ALI Jebali,4.0
+2124,2114.0,India,V Siva Prakash,4.0
+2125,2115.0,Malaysia,KHAIRUL Muhammad Fahmi,4.0
+2126,2117.0,Mexico,AGUILAR Ivan,4.0
+2127,2118.0,Puerto Rico,LOPEZ Javier,4.0
+2128,2119.0,Angola,ANDRE Alexandre,4.0
+2129,2120.0,Saint Lucia,WILLIAM Thompson,4.0
+2130,2121.0,Cape Verde,SOARES Idelfrides Marcos,4.0
+2131,2124.0,Venezuela,SEQUERA Pedro,3.0
+2132,2125.0,France,COGNET Emmanuel,3.0
+2133,2126.0,Ecuadore,CAICEDO Pablo Andres,3.0
+2134,2127.0,Brazil,CAMARGO Armando Reis Costa,3.0
+2135,2128.0,Mexico,CORELLA Rene,3.0
+2136,2129.0,Venezuela,GÁLVIZ Carlos Johan,3.0
+2137,2390.0,Malaysia,SALEH Mohd Harrif,3.0
+2138,2130.0,Canada,PERRY Benjamin,3.0
+2139,2131.0,Brazil,ORMENESE Caio Godoy,3.0
+2140,,Venezuela,CAMPOS Roniel,3.0
+2141,2134.0,Italy,VERZA Riccardo,3.0
+2142,2135.0,Brazil,GOHR Andre  Eduardo,3.0
+2143,2136.0,Thailand,PHONARJTHAN Patompob,3.0
+2144,2137.0,Belgium,D'HEYGERE Gil,3.0
+2145,2138.0,Indonesia,ARIFIN Muhammah Imam,3.0
+2146,2139.0,Poland,MURIAS Jakub,3.0
+2147,2140.0,Cameroon,TIENTCHEU Michel Boris,3.0
+2148,2141.0,Dutch,KONIJN Alexander,3.0
+2149,2430.0,France,TAILLANDIER Axel,3.0
+2150,2142.0,Belgium,SCHERPENBERGH Tristan,3.0
+2151,2143.0,France,COSS Loris,3.0
+2152,2144.0,Denmark,SKOT-HANSEN Aksel Bech,3.0
+2153,2145.0,Rwanda,UWIDUHAYE Paul,3.0
+2154,2146.0,France,LEBEAU Mathis,3.0
+2155,2147.0,Norwegia,KULSET Magnus,3.0
+2156,2148.0,Malaysia,MOHD ZARIFF Muhammad Nur Aiman,3.0
+2157,2149.0,Germany,ROSNER Linus,3.0
+2158,2150.0,Portuguese,GUERREIRO Francisco,3.0
+2159,2151.0,Germany,LÜHRS Leslie,3.0
+2160,2152.0,Dominican Republic,POLANCO Steven,3.0
+2161,2153.0,France,BENETEAU Lucas,3.0
+2162,2154.0,Swiss,TENDON Arnaud,3.0
+2163,2155.0,Spain,ROTA Raúl,3.0
+2164,2156.0,Germany,REIßIG Patrick,3.0
+2165,2157.0,Denmark,MENGEL Nikolaj,3.0
+2166,2158.0,North Macedonia,JOVANOSKI Dimitar,3.0
+2167,2159.0,Ireland,DOBBINS Matti,3.0
+2168,2160.0,new zealand,HARRIS Jonty,3.0
+2169,2161.0,Sweden,LARSSON David,3.0
+2170,2162.0,Poland,MAŚLAK Piotr,3.0
+2171,2164.0,Austria,SCHRETTL Marco,3.0
+2172,2165.0,Dutch,REEMEIJER Niels,3.0
+2173,2166.0,Japan,HASHIKAWA Jo,3.0
+2174,2167.0,Australia,WALSH Finn,3.0
+2175,,South Africa,CRAUSE Pedri,3.0
+2176,2168.0,Denmark,TROELSEN Tore,3.0
+2177,2169.0,Algeria,BADLIS Slimane,3.0
+2178,2170.0,Canada,JACOB Philippe,3.0
+2179,2171.0,Germany,BECK Jonas,3.0
+2180,2172.0,Costa Rica,AGUILAR Jose Ricardo,3.0
+2181,2173.0,Dutch,VLOT Mees,3.0
+2182,2174.0,Belgium,SERVRANCKX Gauthier,3.0
+2183,2175.0,Great Britain,ASKEY Ben,3.0
+2184,1973.0,Ecuadore,MONTEROS Luis,3.0
+2185,2176.0,France,JALADEAU Artus,3.0
+2186,2177.0,chile,ROJAS Diego,3.0
+2187,2178.0,France,BLAISE Arthur,3.0
+2188,2179.0,Morocco,EL OTMANY Mehdi,3.0
+2189,2180.0,Canada,OLEJNICZAK David,3.0
+2190,2181.0,Belgium,GEENS Jonas,3.0
+2191,2182.0,Australia,WEBB Austin,3.0
+2192,,Uganda,MUGALU Shafik,3.0
+2193,2183.0,United States,LEBO Joshua,3.0
+2194,2184.0,Great Britain,BAKER Rowan,3.0
+2195,2185.0,Australia,KAPR Martin,3.0
+2196,2186.0,Montenegro,MILONJIĆ Bobo,3.0
+2197,2187.0,Nicaragua,BOJORGE Andres,2.7
+2198,2188.0,Panama,STRAH Alex Antonio,2.5
+2199,2189.0,Belgium,SOETE Daan,2.0
+2200,2190.0,Paraguay,CORONEL Samuel,2.0
+2201,2191.0,Philippines,OCONER George,2.0
+2202,2192.0,Germany,BICHLMANN Daniel,2.0
+2203,2193.0,Venezuela,FUENTES Yorman,2.0
+2204,2194.0,France,MINY Lionel,2.0
+2205,2195.0,Denmark,MADSEN Jacob Gye,2.0
+2206,2196.0,Brazil,MANIEZZO Alan,2.0
+2207,2197.0,Mongolia,BATMUNKH Maral-Erdene,2.0
+2208,2198.0,Venezuela,ABREU Jorge,2.0
+2209,2199.0,Dutch,BUIJK Bart,2.0
+2210,2200.0,Belgium,VAN DE MIEROOP Sam,2.0
+2211,2201.0,Iran,ASKARI Hossein,2.0
+2212,2202.0,Swiss,REUTIMANN Matthias,2.0
+2213,2203.0,United States,VERMEULEN Alexey,2.0
+2214,,Japan,ISHIBASHI Manabu,2.0
+2215,2204.0,Morocco,AÏT EL ABDIA Anass,2.0
+2216,2205.0,Lithuania,TALAČKA Lukas,2.0
+2217,2206.0,El Salvador,LÓPEZ Jimmy,2.0
+2218,2207.0,Belize,STEWART Robert Liam,2.0
+2219,2208.0,Germany,MEILER Lukas,2.0
+2220,2209.0,Portuguese,MARTINGIL César,2.0
+2221,2210.0,Colombia,PARRA Heiner Rodrigo,2.0
+2222,2211.0,Italy,GARAVAGLIA Giacomo,2.0
+2223,2212.0,Bermuda,MAYHO Dominique,2.0
+2224,2213.0,Rwanda,BYUKUSENGE Patrick,2.0
+2225,2214.0,Peru,QUISPE Alain,2.0
+2226,2215.0,Dutch,LÖWIK Robin,2.0
+2227,2217.0,Costa Rica,LARIOS Manuel Alberto,2.0
+2228,2218.0,Crotia,MIJATOVIC Tomislav,2.0
+2229,,Kenya,KINJAH David,2.0
+2230,2219.0,France,BARKET Florian,2.0
+2231,2220.0,Albanie,HOXHA Marolino,2.0
+2232,2221.0,Australia,IVORY Cameron,2.0
+2233,2222.0,Taiwan,WU Chih Hao,2.0
+2234,2223.0,Giatemala,BORON Melvin,2.0
+2235,2224.0,Dominican Republic,REYES Pablo Alcides,2.0
+2236,2225.0,Costa Rica,SOLIS Marco,2.0
+2237,2226.0,Dutch,SINSCHEK Nils,2.0
+2238,2227.0,Trinitad & Tobago,COSTA Guy,2.0
+2239,2228.0,Great Britain,BRITTON Rhys,2.0
+2240,2229.0,Latvia,ANSONS Kristers,2.0
+2241,2230.0,Germany,KNOLLE Jon,2.0
+2242,2232.0,Malaysia,ZULKURNAIN Zuladri Amin,2.0
+2243,2233.0,Belarus,BIALIAUSKI Vasili,2.0
+2244,2234.0,Poland,PRUDNIKAU Dzmitry,2.0
+2245,,Canada,ZUKOWSKY Nickolas,2.0
+2246,2235.0,Puerto Rico,MARTINEZ Gian,2.0
+2247,2236.0,new zealand,HADEN Glenn,2.0
+2248,2237.0,Iran,ALIYARI Aidin,2.0
+2249,2238.0,Vietnam,QUANG Van  Cuong,2.0
+2250,2239.0,Ukraine,KOZAKOV Yaroslav,2.0
+2251,2240.0,Azebaijan,GURBIANOV Ali,2.0
+2252,2241.0,Norwegia,ÅRNES Daniel,2.0
+2253,2242.0,Dutch,BURGER Sven,2.0
+2254,2243.0,Japan,YAMAMOTO Tetsuo,2.0
+2255,2244.0,Sweden,AHLSSON Jacob,2.0
+2256,2245.0,Austria,HIRSCHBICHLER Johannes,2.0
+2257,2246.0,Kazakhstan,SEMENOV Alexandr,2.0
+2258,2247.0,Rwanda,NZAFASHWANAYO Jean Claude,2.0
+2259,2248.0,Belgium,DHAEYE Enrico,2.0
+2260,2249.0,Spain,HERVAS Pol,2.0
+2261,2252.0,Great Britain,REES Oliver,2.0
+2262,2253.0,Costa Rica,MURILLO Luis Esteban,2.0
+2263,2254.0,Swiss,BÖGLI Noah,2.0
+2264,2255.0,Antigua and Barbuda,SIMMONS David,2.0
+2265,2256.0,Morocco,BDADOU Youssef,2.0
+2266,2257.0,Finland,VAINIO Veeti,2.0
+2267,2258.0,Taiwan,LI Kuan Hsien,2.0
+2268,2259.0,Costa Rica,ALFARO Luis José,2.0
+2269,2260.0,Nicaragua,VALLE Larry Renys,2.0
+2270,2261.0,Colombia,GOMEZ David Santiago,2.0
+2271,2262.0,chile,EGUIGUREN Gonzalo,2.0
+2272,2263.0,Belgium,VIDTS Obie,2.0
+2273,2264.0,Japan,TSUDA Yugi,2.0
+2274,2265.0,Denmark,SCHANDORFF IWERSEN Emil,2.0
+2275,2266.0,Germany,THEILER Ole,2.0
+2276,2267.0,Poland,OLSZAR Antoni,2.0
+2277,2268.0,Cyprus,PAVLIDES Konstantinos,2.0
+2278,2269.0,France,LAURANS Théo,2.0
+2279,2270.0,Ireland,PEDEN George,2.0
+2280,2271.0,Spain,GARCÍA José María,2.0
+2281,2272.0,Singapore,LIM Zhen Yu Darren,2.0
+2282,2273.0,North Macedonia,JAKIMOVSKI Daniel,2.0
+2283,2274.0,Costa Rica,RAMIREZ Joseph Gerardo,2.0
+2284,2275.0,Bosnia and Erzegovina,PIHLJAK Tarik,2.0
+2285,2276.0,Swiss,WEISS Dominik,2.0
+2286,2277.0,Slovenia,ŽUMER Matic,2.0
+2287,2278.0,Philippines,BONDOC Rench Michael,2.0
+2288,2279.0,Colombia,LOPEZ Juan Carlos,2.0
+2289,,Spain,BENNASSAR Francesc,2.0
+2290,2280.0,Swiss,DONZÉ Robin,2.0
+2291,2281.0,Norwegia,FELDMANN Karsten Larsen,2.0
+2292,2282.0,Ukraine,SIMON Semen,2.0
+2293,2472.0,Slovakia,GROSS Adam,2.0
+2294,2283.0,Thailand,YATAN Thanachat,2.0
+2295,2284.0,Italy,CIRLINCIONE Domenico,2.0
+2296,2285.0,Italy,PICCINI Mattia,2.0
+2297,2286.0,Belgium,GEERAERTS Ferre,2.0
+2298,2287.0,Belgium,OOSTERLINCK Joes,2.0
+2299,2288.0,France,BRIDRON Thibaud,2.0
+2300,2289.0,Venezuela,VILORIA Enmanuel David,2.0
+2301,2290.0,Australia,BOGNA Alex,2.0
+2302,2291.0,Canada,OUELLET Edward,2.0
+2303,2292.0,South Korea,BAE Hyoungjun,2.0
+2304,2293.0,Australia,SHANNON Tynan,2.0
+2305,2294.0,Australia,GILMORE Brady,2.0
+2306,2295.0,Australia,SAMPSON Andy,2.0
+2307,2296.0,Poland,GRYGOWSKI Hubert,2.0
+2308,2297.0,Czech Republic,FIALA Matyáš,2.0
+2309,2298.0,Slovakia,GALOVIČ Jakub,2.0
+2310,,Spain,BONILLO Iker,2.0
+2311,2299.0,Greece,DOUZAS Dionysios,2.0
+2312,2300.0,Denmark,KONGSTAD Alfred,2.0
+2313,2301.0,Poland,DOLAK Kamil,2.0
+2314,2302.0,Italy,MILAN Matteo,2.0
+2315,,Venezuela,QUINTERO Antoni Samuel,2.0
+2316,2303.0,Venezuela,ARROYO Angelvis,2.0
+2317,2304.0,Giatemala,CHONAY Wilson Ottoniel,2.0
+2318,2305.0,Giatemala,MATZAR Rudy,2.0
+2319,2306.0,Bulgaria,PALASHEV Borislav,2.0
+2320,2307.0,Kosovo,BINAKAJ Valon,2.0
+2321,2308.0,Lebanon,KAMALEDDINE Nafez,2.0
+2322,2309.0,Algeria,BOUDAR Zaki,2.0
+2323,2310.0,Belgium,HANNES Victor,2.0
+2324,2311.0,China,LI Boan,2.0
+2325,2313.0,France,HUE Antoine,2.0
+2326,2314.0,Dominican Republic,LUCIANO Ernando,2.0
+2327,2315.0,Mauritius,MATOMBE Hanson,2.0
+2328,2316.0,Uzbekistan,JANIKULOV Samandar,2.0
+2329,2317.0,Russia,SHTIN Valery,2.0
+2330,2318.0,Great Britain,SMITH William,2.0
+2331,2319.0,Italy,COCCA Andrea,2.0
+2332,2320.0,Oman,AL RAWAHI Husam,2.0
+2333,2321.0,Costa Rica,COTO Jaime Felipe,2.0
+2334,2322.0,Brazil,DOMINGOS Werik Kaua,2.0
+2335,2323.0,Indonesia,MAULANA Astnan,2.0
+2336,,Italy,AMBROSINI Matteo,2.0
+2337,2324.0,Colombia,GUTIERREZ Carlos Alberto,2.0
+2338,2325.0,Namibia,HAHN Daniel,2.0
+2339,2326.0,Belgium,DRIESEN Niels,2.0
+2340,2327.0,Türkiye,YILMAZ Ramazan,2.0
+2341,2328.0,Uzbekistan,BOBOSHEROV Farrukh,2.0
+2342,2329.0,Hungary,FELDHOFFER Bálint,2.0
+2343,2330.0,Ireland,RAFFERTY Adam,2.0
+2344,2331.0,Eritrea,GHEBREHIWET Aklilu,2.0
+2345,2332.0,Egypt,METAWEA Mahmoud,2.0
+2346,2333.0,Latvia,LAPIŅŠ Gusts,2.0
+2347,2334.0,Argentina,ROSSELLO Valentín,2.0
+2348,2335.0,new zealand,MORRISON Maui,2.0
+2349,2336.0,Dutch,VAN DEN EIJNDEN Guus,2.0
+2350,,Belgium,GRAFF William,2.0
+2351,2337.0,laos,VONGDEUANE Thanakone,2.0
+2352,2338.0,Mauritius,ONG TONE Noah,2.0
+2353,2339.0,Honduras,BACA Marco,2.0
+2354,2341.0,Israel,TURGEMAN Yonatan,2.0
+2355,2342.0,Mali,SANGARE Alassane,2.0
+2356,2343.0,United States,COLE Owen,2.0
+2357,2344.0,United States,EYE Preston,2.0
+2358,2345.0,Germany,STERNSDORFF Lennard,2.0
+2359,2346.0,Philippines,PAGARA Alexis,2.0
+2360,2347.0,Angola,ALBANO Diego,2.0
+2361,2348.0,Algeria,ESSEMIANI Nasrallah Mohamed Aissa,2.0
+2362,2349.0,Singapore,LIM BING YI Eamon,2.0
+2363,2350.0,Indonesia,SYELHAN Muhammad,2.0
+2364,2351.0,Zimbabwe,MUGAVAZI Solomon,2.0
+2365,2352.0,India,KAPIL Naman,2.0
+2366,2353.0,Benin,HOUETO Emile,2.0
+2367,2354.0,Cape Verde,COSMO Leonarde,2.0
+2368,2355.0,Germany,ALBRECHT Anton,2.0
+2369,2356.0,Uruguay,MORALES Cristian Samuel,2.0
+2370,2357.0,United States,HAINES Luca,2.0
+2371,2358.0,Italy,BIONDANI Riccardo,2.0
+2372,2359.0,Great Britain,LUTZ-ATKINSON Hugo,2.0
+2373,2360.0,France,MARCY Ulrich,2.0
+2374,2361.0,Costa Rica,GOMEZ Daniel,2.0
+2375,2362.0,laos,SAYAVONG Vongviset,2.0
+2376,2363.0,Crotia,TOMIĆ Ivan Luka,2.0
+2377,2364.0,Bahrain,ALQAIS Mohamed,2.0
+2378,2365.0,Cuba,ORTIZ Ramiro,2.0
+2379,2366.0,Montenegro,VUČKOVIĆ Kristijan,2.0
+2380,2367.0,India,SUNDARAM Joel Santosh,2.0
+2381,2368.0,Colombia,VELEZ Cristian Damian,2.0
+2382,2369.0,Paraguay,PORTILLO Esteban,2.0
+2383,2370.0,United Arabes Emirates,ALHARBI Helal,2.0
+2384,2371.0,France,GALTIER Geoffrey,2.0
+2385,2372.0,Ukraine,HUZOV Victor,2.0
+2386,2373.0,Angola,KIAMBOTE Joao,2.0
+2387,2374.0,Cuba,DIAZ Roberto,2.0
+2388,2375.0,Etiopia,AMANIEL Desta,2.0
+2389,2376.0,Guam,TORRES Jacob,2.0
+2390,,Kenya,WAIRIMU Kamau Peterson,2.0
+2391,2377.0,Nicaragua,LOPEZ Bryant Rafael,1.7
+2392,2378.0,Giatemala,PADILLA Julio,1.7
+2393,2379.0,Ecuadore,GONZALES José Alberto,1.0
+2394,2123.0,Ecuadore,BURBANO Joel Levi,1.0
+2395,2380.0,Portuguese,CARVALHO Rui,1.0
+2396,2381.0,Portuguese,MATIAS João,1.0
+2397,2382.0,France,LANCLUME Jules,1.0
+2398,2383.0,France,CLAIN Médéric,1.0
+2399,2384.0,Canada,LACHANCE Jean-Michel,1.0
+2400,2385.0,South Africa,VENTER Jaco,1.0
+2401,2386.0,Japan,KUBOKI Kazushige,1.0
+2402,2387.0,Venezuela,ABREU Daniel,1.0
+2403,2388.0,Brazil,NASCIMENTO Rodrigo,1.0
+2404,2389.0,Colombia,CASTIBLANCO Jorge Camilo,1.0
+2405,2391.0,Malaysia,MAT AMIN Mohd Shahrul,1.0
+2406,2392.0,Canada,GOODFELLOW William,1.0
+2407,2393.0,Philippines,ORANZA Ronald,1.0
+2408,2394.0,Bosnia and Erzegovina,LAZAREVIC Ðorde,1.0
+2409,2395.0,Honkong,LEUNG Chun Wing,1.0
+2410,2396.0,United Arabes Emirates,AL MANSOORI Jaber,1.0
+2411,2397.0,France,GABORIAUD Guillaume,1.0
+2412,2398.0,Philippines,TUGAWIN Ryan,1.0
+2413,,Venezuela,GÓMEZ Luis,1.0
+2414,2399.0,North Macedonia,PETROVSKI Andrej,1.0
+2415,2400.0,Indonesia,NOVARDIANTO Jamalidin,1.0
+2416,2401.0,Giatemala,MENDEZ Amilcar,1.0
+2417,2402.0,Belgium,MOLLY Kenny,1.0
+2418,2404.0,Colombia,SUAZA Bernardo,1.0
+2419,2405.0,France,AVOINE Kévin,1.0
+2420,2406.0,Colombia,COLON Johan Antonio,1.0
+2421,2407.0,Morocco,MAKHCHOUN Mounir,1.0
+2422,2408.0,Dutch,STRAVERS Jarri,1.0
+2423,2409.0,Jamaica,WILLIAMS Oshane,1.0
+2424,2410.0,Poland,PARMA Krzysztof,1.0
+2425,2411.0,Luxembourg,CENTRONE Ivan,1.0
+2426,,Japan,ODA Hijiri,1.0
+2427,2412.0,Mongolia,BOLOR-ERDENE Enkhtaivan,1.0
+2428,2413.0,chile,CABRERA Nicolas Alejandro,1.0
+2429,2414.0,Dutch,WIJFJE Tom,1.0
+2430,2415.0,Canada,BERNIER-IZQUIERDO Francis,1.0
+2431,2416.0,Colombia,MUÑOZ Daniel,1.0
+2432,2417.0,France,LE FALHER Erwan,1.0
+2433,2418.0,Mali,DIARRA Siriki,1.0
+2434,2419.0,Dominican Republic,PAULINO Robinson,1.0
+2435,2420.0,Dutch,HAEST Jasper,1.0
+2436,2421.0,Dutch,BIERKENS Tim,1.0
+2437,2422.0,Slovakia,ŠTOČEK Matúš,1.0
+2438,2423.0,Poland,KUŚ Adam,1.0
+2439,2424.0,Poland,GIERACKI Patryk,1.0
+2440,2425.0,Norwegia,HJEMSÆTER Olav,1.0
+2441,2426.0,Cyprus,MATSANGOS Alexandros,1.0
+2442,2427.0,Dutch,VERHOEFF Stefan,1.0
+2443,2428.0,Australia,IRVINE Declan,1.0
+2444,2429.0,Sweden,FORSSELL Hugo,1.0
+2445,2431.0,Belgium,CLAEYS Robbe,1.0
+2446,2432.0,Dutch,KERCKHAERT Jochem,1.0
+2447,2433.0,Czech Republic,KAŠPAR Jan,1.0
+2448,2434.0,Honduras,LÓPEZ Luis Fernando Enrique,1.0
+2449,2435.0,France,BENNETT Stéfan,1.0
+2450,2436.0,Italy,PARRAVANO Francesco,1.0
+2451,2437.0,Giatemala,TORRES Edgar Geovanny,1.0
+2452,2438.0,Costa Rica,QUESADA Jeremy,1.0
+2453,2439.0,United States,VOLLMER Andrew,1.0
+2454,2440.0,Dutch,HENDRIKX Mees,1.0
+2455,2441.0,Canada,PLAMONDON Robin,1.0
+2456,2442.0,South Korea,CHOI Sangjin,1.0
+2457,2443.0,Japan,IMAMURA Shunsuke,1.0
+2458,2444.0,Uruguay,ECHEVERRIA Juan Martín,1.0
+2459,2445.0,Taiwan,KAI Hsu Yu,1.0
+2460,,Uganda,LUBEGA Abdbulnoor,1.0
+2461,2446.0,Türkiye,KAYGISIZ Zeki,1.0
+2462,2447.0,Algeria,BOUDJEMAA Anes,1.0
+2463,2448.0,Great Britain,PORTSMOUTH Tom,1.0
+2464,2449.0,new zealand,KENCH Josh,1.0
+2465,2250.0,France,THOMAS Théo,1.0
+2466,2450.0,Colombia,RENDÓN Juan Tito,1.0
+2467,2251.0,Italy,GALIMBERTI Francesco,1.0
+2468,2451.0,Estonia,KARPENKO Gleb,1.0
+2469,2452.0,Canada,KOSZELA Daniel,1.0
+2470,1196.0,Japan,KOJIMA Naoki,1.0
+2471,2453.0,Canada,FRONER Axel,1.0
+2472,2454.0,France,MARAIS Benjamin,1.0
+2473,2455.0,Belgium,MELLAERTS Robbe,1.0
+2474,2456.0,Luxembourg,PAQUET Tom,1.0
+2475,2457.0,Giatemala,SAM Edwin,1.0
+2476,2458.0,Greece,VOUKELATOS Nikolaos,1.0
+2477,2459.0,Albanie,BUZI Geri,1.0
+2478,2460.0,Canada,ZAPATA CORDOBA Gregory Santiago,1.0
+2479,2461.0,Germany,SCHMITZ Campo,1.0
+2480,2462.0,Italy,D'AMATO Andrea,1.0
+2481,2463.0,Italy,BAGATIN Christian,1.0
+2482,2464.0,Trinitad & Tobago,ALEXANDER Nathan,1.0
+2483,2465.0,Colombia,CHAVES Jhonatan Stiven,1.0
+2484,2466.0,Azebaijan,NURIYEV Nofal,1.0
+2485,2467.0,Denmark,SØNDERGAARD Oliver,1.0
+2486,2468.0,France,LAUTONE Raphaël,1.0
+2487,2469.0,new zealand,DRAGE Jack,1.0
+2488,2470.0,Sweden,STÅLBERG Albin,1.0
+2489,2471.0,Slovakia,KOVÁČ Samuel,1.0
+2490,2473.0,Bulgaria,GROZEV Gabriel,1.0
+2491,2474.0,Poland,GAJDULEWICZ Mateusz,1.0
+2492,2475.0,Norwegia,VOLD Daniel,1.0
+2493,2476.0,Germany,BOOS Benjamin,1.0
+2494,2477.0,Belgium,HEREMANS Joppe,1.0
+2495,2478.0,Belgium,MOONEN Zeno,1.0
+2496,2479.0,France,CHATONNET Toby,1.0
+2497,2480.0,France,MORICHON Thomas,1.0
+2498,2481.0,France,PALMISTE Philgy Marc,1.0
+2499,2482.0,China,WU Junjie,1.0
+2500,2483.0,Poland,KACZOROWSKI Franciszek,1.0
+2501,2484.0,Germany,APPELBAUM Henri Johannes,1.0
+2502,2485.0,Italy,GUERRA Andrea,1.0
+2503,2486.0,Panama,GUERRA Nehemias,1.0
+2504,2487.0,Swiss,REY Tim,1.0
+2505,2488.0,El Salvador,MONROY José,1.0
+2506,2489.0,Denmark,NIELSEN Daniel Weis,1.0
+2507,2490.0,Lithuania,KAZOKAS Vytautas,1.0
+2508,2491.0,Venezuela,GOYO Jesus Miguel,1.0
+2509,2492.0,Poland,WIĘCZKOWSKI Paweł,1.0
+2510,2493.0,Denmark,LANDBO Mads,1.0
+2511,2494.0,Italy,ZORDAN Giovanni,1.0
+2512,2495.0,United States,MCDONALD Brody,1.0
+2513,2496.0,Belize,GABOUREL Kent,1.0
+2514,2497.0,Ukraine,BASARABA Mykhailo,1.0
+2515,2498.0,Iceland,GUNNARSSON Breki,1.0
+2516,2499.0,Serbia,COGOLJEVIĆ Dejan,1.0
+2517,2500.0,Italy,ROGANTI Simone,1.0
+2518,2501.0,Belgium,DHONDT Robbe,1.0
+2519,2502.0,Belgium,DE MOYER Kenay,1.0
+2520,2503.0,Ecuadore,PITA Sebastián Alexander,1.0
+2521,2504.0,Dutch,JANSSEN Lucas,1.0
+2522,2505.0,Canada,HAMEL Félix,1.0
+2523,2506.0,Colombia,GOMEZ Camilo Andres,1.0
+2524,2507.0,Mauritius,L'ENTETE Loic,1.0
+2525,2508.0,Canada,PELOQUIN Leonard,1.0
+2526,2509.0,Canada,RENAUD-TREMBLAY Sasha,1.0
+2527,2510.0,Paraguay,ALFONSO Antonio,1.0
+2528,2511.0,Costa Rica,AGUILAR Luis,1.0
+2529,2512.0,Mongolia,INJYENYER Bilguun,1.0
+2530,2513.0,Costa Rica,RODRIGUEZ Jordan,1.0
+2531,2514.0,Austria,DIRNBAUER Josef,1.0
+2532,2515.0,Malaysia,MOHD NAWAWI Muhamad Iqbal Daniel,1.0
+2533,2516.0,Australia,CHAMBERLAIN Oscar,1.0
+2534,2517.0,Namibia,KEY Adrian,1.0
+2535,2518.0,Colombia,URIAN Jose Misael,1.0
+2536,2519.0,Belgium,DOCKX Gilles,1.0
+2537,,Great Britain,PEACE Oliver,1.0
+2538,2520.0,Hungary,TÓTH Márkó,1.0
+2539,2521.0,Italy,FAVERO Renato,1.0
+2540,2522.0,Italy,PRIVITERA Samuele,1.0
+2541,2523.0,Estonia,LENZIUS Martti,1.0
+2542,2524.0,Great Britain,HARDING Will,1.0
+2543,2525.0,France,MEUNIER SOW Neriah,1.0
+2544,2526.0,Colombia,GUAVITA Cesar David,1.0
+2545,2527.0,Costa Rica,CARRILLO Andy,1.0
+2546,2528.0,Slovenia,RAVBAR Anže,1.0
+2547,2529.0,Japan,HAYASHIBARA Shoma,1.0
+2548,2531.0,Israel,LEVI Pini,1.0
+2549,2532.0,Puerto Rico,COLON Darren,1.0
+2550,2533.0,Mongolia,TSOODOL Enkhpurev,1.0
+2551,2534.0,Angola,GONÇALVES Hosana,1.0
+2552,2535.0,Cuba,AGUIAR Ridel,1.0
+2553,2536.0,Paraguay,MORENO Jhosue,1.0
+2554,2537.0,France,DUVAL Gwendy,1.0
+2555,,Colombia,FLOREZ Samuel,1.0
+2556,2538.0,Singapore,LEE Jun Leong Samuel,1.0
+2557,2539.0,Belgium,REX Tim,1.0
+2558,2540.0,Burkina Faso,YAMEOGO Saturnin,1.0
+2559,2541.0,France,BERGER Antoine,1.0
+2560,2542.0,Costa Rica,UMAÑA Diego,1.0
+2561,2543.0,Australia,MAY Matthew,1.0
+2562,2544.0,Zimbabwe,SHUMBA Rodrick,1.0
+2563,2545.0,new zealand,CHAPMAN Adam,1.0
+2564,2546.0,United States,HLADY Gavin,1.0
+2565,2547.0,Nicaragua,PICADO Wilton,1.0
+2566,2548.0,Bulgaria,SYAROV Boris,1.0
+2567,2549.0,Costa Rica,VILLALOBOS Pablo,1.0
+2568,2550.0,Saudi Arabia,ALOMRANI Ahmed Abdulaziz Mohammed,1.0
+2569,2551.0,Lebanon,AL HAGE Tony,1.0
+2570,2552.0,Tunisia,MOHAMED ALI Thabet,1.0
+2571,2553.0,Kosovo,KELMENDI Agron,1.0
+2572,2554.0,Democratic Replublic of the Congo,KASEREKA KYAVIRO Joël,1.0
+2573,2555.0,Cameroon,FOTSING Claude Harold,1.0
+2574,2556.0,Ecuadore,PITA Alejandro Bladimir,1.0
+2575,2557.0,Burkina Faso,BOUDA Wahabou,1.0
+2576,2558.0,Australia,DODDS Joel,1.0
+2577,2559.0,India,KALAPPAGOL Anil,1.0
+2578,2560.0,Morocco,ECHAHED Ahmed,1.0
+2579,2561.0,United Arabes Emirates,HASSAN Saeed,1.0
+2580,2562.0,Uzbekistan,FEDOROV Daniil,1.0
+2581,,Kenya,BOAZ KANGOGO Kipkosgei,1.0
+2582,2563.0,Egypt,MOKHTAR Mohamed Waheed,1.0
+2583,2564.0,Germany,JASCH Lennart,1.0
+2584,2565.0,Bermuda,PILGRIM Alex,1.0
+2585,2566.0,laos,SYBOUNKAEN Tounkham,1.0
+2586,2567.0,Crotia,PRIBEG Lance,1.0
+2587,2568.0,Etiopia,GEBREZEHER Gebermedin,1.0
+2588,2569.0,Peru,POTENCIL Braulio Aldo,1.0
+2589,2570.0,Cape Verde,COUTINHO Kevin Renato,1.0
+2590,,Tunisia,MOHAMED Mliki,1.0
+2591,2571.0,Nicaragua,HERNANDEZ Oscar Danilo,0.7
+2592,2572.0,Nicaragua,GONZALEZ Bryan Miguel,0.7
+2593,2573.0,Honduras,PAVÓN Rubén Sebastián,0.3
+2594,2574.0,El Salvador,CARCAMO Diego,0.2
+2595,2575.0,El Salvador,PANAMEÑO Alejandro Jose,0.2

@@ -1,0 +1,99 @@
+import urllib.request
+from html.parser import HTMLParser
+import pandas as pd
+
+class MyHTMLParser(HTMLParser):
+
+    def __init__(self):
+        super().__init__()
+        self.in_table = False
+        self.in_row = False
+        self.data_buffer = []
+        self.rows = []  # Stocker toutes les lignes
+
+    def handle_starttag(self, tag, attrs):
+        if tag == "table":  # Repérer une table
+            self.in_table = True
+        if tag == "tr" and self.in_table:  # Repérer une ligne dans la table
+            self.in_row = True
+            self.data_buffer = []  # Réinitialiser le buffer des données
+            # Si la balise est un <span> avec une classe contenant 'flag', extraire le code du pays
+        if tag == "span" and self.in_row:
+            for attr in attrs:
+                if attr[0] == "class" and "flag" in attr[1]:
+                    country_code = attr[1].split()[-1]  # Extraire le code pays (le dernier dans la classe)
+                    country_name = country_mapping.get(country_code, 'Unknown Country')
+                    self.data_buffer.append(country_name)  # Ajouter le nom du pays au buffer
+
+        
+    def handle_endtag(self, tag):
+        if tag == "table":
+            self.in_table = False
+        if tag == "tr" and self.in_row:
+            self.in_row = False
+            if self.data_buffer:
+                self.rows.append(self.data_buffer)  # Ajouter la ligne extraite à rows
+            #print("Row data: ", self.data_buffer)  # Afficher les données extraites de la ligne
+            #print(">> Trouvé balise fermante :", tag)
+            
+    def handle_data(self, data):
+        if self.in_row and data.strip():
+            self.data_buffer.append(data.strip())  # Stocker le contenu texte des cellules
+    def get_data(self):
+        return self.rows  # Retourner toutes les lignes
+
+# Dictionnaire de correspondance entre les codes pays et les noms des pays
+country_mapping = {
+    'si': 'Slovenia',
+    'fr': 'France',
+    'us': 'United States',
+    'it': 'Italy',
+    'be':'Belgium',
+    'ch': 'Swiss',
+    'au':'Australia',
+    'dk': 'Denmark',
+    'er': 'Eritrea',
+    'gb': 'Great Britain',
+    'es': 'Spain',
+    'nl': 'Dutch',
+    'ru':'Russia',
+    'pt': 'Portuguese',
+    'ec': 'Ecuadore',
+    'no': 'Norwegia',
+    'mx': 'Mexico',
+    'lv':'Latvia',
+    'co':'Colombia',
+    'nz': 'new zealand',
+    'cz': 'Czech Republic',
+    'ca': 'Canada',
+    'de': 'Germany',
+    've': 'Venezuela',
+    'ie': 'Ireland',
+    'at': 'Austria'
+}
+
+# Instanciation du parser
+parser = MyHTMLParser()
+# Simulation de l'User-Agent pour éviter les restrictions de certains serveurs
+chrome = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.79 Safari/537.36'
+
+# Requête HTTP à la page des classements individuels
+for nation in country_mapping.keys(): 
+    url = f"https://www.procyclingstats.com/rankings.php?nation={nation}&age=&zage=&page=smallerorequal&team=&offset=0&teamlevel=&filter=Filter"
+    req = urllib.request.Request('https://www.procyclingstats.com/rankings/me/individual')
+# Customize the default User-Agent header value:
+    req.add_header('User-Agent', chrome)
+# Récupérer et décoder le contenu de la page
+    r = urllib.request.urlopen(req)
+    data = r.read().decode('utf8')
+# Passer le contenu au parser
+    parser.feed(data)
+# Obtenir les données du parser
+rows=parser.get_data()
+# Créer le DataFrame
+df = pd.DataFrame(rows, columns=['ranking', 'previous', 'diff', 'H2H', 'goto', 'country', 'rider', 'team', 'points'])
+
+# Afficher le DataFrame
+print(df)
+
+df.to_csv("G:\Mon Drive\E4\DSIA6A\projet\cycling_globalisation_getdata.csv", index=False)

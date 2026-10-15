@@ -1,0 +1,3 @@
+.social-links__list{display:-ms-flexbox;display:flex;margin:0;padding:0;text-align:center;list-style:none}.social-links__item{margin-right:24px}.social-links__item:last-of-type{border:none}.social-links__link{display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;text-align:center}.social-links__link-icon{padding:4px;height:28px;width:28px}@media (min-width:1024px){.social-links__link-icon{padding:2px}}.social-links__link span{display:none}.social-links__link svg{-ms-flex-item-align:center;-ms-grid-row-align:center;align-self:center;height:100%;width:100%;color:#fff;transition:all .5s ease;fill:#fff}.social-links__link:hover svg{fill:#2776ef;color:#2776ef}
+
+/*# sourceMappingURL=habitat.43.component.css.map*/

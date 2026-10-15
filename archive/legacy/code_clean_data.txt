@@ -1,0 +1,27 @@
+import pandas as pd
+
+# Ouvrir le fichier CSV
+df = pd.read_csv('G:\Mon Drive\E4\DSIA-A\projet\cycling_getdata(11).csv')
+
+# Afficher les premières lignes du fichier
+print(df.head())
+df = df.drop(columns=['H2H'])
+df = df.drop(columns=['h2h'])
+df = df.drop(columns=['team'])
+df = df.drop(columns=['diff'])
+df = df.reset_index(drop=True)
+
+
+
+#grouper par pays et addtitioner les points par pays
+country_points = df.groupby('country')['points'].sum().reset_index()
+
+# Sort the results by points (optional)
+country_points = country_points.sort_values(by='points', ascending=False)
+#créer une deuxième dataframe avec les country_points
+df1=pd.DataFrame(country_points)
+nb_countries=len(df1)
+print(df1)
+print(nb_countries)
+df.to_csv("G:\Mon Drive\E4\DSIA-A\projet\clean_data(3).csv", index=False)
+df1.to_csv("G:\Mon Drive\E4\DSIA-A\projet\clean_data(4).csv", index=False)
